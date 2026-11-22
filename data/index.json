@@ -1,0 +1,3262 @@
+{
+ "helpDeskPhone": "718-816-2000",
+ "lastChecked": "2026-11-22",
+ "office": {
+  "name": "Office of the Staten Island Borough President",
+  "address": "10 Richmond Terrace, Staten Island, NY 10301",
+  "mainPhone": "718-816-2000",
+  "hours": "Monday to Friday, 9:00 AM to 5:00 PM"
+ },
+ "topics": [
+  {
+   "id": "helpline",
+   "keywords": {
+    "en": [
+     "helpline",
+     "help line",
+     "quality of life",
+     "quality of life issue",
+     "constituent services",
+     "complaint about city services",
+     "city agency not responding",
+     "escalate a city problem"
+    ],
+    "es": [
+     "linea de ayuda",
+     "calidad de vida",
+     "servicios al residente",
+     "queja sobre servicios de la ciudad"
+    ]
+   },
+   "en": {
+    "lead": "For help with a quality-of-life problem, call the Borough President's HelpLine at 718-816-2000.",
+    "details": [
+     "The HelpLine is the Borough President's constituent service line. The office monitors the delivery of city services on Staten Island and acts as a liaison between residents and city agencies when problems arise.",
+     "For a routine city service request (a pothole, a missed pickup, a broken streetlight), filing with NYC 311 first gives you a tracking number; if the agency does not resolve it, the HelpLine can help escalate.",
+     "You can also write to the office or use the email form on the Contact page of statenislandusa.com."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para ayuda con un problema de calidad de vida, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000.",
+    "details": [
+     "La Línea de Ayuda es el servicio de atención al residente de la oficina. La oficina supervisa la prestación de servicios de la ciudad en Staten Island y actúa como enlace entre los residentes y las agencias de la ciudad cuando surgen problemas.",
+     "Para una solicitud rutinaria de servicio de la ciudad (un bache, una recogida no realizada, una farola dañada), presentarla primero ante NYC 311 le da un número de seguimiento; si la agencia no lo resuelve, la Línea de Ayuda puede ayudar a escalar el caso.",
+     "También puede escribir a la oficina o usar el formulario de correo en la página de Contacto de statenislandusa.com."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "borough-president",
+   "keywords": {
+    "en": [
+     "who is the borough president",
+     "borough president name",
+     "vito fossella",
+     "fossella",
+     "bp name"
+    ],
+    "es": [
+     "quien es el presidente del borough",
+     "vito fossella",
+     "fossella",
+     "nombre del presidente del borough"
+    ]
+   },
+   "en": {
+    "lead": "The Staten Island Borough President is Vito Fossella.",
+    "details": [
+     "The Borough President advocates for the entire borough and represents Staten Island's interests within City government, communicating directly with the Mayor and the City Council on the borough's budget priorities.",
+     "His office is in Borough Hall, across from the Staten Island Ferry terminal in St. George."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Presidente del Borough de Staten Island es Vito Fossella.",
+    "details": [
+     "El Presidente del Borough defiende a todo el borough y representa los intereses de Staten Island dentro del gobierno de la ciudad, comunicándose directamente con el Alcalde y el Concejo Municipal sobre las prioridades presupuestarias del borough.",
+     "Su oficina está en Borough Hall, frente a la terminal del Ferry de Staten Island en St. George."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/bp-office.html",
+   "sourceLabel": "Staten Island BP, BP Office page"
+  },
+  {
+   "id": "what-bp-does",
+   "keywords": {
+    "en": [
+     "what does the borough president do",
+     "borough president do",
+     "borough president role",
+     "land use",
+     "ulurp",
+     "borough board",
+     "budget priorities",
+     "what is a borough president"
+    ],
+    "es": [
+     "que hace el presidente del borough",
+     "funciones del presidente del borough",
+     "uso de suelo",
+     "junta del borough"
+    ]
+   },
+   "en": {
+    "lead": "The Borough President advocates for Staten Island within City government and reviews major land use decisions in the borough.",
+    "details": [
+     "The office communicates directly with the Mayor and the City Council to emphasize Staten Island's budget priorities, and proposes sites for city facilities within the borough.",
+     "As chair of the Borough Board, the Borough President leads Staten Island's City Council delegation and Community Board chairs in reviewing transfers of public property to private use.",
+     "The Borough President appoints one member to the Panel for Educational Policy, one member to the City Planning Commission, and about 150 members to Staten Island's three Community Boards.",
+     "The office also monitors the delivery of city services on Staten Island and houses the Topographical Bureau, which maintains the borough's official maps."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Presidente del Borough defiende a Staten Island dentro del gobierno de la ciudad y revisa las decisiones importantes de uso de suelo en el borough.",
+    "details": [
+     "La oficina se comunica directamente con el Alcalde y el Concejo Municipal para enfatizar las prioridades presupuestarias de Staten Island, y propone sitios para instalaciones de la ciudad dentro del borough.",
+     "Como presidente de la Junta del Borough, el Presidente del Borough dirige a la delegación del Concejo Municipal de Staten Island y a los presidentes de las Juntas Comunitarias en la revisión de transferencias de propiedad pública a uso privado.",
+     "El Presidente del Borough nombra a un miembro del Panel de Política Educativa, un miembro de la Comisión de Planificación Urbana y unos 150 miembros de las tres Juntas Comunitarias de Staten Island.",
+     "La oficina también supervisa la prestación de servicios de la ciudad en Staten Island y alberga la Oficina Topográfica, que mantiene los mapas oficiales del borough."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/bp-office.html",
+   "sourceLabel": "Staten Island BP, BP Office page"
+  },
+  {
+   "id": "borough-hall",
+   "keywords": {
+    "en": [
+     "borough hall",
+     "borough hall hours",
+     "hours",
+     "when is borough hall open",
+     "directions to borough hall",
+     "where is borough hall",
+     "visit borough hall",
+     "murals"
+    ],
+    "es": [
+     "borough hall",
+     "horario",
+     "cuando abre borough hall",
+     "como llegar a borough hall",
+     "donde esta borough hall",
+     "visitar borough hall",
+     "murales"
+    ]
+   },
+   "en": {
+    "lead": "Borough Hall is at 10 Richmond Terrace in St. George, open Monday to Friday, 9:00 AM to 5:00 PM.",
+    "details": [
+     "The entrance is on Stuyvesant Place, directly across from the Staten Island Ferry Terminal.",
+     "The 1906 French Renaissance building, a designated New York City Landmark, houses the Borough President's Office and offices of the Departments of Buildings and Transportation.",
+     "The grand marble lobby holds 13 WPA murals painted in 1940 by Frederick Charles Stahr, illustrating events in Staten Island history, and visitors can view them during open hours."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Borough Hall está en 10 Richmond Terrace en St. George, abierto de lunes a viernes, de 9:00 AM a 5:00 PM.",
+    "details": [
+     "La entrada está en Stuyvesant Place, directamente frente a la Terminal del Ferry de Staten Island.",
+     "El edificio de estilo Renacimiento francés de 1906, designado Monumento de la Ciudad de Nueva York, alberga la Oficina del Presidente del Borough y oficinas de los Departamentos de Edificios y de Transporte.",
+     "El gran vestíbulo de mármol contiene 13 murales de la WPA pintados en 1940 por Frederick Charles Stahr, que ilustran eventos de la historia de Staten Island, y los visitantes pueden verlos durante el horario de apertura."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/borough-hall.html",
+   "sourceLabel": "Staten Island BP, Borough Hall page"
+  },
+  {
+   "id": "proclamations",
+   "keywords": {
+    "en": [
+     "proclamation",
+     "proclamations",
+     "citation",
+     "certificate",
+     "congratulatory letter",
+     "recognition award",
+     "honor someone",
+     "readers are leaders",
+     "school certificate",
+     "student certificate",
+     "school certificates"
+    ],
+    "es": [
+     "proclamacion",
+     "proclama",
+     "citacion",
+     "certificado",
+     "carta de felicitacion",
+     "reconocimiento",
+     "readers are leaders",
+     "certificado escolar",
+     "certificados escolares"
+    ]
+   },
+   "en": {
+    "lead": "To request a proclamation, citation, certificate or congratulatory letter, contact Stephanie Slepian at 718-816-2136 at least three weeks before your event.",
+    "details": [
+     "Submit the request three weeks ahead with your contact information for review and approval by the office.",
+     "For a proclamation, include a short biography of the person or organization and information about the event.",
+     "Proclamations, citations and certificates must be picked up in person at Borough Hall during normal business hours, and all documents are prepared at the discretion of the Borough President.",
+     "Schools can ask the same contact about certificates for student programs, including the Readers Are Leaders reading challenge and other school recognitions."
+    ],
+    "contact": [
+     {
+      "label": "Proclamations, Stephanie Slepian",
+      "value": "718-816-2136",
+      "href": "tel:+17188162136"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para solicitar una proclamación, citación, certificado o carta de felicitación, contacte a Stephanie Slepian al 718-816-2136 al menos tres semanas antes de su evento.",
+    "details": [
+     "Envíe la solicitud con tres semanas de anticipación, con su información de contacto, para revisión y aprobación de la oficina.",
+     "Para una proclamación, incluya una breve biografía de la persona u organización e información sobre el evento.",
+     "Las proclamaciones, citaciones y certificados deben recogerse en persona en Borough Hall durante el horario normal de oficina, y todos los documentos se preparan a discreción del Presidente del Borough.",
+     "Las escuelas pueden preguntar al mismo contacto sobre certificados para programas estudiantiles, incluido el reto de lectura Readers Are Leaders y otros reconocimientos escolares."
+    ],
+    "contact": [
+     {
+      "label": "Proclamaciones, Stephanie Slepian",
+      "value": "718-816-2136",
+      "href": "tel:+17188162136"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "invite-bp",
+   "keywords": {
+    "en": [
+     "invite the borough president",
+     "invitation",
+     "invite",
+     "speak at our event",
+     "attend our event",
+     "schedule the borough president",
+     "meet the borough president",
+     "meeting with the borough president",
+     "appointment with the borough president",
+     "schedule a meeting",
+     "meet with the borough president",
+     "see the borough president",
+     "speak with the borough president"
+    ],
+    "es": [
+     "invitar al presidente del borough",
+     "invitacion",
+     "invitar",
+     "hablar en nuestro evento",
+     "asistir a nuestro evento",
+     "reunion con el presidente del borough",
+     "cita con el presidente del borough",
+     "conocer al presidente del borough",
+     "reunirme con el presidente del borough",
+     "hablar con el presidente del borough"
+    ]
+   },
+   "en": {
+    "lead": "Invitations to the Borough President must be submitted in writing to Borough Hall.",
+    "details": [
+     "Mail invitations to Borough President Vito Fossella, 10 Richmond Terrace, Borough Hall, Room 120, Staten Island, NY 10301.",
+     "To invite the Borough President to an event, you can also email the event details to Sia Sipp, the office scheduler, through the Contact page of statenislandusa.com.",
+     "Include the date, time, location, the organization hosting, and what role you are asking the Borough President to play.",
+     "To request a meeting with the Borough President, put the request in writing with the topic, who would attend, and your contact information, and send it to Borough Hall or start with the HelpLine at 718-816-2000; the scheduler's office replies to meeting requests."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Mail invitations to",
+      "value": "Borough President Vito Fossella, 10 Richmond Terrace, Room 120, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las invitaciones al Presidente del Borough deben enviarse por escrito a Borough Hall.",
+    "details": [
+     "Envíe las invitaciones por correo a Borough President Vito Fossella, 10 Richmond Terrace, Borough Hall, Room 120, Staten Island, NY 10301.",
+     "Para invitar al Presidente del Borough a un evento, también puede enviar los detalles por correo electrónico a Sia Sipp, la encargada de la agenda, a través de la página de Contacto de statenislandusa.com.",
+     "Incluya la fecha, la hora, el lugar, la organización anfitriona y el papel que se pide al Presidente del Borough.",
+     "Para solicitar una reunión con el Presidente del Borough, ponga la solicitud por escrito con el tema, quiénes asistirían y su información de contacto, y envíela a Borough Hall o comience con la Línea de Ayuda al 718-816-2000; la oficina de agenda responde a las solicitudes de reunión."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Enviar invitaciones a",
+      "value": "Borough President Vito Fossella, 10 Richmond Terrace, Room 120, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "media-inquiries",
+   "keywords": {
+    "en": [
+     "media",
+     "press",
+     "reporter",
+     "interview",
+     "media inquiry",
+     "press contact"
+    ],
+    "es": [
+     "prensa",
+     "medios",
+     "reportero",
+     "entrevista",
+     "contacto de prensa"
+    ]
+   },
+   "en": {
+    "lead": "Media inquiries go to Nicholas Thompson at 718-816-2115 or Stephanie Slepian at 718-816-2136.",
+    "details": [
+     "Both contacts are on the Contact page of statenislandusa.com, with email addresses listed there.",
+     "For a general constituent matter instead of a press inquiry, call the HelpLine at 718-816-2000."
+    ],
+    "contact": [
+     {
+      "label": "Nicholas Thompson",
+      "value": "718-816-2115",
+      "href": "tel:+17188162115"
+     },
+     {
+      "label": "Stephanie Slepian",
+      "value": "718-816-2136",
+      "href": "tel:+17188162136"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las consultas de prensa se dirigen a Nicholas Thompson al 718-816-2115 o a Stephanie Slepian al 718-816-2136.",
+    "details": [
+     "Ambos contactos están en la página de Contacto de statenislandusa.com, con sus correos electrónicos indicados allí.",
+     "Para un asunto general de residente en lugar de prensa, llame a la Línea de Ayuda al 718-816-2000."
+    ],
+    "contact": [
+     {
+      "label": "Nicholas Thompson",
+      "value": "718-816-2115",
+      "href": "tel:+17188162115"
+     },
+     {
+      "label": "Stephanie Slepian",
+      "value": "718-816-2136",
+      "href": "tel:+17188162136"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "foil",
+   "keywords": {
+    "en": [
+     "foil",
+     "freedom of information",
+     "records request",
+     "public records",
+     "open records"
+    ],
+    "es": [
+     "foil",
+     "libertad de informacion",
+     "solicitud de registros",
+     "registros publicos"
+    ]
+   },
+   "en": {
+    "lead": "FOIL requests to the Borough President's office are submitted through the City's Open Records Portal.",
+    "details": [
+     "File the request on the NYC Open Records Portal (a860-openrecords.nyc.gov) and select the Office of the Staten Island Borough President as the agency.",
+     "Communications through the office's email form are not legal notice to the City of New York, so use the portal for a formal records request."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC Open Records Portal",
+      "value": "a860-openrecords.nyc.gov"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las solicitudes FOIL a la oficina del Presidente del Borough se presentan a través del Portal de Registros Abiertos de la Ciudad.",
+    "details": [
+     "Presente la solicitud en el Portal de Registros Abiertos de NYC (a860-openrecords.nyc.gov) y seleccione la Oficina del Presidente del Borough de Staten Island como la agencia.",
+     "Las comunicaciones por el formulario de correo de la oficina no constituyen aviso legal a la Ciudad de Nueva York, así que use el portal para una solicitud formal de registros."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Portal de Registros Abiertos de NYC",
+      "value": "a860-openrecords.nyc.gov"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "community-boards",
+   "keywords": {
+    "en": [
+     "community board",
+     "community boards",
+     "join a community board",
+     "community board member",
+     "community board meeting",
+     "community board 1",
+     "community board 2",
+     "community board 3",
+     "board appointment",
+     "board appointments"
+    ],
+    "es": [
+     "junta comunitaria",
+     "juntas comunitarias",
+     "miembro de la junta comunitaria",
+     "reunion de la junta comunitaria",
+     "nombramientos"
+    ]
+   },
+   "en": {
+    "lead": "The Borough President appoints the members of Staten Island's three Community Boards, about 150 members in total.",
+    "details": [
+     "Community Boards advise on land use, the city budget and service delivery in their districts, and each board holds public meetings.",
+     "To ask about membership, vacancies or the application cycle, call the HelpLine and the office will connect you with the staff who handle board appointments.",
+     "The Borough President also appoints one member to the Panel for Educational Policy and one member to the City Planning Commission."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Presidente del Borough nombra a los miembros de las tres Juntas Comunitarias de Staten Island, unos 150 miembros en total.",
+    "details": [
+     "Las Juntas Comunitarias asesoran sobre uso de suelo, el presupuesto de la ciudad y la prestación de servicios en sus distritos, y cada junta celebra reuniones públicas.",
+     "Para preguntar sobre membresía, vacantes o el ciclo de solicitudes, llame a la Línea de Ayuda y la oficina lo comunicará con el personal encargado de los nombramientos.",
+     "El Presidente del Borough también nombra a un miembro del Panel de Política Educativa y un miembro de la Comisión de Planificación Urbana."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/bp-office.html",
+   "sourceLabel": "Staten Island BP, BP Office page"
+  },
+  {
+   "id": "capital-requests",
+   "keywords": {
+    "en": [
+     "capital funding",
+     "capital project",
+     "capital request",
+     "funding request",
+     "budget request",
+     "fund our project",
+     "grant for our organization"
+    ],
+    "es": [
+     "financiamiento de capital",
+     "proyecto de capital",
+     "solicitud de fondos",
+     "solicitud de presupuesto",
+     "subvencion"
+    ]
+   },
+   "en": {
+    "lead": "For a capital funding or budget request, start with the Borough President's HelpLine at 718-816-2000.",
+    "details": [
+     "The Borough President communicates directly with the Mayor and the City Council to emphasize Staten Island's budget priorities, including capital projects in the borough.",
+     "Call the HelpLine and the office will explain the current request process, eligibility and deadlines for the fiscal year cycle.",
+     "Be ready to describe the project, the organization behind it, the site, and the amount requested."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para una solicitud de financiamiento de capital o de presupuesto, comience con la Línea de Ayuda del Presidente del Borough al 718-816-2000.",
+    "details": [
+     "El Presidente del Borough se comunica directamente con el Alcalde y el Concejo Municipal para enfatizar las prioridades presupuestarias de Staten Island, incluidos los proyectos de capital en el borough.",
+     "Llame a la Línea de Ayuda y la oficina le explicará el proceso actual de solicitud, la elegibilidad y los plazos del ciclo del año fiscal.",
+     "Esté listo para describir el proyecto, la organización responsable, el sitio y la cantidad solicitada."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/bp-office.html",
+   "sourceLabel": "Staten Island BP, BP Office page"
+  },
+  {
+   "id": "house-numbers",
+   "keywords": {
+    "en": [
+     "house number",
+     "house numbers",
+     "address assignment",
+     "new address",
+     "topographical",
+     "topographical bureau",
+     "borough map",
+     "official map",
+     "street address",
+     "property line",
+     "property lines",
+     "survey",
+     "borough map",
+     "topographical bureau",
+     "topo"
+    ],
+    "es": [
+     "numero de casa",
+     "asignacion de direccion",
+     "direccion nueva",
+     "oficina topografica",
+     "mapa oficial",
+     "linea de propiedad",
+     "medicion de terreno",
+     "mapa del borough",
+     "oficina topografica"
+    ]
+   },
+   "en": {
+    "lead": "House number assignments are moving from the Borough President's Topographical Bureau to the NYC Department of City Planning.",
+    "details": [
+     "The Topographical Bureau, which maintains the borough's official maps and assigns street addresses, accepted house number applications and verifications for the last time on November 2, 2026.",
+     "Effective January 1, 2027, the Department of City Planning assumes responsibility for house number assignments and verifications citywide.",
+     "For a house number need before that transfer, call the HelpLine and the office will direct you.",
+     "The Topographical Bureau also keeps the borough's official maps and address records; for property line and map questions, call the HelpLine and ask for the Topographical Bureau. A boundary dispute with a neighbor usually needs a licensed surveyor and is not something the Bureau decides."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La asignación de números de casa se traslada de la Oficina Topográfica del Presidente del Borough al Departamento de Planificación Urbana de NYC.",
+    "details": [
+     "La Oficina Topográfica, que mantiene los mapas oficiales del borough y asigna las direcciones, aceptó solicitudes y verificaciones de números de casa por última vez el 2 de noviembre de 2026.",
+     "A partir del 1 de enero de 2027, el Departamento de Planificación Urbana asume la responsabilidad de la asignación y verificación de números de casa en toda la ciudad.",
+     "Si necesita un número de casa antes de ese traslado, llame a la Línea de Ayuda y la oficina lo orientará.",
+     "La Oficina Topográfica también guarda los mapas oficiales y registros de direcciones del borough; para preguntas de líneas de propiedad y mapas, llame a la Línea de Ayuda y pida la Oficina Topográfica. Una disputa de límites con un vecino generalmente necesita un agrimensor licenciado y no es algo que la Oficina decida."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Borough Hall",
+      "value": "10 Richmond Terrace, Staten Island, NY 10301"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/",
+   "sourceLabel": "Staten Island BP, Topographical Bureau notice"
+  },
+  {
+   "id": "veterans",
+   "keywords": {
+    "en": [
+     "veteran",
+     "veterans",
+     "veterans services",
+     "va clinic",
+     "vet center",
+     "military benefits"
+    ],
+    "es": [
+     "veterano",
+     "veteranos",
+     "servicios para veteranos",
+     "clinica de veteranos",
+     "beneficios militares"
+    ]
+   },
+   "en": {
+    "lead": "Veterans services are available right at Borough Hall, where the New York State Division of Veterans Services has an office on the 3rd floor.",
+    "details": [
+     "The state veterans office at Borough Hall can be reached at 718-447-8787.",
+     "The VA Vet Center is at 60 Bay Street (718-816-4499) and the VA clinic is at 1150 South Avenue (718-761-2973).",
+     "The Borough President's Resources page lists the full set of veterans programs, from benefits and career help to the Veterans Crisis Line."
+    ],
+    "contact": [
+     {
+      "label": "NYS Division of Veterans Services, Borough Hall",
+      "value": "718-447-8787",
+      "href": "tel:+17184478787"
+     },
+     {
+      "label": "VA Vet Center, 60 Bay Street",
+      "value": "718-816-4499",
+      "href": "tel:+17188164499"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Hay servicios para veteranos en el propio Borough Hall, donde la División de Servicios para Veteranos del Estado de Nueva York tiene una oficina en el 3er piso.",
+    "details": [
+     "La oficina estatal de veteranos en Borough Hall se puede contactar al 718-447-8787.",
+     "El Centro de Veteranos de VA está en 60 Bay Street (718-816-4499) y la clínica de VA está en 1150 South Avenue (718-761-2973).",
+     "La página de Recursos del Presidente del Borough enumera todos los programas para veteranos, desde beneficios y ayuda laboral hasta la Línea de Crisis para Veteranos."
+    ],
+    "contact": [
+     {
+      "label": "División de Servicios para Veteranos de NYS, Borough Hall",
+      "value": "718-447-8787",
+      "href": "tel:+17184478787"
+     },
+     {
+      "label": "Centro de Veteranos de VA, 60 Bay Street",
+      "value": "718-816-4499",
+      "href": "tel:+17188164499"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/resources.html",
+   "sourceLabel": "Staten Island BP, Resources page"
+  },
+  {
+   "id": "tourism",
+   "keywords": {
+    "en": [
+     "tourism",
+     "tourist",
+     "visit staten island",
+     "visiting",
+     "things to do",
+     "attractions",
+     "historic richmond town",
+     "snug harbor"
+    ],
+    "es": [
+     "turismo",
+     "turista",
+     "visitar staten island",
+     "que hacer",
+     "atracciones"
+    ]
+   },
+   "en": {
+    "lead": "For visiting Staten Island, the borough's tourism site is visitstatenisland.com.",
+    "details": [
+     "It covers attractions, events and trip ideas across the borough, from Historic Richmond Town and Snug Harbor to the St. George waterfront.",
+     "Borough Hall itself is worth a stop: a 1906 New York City Landmark across from the Ferry Terminal, with 13 WPA murals in the lobby, open Monday to Friday, 9:00 AM to 5:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "Tourism",
+      "value": "visitstatenisland.com"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para visitar Staten Island, el sitio de turismo del borough es visitstatenisland.com.",
+    "details": [
+     "Cubre atracciones, eventos e ideas de viaje en todo el borough, desde Historic Richmond Town y Snug Harbor hasta la costa de St. George.",
+     "El propio Borough Hall merece una visita: un Monumento de la Ciudad de Nueva York de 1906 frente a la Terminal del Ferry, con 13 murales de la WPA en el vestíbulo, abierto de lunes a viernes, de 9:00 AM a 5:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "Turismo",
+      "value": "visitstatenisland.com"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/",
+   "sourceLabel": "Staten Island BP, home page"
+  },
+  {
+   "id": "newsletter",
+   "keywords": {
+    "en": [
+     "newsletter",
+     "email list",
+     "email updates",
+     "sign up for emails",
+     "mailing list"
+    ],
+    "es": [
+     "boletin",
+     "lista de correo",
+     "actualizaciones por correo",
+     "suscribirse"
+    ]
+   },
+   "en": {
+    "lead": "You can join the Borough President's email newsletter from the Contact page of statenislandusa.com.",
+    "details": [
+     "The newsletter carries community events and office news by email.",
+     "The office also posts news on the News page of statenislandusa.com and on its social channels."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Sign up",
+      "value": "statenislandusa.com/contact.html"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Puede unirse al boletín por correo electrónico del Presidente del Borough desde la página de Contacto de statenislandusa.com.",
+    "details": [
+     "El boletín trae eventos comunitarios y noticias de la oficina por correo electrónico.",
+     "La oficina también publica noticias en la página de Noticias de statenislandusa.com y en sus canales sociales."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "Suscribirse",
+      "value": "statenislandusa.com/contact.html"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/contact.html",
+   "sourceLabel": "Staten Island BP, Contact page"
+  },
+  {
+   "id": "filming",
+   "keywords": {
+    "en": [
+     "film",
+     "filming",
+     "film shoot",
+     "movie shoot",
+     "film location",
+     "list my property for filming",
+     "made on si",
+     "madeonsi"
+    ],
+    "es": [
+     "cine",
+     "filmacion",
+     "rodaje",
+     "locacion de filmacion",
+     "made on si"
+    ]
+   },
+   "en": {
+    "lead": "Staten Island is open to the film business, and the Borough President's office helps foster it through its MadeOnSI page.",
+    "details": [
+     "The MadeOnSI page posts current filming no-parking notices by street and date, and links a photo portfolio of Staten Island filming locations.",
+     "To list your home or business as a film location, follow the instructions on the MadeOnSI page of statenislandusa.com.",
+     "Film permits themselves are issued by the City (the Mayor's Office of Media and Entertainment) through 311; the Borough President's office supports productions working in the borough."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "MadeOnSI",
+      "value": "statenislandusa.com/madeonsi.html"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Staten Island está abierto a la industria del cine, y la oficina del Presidente del Borough la apoya a través de su página MadeOnSI.",
+    "details": [
+     "La página MadeOnSI publica los avisos actuales de no estacionar por filmación, por calle y fecha, y enlaza un portafolio de fotos de locaciones de filmación en Staten Island.",
+     "Para ofrecer su casa o negocio como locación de filmación, siga las instrucciones en la página MadeOnSI de statenislandusa.com.",
+     "Los permisos de filmación los emite la Ciudad (la Oficina de Medios y Entretenimiento del Alcalde) a través del 311; la oficina del Presidente del Borough apoya a las producciones que trabajan en el borough."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "MadeOnSI",
+      "value": "statenislandusa.com/madeonsi.html"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/madeonsi.html",
+   "sourceLabel": "Staten Island BP, MadeOnSI page"
+  },
+  {
+   "id": "call-311",
+   "keywords": {
+    "en": [
+     "311",
+     "call 311",
+     "city services",
+     "report a problem",
+     "service request",
+     "non emergency city help"
+    ],
+    "es": [
+     "311",
+     "llamar al 311",
+     "servicios de la ciudad",
+     "reportar un problema",
+     "solicitud de servicio"
+    ]
+   },
+   "en": {
+    "lead": "Most day-to-day services on Staten Island are New York City services, and NYC 311 is the way to request them.",
+    "details": [
+     "Call 311 or file online at portal.311.nyc.gov for potholes, streetlights, trash and recycling, snow, noise, water and sewer problems, and most other city services. From outside the city, call 212-639-9675.",
+     "Keep your 311 service request number. If the agency does not resolve the problem, the Borough President's HelpLine at 718-816-2000 can help escalate it.",
+     "For an emergency, always call 911, not 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La mayoría de los servicios diarios en Staten Island son servicios de la Ciudad de Nueva York, y NYC 311 es la forma de solicitarlos.",
+    "details": [
+     "Llame al 311 o presente su solicitud en línea en portal.311.nyc.gov para baches, farolas, basura y reciclaje, nieve, ruido, problemas de agua y alcantarillado, y la mayoría de los demás servicios de la ciudad. Desde fuera de la ciudad, llame al 212-639-9675.",
+     "Guarde su número de solicitud de servicio del 311. Si la agencia no resuelve el problema, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede ayudar a escalarlo.",
+     "Para una emergencia, llame siempre al 911, no al 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "pothole",
+   "keywords": {
+    "en": [
+     "pothole",
+     "potholes",
+     "street repair",
+     "road damage",
+     "sinkhole",
+     "street defect",
+     "resurfacing",
+     "street surface",
+     "road damage",
+     "road surface",
+     "sinkhole in the street"
+    ],
+    "es": [
+     "bache",
+     "baches",
+     "reparacion de calle",
+     "calle danada",
+     "socavon",
+     "repavimentacion",
+     "superficie de la calle",
+     "dano en la calle",
+     "hundimiento"
+    ]
+   },
+   "en": {
+    "lead": "Potholes and street defects are fixed by the NYC Department of Transportation, and you report them through 311.",
+    "details": [
+     "Call 311 or file at portal.311.nyc.gov with the exact location. This is a city service, not a Borough President's office service.",
+     "Save the service request number from 311. If DOT does not repair it or the defect keeps coming back, call the Borough President's HelpLine at 718-816-2000 and the office can follow up with the agency.",
+     "A sinkhole or a defect that is an immediate danger should be reported to 911 instead.",
+     "A good report includes the exact address or intersection, the nearest cross street, what the problem is and how long it has been there, and a photo if you have one. That is exactly how the Borough President's office logs its cases, and it gets the problem routed faster."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los baches y defectos en las calles los repara el Departamento de Transporte de NYC, y se reportan a través del 311.",
+    "details": [
+     "Llame al 311 o presente el reporte en portal.311.nyc.gov con la ubicación exacta. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Guarde el número de solicitud del 311. Si DOT no lo repara o el defecto sigue apareciendo, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y la oficina puede dar seguimiento con la agencia.",
+     "Un socavón o un defecto que sea un peligro inmediato debe reportarse al 911.",
+     "Un buen reporte incluye la dirección o intersección exacta, la calle transversal más cercana, cuál es el problema y desde cuándo está, y una foto si tiene una. Así es exactamente como la oficina del Presidente del Borough registra sus casos, y hace que el problema se atienda más rápido."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "streetlight",
+   "keywords": {
+    "en": [
+     "streetlight",
+     "street light",
+     "streetlights",
+     "lamp post",
+     "light out",
+     "broken light",
+     "traffic light",
+     "traffic signal",
+     "defunct street light",
+     "street light out",
+     "streetlight out",
+     "lamp out",
+     "light pole"
+    ],
+    "es": [
+     "farola",
+     "alumbrado",
+     "luz de la calle",
+     "poste de luz",
+     "luz danada",
+     "semaforo",
+     "farola apagada",
+     "farola danada",
+     "poste de luz"
+    ]
+   },
+   "en": {
+    "lead": "Streetlights and traffic signals are maintained by the NYC Department of Transportation, and outages are reported through 311.",
+    "details": [
+     "Call 311 or file at portal.311.nyc.gov. The number on the pole, if you can read it safely, helps DOT find the light. This is a city service, not a Borough President's office service.",
+     "Keep the 311 service request number. If the light stays out, the Borough President's HelpLine at 718-816-2000 can help escalate with DOT.",
+     "A traffic signal that is completely out at a busy intersection, or wires down, is a 911 call.",
+     "Have ready when you report: the exact location (street address or intersection) and, if you can see it, the pole number printed on the light pole; that speeds up the DOT repair.",
+     "Report it the way the office logs its cases: exact address or intersection, the nearest cross street, and the pole number if you can read it."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las farolas y los semáforos los mantiene el Departamento de Transporte de NYC, y las averías se reportan a través del 311.",
+    "details": [
+     "Llame al 311 o presente el reporte en portal.311.nyc.gov. El número del poste, si puede leerlo con seguridad, ayuda a DOT a encontrar la luz. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Guarde el número de solicitud del 311. Si la luz sigue apagada, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede ayudar a escalar el caso con DOT.",
+     "Un semáforo completamente apagado en una intersección concurrida, o cables caídos, es una llamada al 911.",
+     "Tenga listo al reportar: la ubicación exacta (dirección o intersección) y, si puede verlo, el número de poste impreso en el poste de la farola; eso acelera la reparación de DOT.",
+     "Repórtelo como la oficina registra sus casos: dirección o intersección exacta, la calle transversal más cercana, y el número de poste si puede leerlo."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "trash-recycling",
+   "keywords": {
+    "en": [
+     "trash",
+     "garbage",
+     "recycling",
+     "missed pickup",
+     "missed collection",
+     "sanitation",
+     "bulk items",
+     "trash schedule",
+     "garbage schedule"
+    ],
+    "es": [
+     "basura",
+     "reciclaje",
+     "recogida",
+     "no recogieron",
+     "saneamiento",
+     "articulos voluminosos",
+     "horario de basura"
+    ]
+   },
+   "en": {
+    "lead": "Trash and recycling collection is a Sanitation (DSNY) service, and missed pickups are reported through 311.",
+    "details": [
+     "Call 311 or check portal.311.nyc.gov for your collection schedule and to report a missed collection. This is a city service, not a Borough President's office service.",
+     "Leave the material out until the end of the day before reporting a miss, and keep your 311 service request number.",
+     "If pickups are missed repeatedly on your block, call the Borough President's HelpLine at 718-816-2000 and the office can raise the pattern with DSNY.",
+     "Trash must now be set out in the official NYC Bin under the containerization rules; ask me about NYC Bins for the rules, prices and fines."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La recogida de basura y reciclaje es un servicio de Saneamiento (DSNY), y las recogidas no realizadas se reportan a través del 311.",
+    "details": [
+     "Llame al 311 o consulte portal.311.nyc.gov para su horario de recogida y para reportar una recogida no realizada. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Deje el material fuera hasta el final del día antes de reportar la falta, y guarde su número de solicitud del 311.",
+     "Si las recogidas faltan repetidamente en su cuadra, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y la oficina puede plantear el patrón a DSNY.",
+     "La basura ahora debe sacarse en el contenedor oficial NYC Bin según las reglas de contenedores; pregúnteme por los NYC Bins para las reglas, precios y multas."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "snow",
+   "keywords": {
+    "en": [
+     "snow",
+     "snow removal",
+     "plow",
+     "plowing",
+     "not plowed",
+     "snowstorm",
+     "ice on street"
+    ],
+    "es": [
+     "nieve",
+     "remocion de nieve",
+     "quitanieves",
+     "no pasaron la maquina",
+     "tormenta de nieve",
+     "hielo en la calle"
+    ]
+   },
+   "en": {
+    "lead": "Snow plowing and salting are Sanitation (DSNY) services, and unplowed streets are reported through 311.",
+    "details": [
+     "Call 311 or check portal.311.nyc.gov for storm updates and to report a street that has not been plowed. This is a city service, not a Borough President's office service.",
+     "Property owners are responsible for clearing their own sidewalks under city rules; 311 has the current deadlines after a storm.",
+     "If your street is repeatedly skipped after storms, call the Borough President's HelpLine at 718-816-2000 with your 311 request numbers."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El despeje de nieve y la sal son servicios de Saneamiento (DSNY), y las calles sin despejar se reportan a través del 311.",
+    "details": [
+     "Llame al 311 o consulte portal.311.nyc.gov para actualizaciones de la tormenta y para reportar una calle que no ha sido despejada. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Los propietarios son responsables de limpiar sus propias aceras según las reglas de la ciudad; el 311 tiene los plazos vigentes después de una tormenta.",
+     "Si su calle es omitida repetidamente después de las tormentas, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 con sus números de solicitud del 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "noise",
+   "keywords": {
+    "en": [
+     "noise",
+     "noise complaint",
+     "loud music",
+     "loud party",
+     "barking dog",
+     "construction noise"
+    ],
+    "es": [
+     "ruido",
+     "queja de ruido",
+     "musica alta",
+     "fiesta ruidosa",
+     "perro ladrando",
+     "ruido de construccion"
+    ]
+   },
+   "en": {
+    "lead": "Noise complaints go to 311, which routes them to the NYPD or the right city agency.",
+    "details": [
+     "Call 311 or file at portal.311.nyc.gov with the address, the time and the kind of noise. This is a city service, not a Borough President's office service.",
+     "If the noise is part of a crime in progress or someone is in danger, call 911 instead.",
+     "For a location that is loud night after night, keep your 311 request numbers and call the Borough President's HelpLine at 718-816-2000 to flag the pattern."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las quejas de ruido van al 311, que las dirige a la Policía de Nueva York o a la agencia de la ciudad correspondiente.",
+    "details": [
+     "Llame al 311 o presente el reporte en portal.311.nyc.gov con la dirección, la hora y el tipo de ruido. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Si el ruido es parte de un delito en curso o alguien está en peligro, llame al 911.",
+     "Para un lugar ruidoso noche tras noche, guarde sus números de solicitud del 311 y llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 para señalar el patrón."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "water-sewer",
+   "keywords": {
+    "en": [
+     "water",
+     "sewer",
+     "sewage",
+     "water main",
+     "water bill",
+     "leak",
+     "flooding",
+     "catch basin",
+     "drain",
+     "dep"
+    ],
+    "es": [
+     "agua",
+     "alcantarillado",
+     "alcantarilla",
+     "factura de agua",
+     "fuga",
+     "inundacion",
+     "drenaje"
+    ]
+   },
+   "en": {
+    "lead": "Water and sewer problems are handled by the NYC Department of Environmental Protection (DEP), and you reach them through 311.",
+    "details": [
+     "Call 311 or file at portal.311.nyc.gov for leaks, sewer backups, clogged catch basins, street flooding and water bill questions. This is a city service, not a Borough President's office service.",
+     "A major water main break, a street collapsing, or flooding that threatens safety is a 911 call.",
+     "If a sewer or flooding problem keeps coming back and DEP has not resolved it, call the Borough President's HelpLine at 718-816-2000 with your 311 request numbers."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los problemas de agua y alcantarillado los atiende el Departamento de Protección Ambiental de NYC (DEP), y se llega a ellos a través del 311.",
+    "details": [
+     "Llame al 311 o presente el reporte en portal.311.nyc.gov para fugas, atascos de alcantarillado, imbornales obstruidos, inundaciones en la calle y preguntas sobre la factura de agua. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Una rotura importante de tubería de agua, una calle que se hunde o una inundación que amenaza la seguridad es una llamada al 911.",
+     "Si un problema de alcantarillado o inundación sigue volviendo y DEP no lo ha resuelto, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 con sus números de solicitud del 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "parking-ticket",
+   "keywords": {
+    "en": [
+     "parking ticket",
+     "parking tickets",
+     "ticket",
+     "pay a ticket",
+     "dispute a ticket",
+     "summons",
+     "parking fine"
+    ],
+    "es": [
+     "multa de estacionamiento",
+     "multa",
+     "multas",
+     "pagar una multa",
+     "disputar una multa",
+     "infraccion de estacionamiento"
+    ]
+   },
+   "en": {
+    "lead": "Parking tickets are issued by the City and paid or disputed through the Department of Finance, not the Borough President's office.",
+    "details": [
+     "Pay or dispute a ticket online through nyc.gov (search 311 for 'parking ticket') or call 311 for help. Paying a ticket is an admission, so dispute first if you believe it was issued in error.",
+     "Keep the ticket number and any photos or documents for a dispute; deadlines apply, and 311 can give you the current ones.",
+     "If a ticket was issued in clear error and the dispute process fails, the Borough President's HelpLine at 718-816-2000 can look at the pattern, but it cannot dismiss tickets."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las multas de estacionamiento las emite la Ciudad y se pagan o disputan a través del Departamento de Finanzas, no de la oficina del Presidente del Borough.",
+    "details": [
+     "Pague o dispute una multa en línea a través de nyc.gov (busque en 311 'parking ticket') o llame al 311 para ayuda. Pagar una multa es una admisión, así que dispute primero si cree que fue emitida por error.",
+     "Guarde el número de la multa y cualquier foto o documento para una disputa; aplican plazos, y el 311 puede darle los vigentes.",
+     "Si una multa fue emitida en claro error y el proceso de disputa falla, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede revisar el patrón, pero no puede anular multas."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "building-permits",
+   "keywords": {
+    "en": [
+     "building permit",
+     "building permits",
+     "construction permit",
+     "dob",
+     "department of buildings",
+     "building violation",
+     "illegal construction",
+     "permit for construction"
+    ],
+    "es": [
+     "permiso de construccion",
+     "permisos de construccion",
+     "departamento de edificios",
+     "violacion de construccion",
+     "construccion ilegal"
+    ]
+   },
+   "en": {
+    "lead": "Building permits and construction complaints are handled by the NYC Department of Buildings, whose Staten Island borough office is in Borough Hall.",
+    "details": [
+     "The DOB Staten Island Borough Office is on the 2nd floor of Borough Hall, 10 Richmond Terrace, with walk-in hours Monday to Friday, 8:30 AM to 12:00 PM (per NYC 311).",
+     "Most permit filings are done online by a licensed professional through DOB NOW; call 311 or check portal.311.nyc.gov for the current filing steps.",
+     "Report illegal construction or an unsafe building through 311. Construction that is an immediate danger is a 911 call. This is a city agency service; the Borough President's office does not issue building permits."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "DOB Staten Island Borough Office",
+      "value": "Borough Hall, 2nd Floor, 10 Richmond Terrace, Staten Island, NY 10301"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los permisos de construcción y las quejas de construcción los atiende el Departamento de Edificios de NYC, cuya oficina del borough de Staten Island está en Borough Hall.",
+    "details": [
+     "La Oficina del Departamento de Edificios para Staten Island está en el 2do piso de Borough Hall, 10 Richmond Terrace, con atención sin cita de lunes a viernes, de 8:30 AM a 12:00 PM (según NYC 311).",
+     "La mayoría de los permisos los presenta en línea un profesional licenciado a través de DOB NOW; llame al 311 o consulte portal.311.nyc.gov para los pasos vigentes.",
+     "Reporte construcción ilegal o un edificio inseguro a través del 311. La construcción que sea un peligro inmediato es una llamada al 911. Este es un servicio de una agencia de la ciudad; la oficina del Presidente del Borough no emite permisos de construcción."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Oficina de Edificios de Staten Island",
+      "value": "Borough Hall, 2do piso, 10 Richmond Terrace, Staten Island, NY 10301"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "street-trees",
+   "keywords": {
+    "en": [
+     "tree",
+     "trees",
+     "street tree",
+     "tree removal",
+     "tree pruning",
+     "fallen tree",
+     "tree planting",
+     "parks",
+     "tree debris",
+     "overgrown weeds",
+     "weeds",
+     "overgrown lot",
+     "fallen tree branches"
+    ],
+    "es": [
+     "arbol",
+     "arboles",
+     "arbol de la calle",
+     "remocion de arbol",
+     "poda de arbol",
+     "arbol caido",
+     "parques",
+     "escombros de arbol",
+     "maleza",
+     "lote descuidado",
+     "ramas caidas"
+    ]
+   },
+   "en": {
+    "lead": "Street trees are a NYC Parks responsibility, and tree service requests go through 311.",
+    "details": [
+     "Call 311 or file at portal.311.nyc.gov for pruning, a dead or damaged street tree, stump removal, or to request a new street tree planting. This is a city service, not a Borough President's office service.",
+     "A fallen tree blocking a road or resting on wires is urgent: if it is an immediate danger, call 911; otherwise report it to 311 as a fallen tree.",
+     "Trees on private property are the property owner's responsibility. If a Parks request stalls, the Borough President's HelpLine at 718-816-2000 can help follow up.",
+     "Tree debris from a city tree after a storm is reported to 311 for Parks/DSNY pickup. Overgrown weeds on a private lot are the owner's responsibility; report a neglected lot to 311, and littered public spots can go to the Borough President's Clean Team (ask me about the Clean Team).",
+     "When you report, give the exact address the tree is in front of, the nearest cross street, and the condition (dead, leaning, branches down, roots lifting the sidewalk). A photo helps Parks judge the urgency."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los árboles de las calles son responsabilidad de Parques de NYC, y las solicitudes de servicio de árboles van a través del 311.",
+    "details": [
+     "Llame al 311 o presente el reporte en portal.311.nyc.gov para poda, un árbol de calle muerto o dañado, remoción de tocón, o para solicitar la siembra de un nuevo árbol. Este es un servicio de la ciudad, no de la oficina del Presidente del Borough.",
+     "Un árbol caído que bloquea una calle o está sobre cables es urgente: si es un peligro inmediato, llame al 911; si no, repórtelo al 311 como árbol caído.",
+     "Los árboles en propiedad privada son responsabilidad del propietario. Si una solicitud a Parques se detiene, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede ayudar a dar seguimiento.",
+     "Los escombros de un árbol de la ciudad después de una tormenta se reportan al 311 para la recogida de Parques/DSNY. La maleza crecida en un lote privado es responsabilidad del propietario; reporte un lote descuidado al 311, y los lugares públicos con basura pueden ir al Equipo de Limpieza del Presidente del Borough (pregúnteme por el Clean Team).",
+     "Al reportar, dé la dirección exacta frente a la cual está el árbol, la calle transversal más cercana, y la condición (muerto, inclinado, ramas caídas, raíces levantando la acera). Una foto ayuda a Parques a juzgar la urgencia."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "property-tax",
+   "keywords": {
+    "en": [
+     "property tax",
+     "property taxes",
+     "tax bill",
+     "tax assessment",
+     "assessment",
+     "tax exemption",
+     "star exemption"
+    ],
+    "es": [
+     "impuesto a la propiedad",
+     "impuestos de propiedad",
+     "factura de impuestos",
+     "evaluacion",
+     "exencion de impuestos"
+    ]
+   },
+   "en": {
+    "lead": "Property taxes are run by the NYC Department of Finance, and questions go through 311.",
+    "details": [
+     "Call 311 or check nyc.gov for your tax bill, assessment, payment options and exemptions such as STAR (a state program) and senior or veteran exemptions. This is a city and state matter, not a Borough President's office service.",
+     "Assessment challenges have annual deadlines; 311 and the Department of Finance can give you the current dates and forms.",
+     "If you cannot get an answer from Finance, the Borough President's HelpLine at 718-816-2000 can help point you to the right office."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los impuestos a la propiedad los administra el Departamento de Finanzas de NYC, y las preguntas van a través del 311.",
+    "details": [
+     "Llame al 311 o consulte nyc.gov para su factura de impuestos, evaluación, opciones de pago y exenciones como STAR (un programa estatal) y exenciones para personas mayores o veteranos. Este es un asunto de la ciudad y del estado, no un servicio de la oficina del Presidente del Borough.",
+     "Las impugnaciones de evaluación tienen plazos anuales; el 311 y el Departamento de Finanzas pueden darle las fechas y formularios vigentes.",
+     "Si no obtiene respuesta de Finanzas, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede ayudar a dirigirlo a la oficina correcta."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "voter-registration",
+   "keywords": {
+    "en": [
+     "vote",
+     "voting",
+     "register to vote",
+     "voter registration",
+     "election",
+     "poll site",
+     "board of elections",
+     "absentee ballot"
+    ],
+    "es": [
+     "votar",
+     "voto",
+     "registrarse para votar",
+     "registro de votantes",
+     "eleccion",
+     "elecciones",
+     "junta electoral",
+     "boleta en ausencia"
+    ]
+   },
+   "en": {
+    "lead": "Voter registration and elections are run by the Board of Elections, and you can register online through New York State.",
+    "details": [
+     "Register or update your registration at elections.ny.gov or through the NYS DMV; you must register by the state deadline before an election, and 311 can give you the current deadline and your poll site.",
+     "The NYC Board of Elections has a Staten Island borough office; call 311 for its current address and hours.",
+     "This is a state and city election function, not a Borough President's office service.",
+     "The Board of Elections Staten Island borough office is at 1 Edgewater Plaza, 4th Floor, Staten Island, NY 10305, phone 718-876-0079 (or 1-866-VOTE-NYC), open Monday to Friday, 9:00 AM to 5:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "NYS Board of Elections",
+      "value": "elections.ny.gov"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El registro de votantes y las elecciones los administra la Junta Electoral, y puede registrarse en línea a través del Estado de Nueva York.",
+    "details": [
+     "Regístrese o actualice su registro en elections.ny.gov o a través del DMV de NYS; debe registrarse antes del plazo estatal previo a una elección, y el 311 puede darle el plazo vigente y su centro de votación.",
+     "La Junta Electoral de NYC tiene una oficina del borough en Staten Island; llame al 311 para su dirección y horario vigentes.",
+     "Esta es una función electoral del estado y la ciudad, no un servicio de la oficina del Presidente del Borough.",
+     "La oficina del borough de Staten Island de la Junta Electoral está en 1 Edgewater Plaza, 4to piso, Staten Island, NY 10305, teléfono 718-876-0079 (o 1-866-VOTE-NYC), abierta de lunes a viernes, de 9:00 AM a 5:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Junta Electoral de NYS",
+      "value": "elections.ny.gov"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.elections.ny.gov/",
+   "sourceLabel": "NYS Board of Elections"
+  },
+  {
+   "id": "ferry",
+   "keywords": {
+    "en": [
+     "ferry",
+     "staten island ferry",
+     "ferry schedule",
+     "ferry terminal",
+     "whitehall",
+     "st george ferry"
+    ],
+    "es": [
+     "ferry",
+     "ferry de staten island",
+     "horario del ferry",
+     "terminal del ferry"
+    ]
+   },
+   "en": {
+    "lead": "The Staten Island Ferry is a free NYC Department of Transportation service between St. George and Whitehall Terminal in Manhattan.",
+    "details": [
+     "Ferries run around the clock, more often at rush hour and less often overnight; check the current schedule on nyc.gov or through 311 before you travel.",
+     "The St. George Terminal is directly across from Borough Hall at Richmond Terrace.",
+     "The ferry is a city service, not a Borough President's office service; service alerts are posted by DOT and on 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Ferry de Staten Island es un servicio gratuito del Departamento de Transporte de NYC entre St. George y la Terminal Whitehall en Manhattan.",
+    "details": [
+     "Los ferris funcionan las 24 horas, con más frecuencia en horas pico y menos durante la noche; consulte el horario vigente en nyc.gov o a través del 311 antes de viajar.",
+     "La Terminal de St. George está directamente frente a Borough Hall en Richmond Terrace.",
+     "El ferry es un servicio de la ciudad, no de la oficina del Presidente del Borough; las alertas de servicio las publica DOT y el 311."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC 311 portal"
+  },
+  {
+   "id": "marriage-bureau",
+   "keywords": {
+    "en": [
+     "marriage license",
+     "marriage bureau",
+     "get married",
+     "getting married",
+     "wedding ceremony",
+     "city clerk",
+     "project cupid",
+     "marriage appointment",
+     "civil ceremony"
+    ],
+    "es": [
+     "licencia de matrimonio",
+     "oficina de matrimonios",
+     "casarse",
+     "ceremonia de boda",
+     "secretario de la ciudad",
+     "cita de matrimonio",
+     "boda civil"
+    ]
+   },
+   "en": {
+    "lead": "Marriage licenses and ceremonies are handled by the NYC City Clerk's Marriage Bureau, which is in Borough Hall but is not part of the Borough President's office.",
+    "details": [
+     "The Staten Island Marriage Bureau is at Borough Hall, 10 Richmond Terrace, 3rd Floor, Room 311, open Monday to Friday, 8:30 AM to 4:00 PM. Phone: 718-816-2290.",
+     "There are no walk-ins. Both partners must appear together, in person or by virtual appointment, and you book through Project Cupid at nyc.gov/cupid or by phone.",
+     "The license fee is $35, payable by credit or debit card or a money order payable to the City Clerk (no cash). Bring government photo ID for both partners (passport, driver's license, IDNYC, military ID, and similar IDs are accepted) and, if either of you was married before, the final divorce decree or death certificate.",
+     "The ceremony must wait at least 24 hours after the license is issued, and the license is valid for 60 days (180 days for active military). A ceremony at the City Clerk's office costs $25 and needs one witness age 18 or older. Your Certificate of Marriage Registration arrives by mail in about 20 days.",
+     "Help is available in Spanish: 311 and the City Clerk's appointment system can assist you in Spanish."
+    ],
+    "contact": [
+     {
+      "label": "Staten Island Marriage Bureau (City Clerk)",
+      "value": "718-816-2290",
+      "href": "tel:+17188162290"
+     },
+     {
+      "label": "Appointments, Project Cupid",
+      "value": "nyc.gov/cupid"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las licencias y ceremonias de matrimonio las atiende la Oficina de Matrimonios del Secretario de la Ciudad de NYC, que está en Borough Hall pero no forma parte de la oficina del Presidente del Borough.",
+    "details": [
+     "La Oficina de Matrimonios de Staten Island está en Borough Hall, 10 Richmond Terrace, 3er piso, Sala 311, abierta de lunes a viernes, de 8:30 AM a 4:00 PM. Teléfono: 718-816-2290.",
+     "No se atiende sin cita. Ambos miembros de la pareja deben presentarse juntos, en persona o en una cita virtual, y la cita se reserva por Project Cupid en nyc.gov/cupid o por teléfono.",
+     "La licencia cuesta $35, pagaderos con tarjeta de crédito o débito o con un giro postal a nombre del City Clerk (no se acepta efectivo). Traiga identificación oficial con foto de ambos (pasaporte, licencia de conducir, IDNYC, identificación militar y documentos similares) y, si alguno estuvo casado antes, la sentencia final de divorcio o el certificado de defunción.",
+     "La ceremonia debe esperar al menos 24 horas después de emitida la licencia, y la licencia es válida por 60 días (180 días para militares en servicio activo). Una ceremonia en la oficina del Secretario cuesta $25 y necesita un testigo mayor de 18 años. Su Certificado de Registro de Matrimonio llega por correo en unos 20 días.",
+     "Hay ayuda en español: el 311 y el sistema de citas del Secretario de la Ciudad pueden atenderle en español."
+    ],
+    "contact": [
+     {
+      "label": "Oficina de Matrimonios de Staten Island (City Clerk)",
+      "value": "718-816-2290",
+      "href": "tel:+17188162290"
+     },
+     {
+      "label": "Citas, Project Cupid",
+      "value": "nyc.gov/cupid"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/article/?kanumber=KA-02115",
+   "sourceLabel": "NYC311, Marriage License"
+  },
+  {
+   "id": "marriage-certificate",
+   "keywords": {
+    "en": [
+     "marriage certificate",
+     "marriage record",
+     "copy of my marriage certificate",
+     "replace marriage certificate",
+     "extended certificate",
+     "marriage records"
+    ],
+    "es": [
+     "certificado de matrimonio",
+     "registro de matrimonio",
+     "copia de mi certificado de matrimonio",
+     "reemplazar certificado de matrimonio",
+     "certificado extendido"
+    ]
+   },
+   "en": {
+    "lead": "Copies of a New York City marriage record come from the City Clerk, not the Borough President's office.",
+    "details": [
+     "The City Clerk holds marriage records for licenses issued in NYC from 1950 to the present. A short certificate for domestic use costs $15 for the first copy and $10 for each additional copy. An extended certificate for foreign use costs $35 for the first copy and $30 for each additional copy.",
+     "In person: book an appointment at nyc.gov/cupid. Records from 1996 to the present are at any borough office, including Staten Island's at Borough Hall, Room 311; records from 1950 to 1995 are only at the Manhattan office, 141 Worth Street.",
+     "By mail: send the marriage record request form, a copy of your ID and a money order or certified check payable to the City Clerk of New York to City Clerk of New York, 141 Worth Street, New York, NY 10013, Attn: Record Room. Mail takes about 4 to 6 weeks.",
+     "Records less than 50 years old are restricted to the spouses and a few other entitled requesters; older records are public. Corrections to a marriage record are made by mail only, for a $10 fee. Marriages from before 1950 are at the NYC Municipal Archives."
+    ],
+    "contact": [
+     {
+      "label": "Staten Island City Clerk office",
+      "value": "718-816-2290",
+      "href": "tel:+17188162290"
+     },
+     {
+      "label": "Appointments, Project Cupid",
+      "value": "nyc.gov/cupid"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las copias de un registro de matrimonio de la Ciudad de Nueva York se obtienen del Secretario de la Ciudad, no de la oficina del Presidente del Borough.",
+    "details": [
+     "El Secretario de la Ciudad guarda los registros de matrimonio de licencias emitidas en NYC desde 1950 hasta el presente. Un certificado corto para uso doméstico cuesta $15 la primera copia y $10 cada copia adicional. Un certificado extendido para uso en el extranjero cuesta $35 la primera copia y $30 cada copia adicional.",
+     "En persona: reserve una cita en nyc.gov/cupid. Los registros de 1996 al presente están en cualquier oficina del borough, incluida la de Staten Island en Borough Hall, Sala 311; los registros de 1950 a 1995 están solo en la oficina de Manhattan, 141 Worth Street.",
+     "Por correo: envíe el formulario de solicitud de registro de matrimonio, una copia de su identificación y un giro postal o cheque certificado a nombre de City Clerk of New York a City Clerk of New York, 141 Worth Street, New York, NY 10013, Attn: Record Room. El correo tarda de 4 a 6 semanas.",
+     "Los registros de menos de 50 años están restringidos a los cónyuges y a algunas otras personas autorizadas; los registros más antiguos son públicos. Las correcciones a un registro de matrimonio se hacen solo por correo, por $10. Los matrimonios anteriores a 1950 están en los Archivos Municipales de NYC."
+    ],
+    "contact": [
+     {
+      "label": "Oficina del Secretario de la Ciudad en Staten Island",
+      "value": "718-816-2290",
+      "href": "tel:+17188162290"
+     },
+     {
+      "label": "Citas, Project Cupid",
+      "value": "nyc.gov/cupid"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/article/?kanumber=KA-01030",
+   "sourceLabel": "NYC311, Marriage Record"
+  },
+  {
+   "id": "vital-records",
+   "keywords": {
+    "en": [
+     "birth certificate",
+     "death certificate",
+     "birth record",
+     "death record",
+     "birth certificates",
+     "death certificates"
+    ],
+    "es": [
+     "acta de nacimiento",
+     "certificado de nacimiento",
+     "acta de defuncion",
+     "certificado de defuncion",
+     "registro de nacimiento",
+     "registro de defuncion"
+    ]
+   },
+   "en": {
+    "lead": "Birth and death certificates for New York City are issued by the NYC Health Department, not the Borough President's office.",
+    "details": [
+     "NYC Health holds birth records from 1910 and death records from 1949 onward for all five boroughs. Each certificate costs $15, plus a processing fee: $9.30 online, $7.50 by mail, $2.75 in person.",
+     "The fastest route is online through VitalChek, the only vendor authorized by the Health Department; online orders are only available if your name is on the record. Processing is about two to three weeks, plus mail time.",
+     "Older records are at the NYC Municipal Archives, 31 Chambers Street, New York, NY 10007: births before 1910, deaths before 1949, and marriages before 1950, at $15 per certified copy.",
+     "If you were born outside New York City, your record is with the state or town where you were born, not NYC Health."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Order online (authorized vendor)",
+      "value": "VitalChek, via nyc.gov health birth and death records"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los certificados de nacimiento y defunción de la Ciudad de Nueva York los emite el Departamento de Salud de NYC, no la oficina del Presidente del Borough.",
+    "details": [
+     "Salud de NYC guarda registros de nacimiento desde 1910 y de defunción desde 1949 para los cinco boroughs. Cada certificado cuesta $15, más un cargo de procesamiento: $9.30 en línea, $7.50 por correo, $2.75 en persona.",
+     "La vía más rápida es en línea a través de VitalChek, el único vendedor autorizado por el Departamento de Salud; los pedidos en línea solo están disponibles si su nombre aparece en el registro. El procesamiento tarda de dos a tres semanas, más el tiempo de correo.",
+     "Los registros más antiguos están en los Archivos Municipales de NYC, 31 Chambers Street, New York, NY 10007: nacimientos antes de 1910, defunciones antes de 1949 y matrimonios antes de 1950, a $15 por copia certificada.",
+     "Si nació fuera de la Ciudad de Nueva York, su registro está con el estado o la ciudad donde nació, no con Salud de NYC."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Pedir en línea (vendedor autorizado)",
+      "value": "VitalChek, vía nyc.gov, registros de nacimiento y defunción"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page",
+   "sourceLabel": "NYC Health, Birth and Death Records fees"
+  },
+  {
+   "id": "divorce-records",
+   "keywords": {
+    "en": [
+     "divorce",
+     "divorce decree",
+     "divorce papers",
+     "divorce certificate",
+     "divorce records",
+     "county clerk"
+    ],
+    "es": [
+     "divorcio",
+     "sentencia de divorcio",
+     "papeles de divorcio",
+     "certificado de divorcio",
+     "registros de divorcio",
+     "secretario del condado"
+    ]
+   },
+   "en": {
+    "lead": "Divorce papers are court records: certified copies of a Richmond County divorce judgment come from the Richmond County Clerk, who is also Clerk of the Supreme Court.",
+    "details": [
+     "The Richmond County Clerk is at 130 Stuyvesant Place, 2nd Floor, Staten Island, NY 10301, open Monday to Friday, 9:00 AM to 5:00 PM. Phone: 718-675-7700.",
+     "Bring or send the names of both parties, the index number if you have it, and the year of the divorce. A certified copy costs $8 per document plus $0.25 per page.",
+     "Divorce records are not open to the public; copies are limited to the parties and their attorneys. This is a court record, not a Borough President's office or City Clerk service.",
+     "A separate state divorce certificate (proof a divorce occurred, for divorces from 1963 on) is available from the New York State Department of Health."
+    ],
+    "contact": [
+     {
+      "label": "Richmond County Clerk",
+      "value": "718-675-7700",
+      "href": "tel:+17186757700"
+     },
+     {
+      "label": "Richmond County Clerk",
+      "value": "130 Stuyvesant Place, 2nd Floor, Staten Island, NY 10301"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los papeles de divorcio son registros judiciales: las copias certificadas de una sentencia de divorcio del Condado de Richmond se obtienen del Secretario del Condado de Richmond, que también es Secretario de la Corte Suprema.",
+    "details": [
+     "El Secretario del Condado de Richmond está en 130 Stuyvesant Place, 2do piso, Staten Island, NY 10301, abierto de lunes a viernes, de 9:00 AM a 5:00 PM. Teléfono: 718-675-7700.",
+     "Traiga o envíe los nombres de ambas partes, el número de índice si lo tiene, y el año del divorcio. Una copia certificada cuesta $8 por documento más $0.25 por página.",
+     "Los registros de divorcio no están abiertos al público; las copias están limitadas a las partes y sus abogados. Este es un registro judicial, no un servicio de la oficina del Presidente del Borough ni del Secretario de la Ciudad.",
+     "Un certificado estatal de divorcio separado (prueba de que ocurrió un divorcio, para divorcios desde 1963) está disponible en el Departamento de Salud del Estado de Nueva York."
+    ],
+    "contact": [
+     {
+      "label": "Secretario del Condado de Richmond",
+      "value": "718-675-7700",
+      "href": "tel:+17186757700"
+     },
+     {
+      "label": "Secretario del Condado de Richmond",
+      "value": "130 Stuyvesant Place, 2do piso, Staten Island, NY 10301"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.richmondcountyclerk.com/",
+   "sourceLabel": "Richmond County Clerk"
+  },
+  {
+   "id": "agency-directory",
+   "keywords": {
+    "en": [
+     "directory",
+     "agency directory",
+     "phone numbers",
+     "phone directory",
+     "give me the number",
+     "agency phone number",
+     "police precinct",
+     "precinct",
+     "nypd precinct"
+    ],
+    "es": [
+     "directorio",
+     "directorio de agencias",
+     "numeros de telefono",
+     "darme el numero",
+     "numero de telefono de la agencia",
+     "comisaria",
+     "distrito policial"
+    ]
+   },
+   "en": {
+    "lead": "Here are the numbers Staten Islanders ask for most; for anything else, 311 can connect you.",
+    "details": [
+     "Borough President's HelpLine: 718-816-2000. NYC 311: 311 (from outside the city, 212-639-9675). Emergencies: 911.",
+     "Buildings (DOB) Staten Island Borough Office, Borough Hall 2nd Floor: customer service 718-420-5400. Transportation (DOT) Staten Island Borough Commissioner: 212-839-2400. Finance (DOF), Environmental Protection (DEP) and Sanitation (DSNY) requests all start with 311.",
+     "City Clerk Marriage Bureau (Borough Hall, Room 311): 718-816-2290. Richmond County Clerk: 718-675-7700. Board of Elections, Staten Island (1 Edgewater Plaza, 4th Floor): 718-876-0079 or 1-866-VOTE-NYC.",
+     "DMV (state): the Richmond office is at 1775 South Avenue; DMV call center 518-486-9786, and most services are at dmv.ny.gov. Social Security: 1-800-772-1213.",
+     "NYPD precincts: 120th (78 Richmond Terrace) 718-876-8500; 121st (970 Richmond Avenue) 718-697-8700; 122nd (2320 Hylan Boulevard) 718-667-2211; 123rd (116 Main Street) 718-948-9311. Precinct Community Affairs: 120th 718-876-8505, 121st 718-697-8777, 122nd 718-667-2292, 123rd 718-948-9334.",
+     "Benefits: HRA Infoline 718-557-1399 (SNAP, cash assistance, CityFHEPS). HEAP heating help: 212-331-3126."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Estos son los números que más piden los residentes de Staten Island; para cualquier otra cosa, el 311 puede comunicarlo.",
+    "details": [
+     "Línea de Ayuda del Presidente del Borough: 718-816-2000. NYC 311: 311 (desde fuera de la ciudad, 212-639-9675). Emergencias: 911.",
+     "Edificios (DOB), oficina de Staten Island, Borough Hall 2do piso: servicio al cliente 718-420-5400. Transporte (DOT), Comisionada del Borough de Staten Island: 212-839-2400. Las solicitudes de Finanzas (DOF), Protección Ambiental (DEP) y Saneamiento (DSNY) comienzan con el 311.",
+     "Oficina de Matrimonios del Secretario de la Ciudad (Borough Hall, Sala 311): 718-816-2290. Secretario del Condado de Richmond: 718-675-7700. Junta Electoral, Staten Island (1 Edgewater Plaza, 4to piso): 718-876-0079 o 1-866-VOTE-NYC.",
+     "DMV (estatal): la oficina de Richmond está en 1775 South Avenue; centro de llamadas del DMV 518-486-9786, y la mayoría de los servicios están en dmv.ny.gov. Seguro Social: 1-800-772-1213.",
+     "Comisarías de la NYPD: 120 (78 Richmond Terrace) 718-876-8500; 121 (970 Richmond Avenue) 718-697-8700; 122 (2320 Hylan Boulevard) 718-667-2211; 123 (116 Main Street) 718-948-9311. Asuntos Comunitarios: 120: 718-876-8505, 121: 718-697-8777, 122: 718-667-2292, 123: 718-948-9334.",
+     "Beneficios: Línea de información de HRA 718-557-1399 (SNAP, asistencia en efectivo, CityFHEPS). Ayuda de calefacción HEAP: 212-331-3126."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "source": "https://www.nyc.gov/",
+   "sourceLabel": "City of New York, nyc.gov"
+  },
+  {
+   "id": "garbage-bins",
+   "keywords": {
+    "en": [
+     "nyc bin",
+     "garbage bin",
+     "trash bin",
+     "containerization",
+     "official bin",
+     "buy a bin",
+     "bin fine",
+     "bins",
+     "new garbage bins",
+     "garbage bin rules",
+     "new bin rules"
+    ],
+    "es": [
+     "contenedor oficial",
+     "contenedores",
+     "comprar un contenedor",
+     "multa por contenedor",
+     "nuevos contenedores de basura",
+     "contenedor de basura",
+     "reglas de contenedores",
+     "contenedores de basura"
+    ]
+   },
+   "en": {
+    "lead": "Under the City's containerization rules, homes and buildings with 1 to 9 units must set out trash in the official NYC Bin, and fines are now in effect.",
+    "details": [
+     "Since June 1, 2026, all properties with 1 to 9 residential units (and special-use buildings on DSNY collection) must use the official NYC Bin for trash. Since September 8, 2026, DSNY issues fines: $50 for the first offense, $100 for the second, $200 after that. The property owner or manager is responsible for the bins and the fines.",
+     "Buy bins at any Home Depot in the five boroughs or online; the most common 45-gallon size is the cheapest bin of its quality, priced under $65. One- and two-family homeowners with a STAR or E-STAR credit received an automatic $59.30 rebate check from the Department of Finance.",
+     "The official bin is required for trash only. Recycling goes in any labeled bin with a lid or a clear bag, and compost in any labeled bin with a secure lid.",
+     "Delivery problems with an online bin order start with the seller; if a bin never arrives or a delivery issue stalls, call 311. If using a bin is a genuine hardship, DSNY takes accessibility requests and, in rare cases, Public Safety Hazard Evaluations through 311.",
+     "Missed or chronically missed collection is a separate problem: report it to 311 each time it happens, and if it keeps happening, call the Borough President's HelpLine at 718-816-2000 to escalate."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Según las reglas de contenedores de la Ciudad, las viviendas y edificios de 1 a 9 unidades deben sacar la basura en el contenedor oficial NYC Bin, y las multas ya están en vigor.",
+    "details": [
+     "Desde el 1 de junio de 2026, todas las propiedades de 1 a 9 unidades residenciales (y los edificios de uso especial con recogida de DSNY) deben usar el contenedor oficial NYC Bin para la basura. Desde el 8 de septiembre de 2026, DSNY emite multas: $50 la primera infracción, $100 la segunda, $200 después. El propietario o administrador es responsable de los contenedores y las multas.",
+     "Compre los contenedores en cualquier Home Depot de los cinco boroughs o en línea; el tamaño más común de 45 galones es el contenedor más económico de su calidad, por menos de $65. Los propietarios de viviendas de una y dos familias con crédito STAR o E-STAR recibieron un reembolso automático de $59.30 del Departamento de Finanzas.",
+     "El contenedor oficial se exige solo para la basura. El reciclaje va en cualquier contenedor rotulado con tapa o en una bolsa transparente, y el compost en cualquier contenedor rotulado con tapa segura.",
+     "Los problemas de entrega de un pedido en línea comienzan con el vendedor; si un contenedor nunca llega, llame al 311. Si usar un contenedor es una dificultad real, DSNY acepta solicitudes de accesibilidad y, en casos raros, evaluaciones de riesgo de seguridad pública a través del 311.",
+     "Una recogida no realizada o repetidamente omitida es un problema distinto: repórtelo al 311 cada vez que ocurra, y si sigue ocurriendo, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 para escalarlo."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/article/?kanumber=KA-03602",
+   "sourceLabel": "NYC311, Residential Waste Containerization"
+  },
+  {
+   "id": "clean-team",
+   "keywords": {
+    "en": [
+     "clean team",
+     "litter",
+     "cleanup",
+     "clean up my street",
+     "dont trash on me",
+     "illegal dumping",
+     "dumping",
+     "trash on the street",
+     "littered lot",
+     "report litter",
+     "report dumping",
+     "garbage dumped",
+     "debris"
+    ],
+    "es": [
+     "equipo de limpieza",
+     "basura en la calle",
+     "limpieza de calles",
+     "vertedero ilegal",
+     "tirar basura ilegalmente",
+     "lote con basura",
+     "reportar basura",
+     "reportar vertido",
+     "escombros",
+     "reporto basura",
+     "basura en mi calle",
+     "hay basura"
+    ]
+   },
+   "en": {
+    "lead": "The Borough President's Clean Team is a Borough Hall crew that cleans littered locations around Staten Island, part of the office's Don't Trash On Me initiative.",
+    "details": [
+     "To report an area that needs cleaning, call the Borough President's HelpLine at 718-816-2000 and ask for the office's litter liaisons, or report it through the BP Assist app. The Clean Team works with Sanitation to haul away what it collects.",
+     "A good report includes the exact address or intersection, the nearest cross street, what the problem is and how long it has been there, and a photo if you have one. That is exactly how the Borough President's office logs its cases, and it gets the problem routed faster.",
+     "Residents and groups can also join a scheduled cleanup or organize their own; the office can help with supplies and coordination.",
+     "Illegal dumping in progress is a police matter (911); dumping that already happened is reported to 311 for Sanitation enforcement.",
+     "Overgrown weeds and litter on a private lot are the property owner's responsibility; report a neglected lot to 311, and the HelpLine can help push a chronic location."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Equipo de Limpieza (Clean Team) del Presidente del Borough es un equipo de Borough Hall que limpia lugares con basura en Staten Island, como parte de la iniciativa Don't Trash On Me de la oficina.",
+    "details": [
+     "Para reportar un área que necesita limpieza, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y pida los enlaces de basura de la oficina, o repórtelo a través de la aplicación BP Assist. El Equipo de Limpieza trabaja con Saneamiento para retirar lo que recoge.",
+     "Un buen reporte incluye la dirección o intersección exacta, la calle transversal más cercana, cuál es el problema y desde cuándo está, y una foto si tiene una. Así es exactamente como la oficina del Presidente del Borough registra sus casos, y hace que el problema se atienda más rápido.",
+     "Los residentes y grupos también pueden unirse a una limpieza programada u organizar la suya; la oficina puede ayudar con suministros y coordinación.",
+     "El vertido ilegal en curso es un asunto policial (911); el vertido ya ocurrido se reporta al 311 para la acción de Saneamiento.",
+     "La maleza crecida y la basura en un lote privado son responsabilidad del propietario; reporte un lote descuidado al 311, y la Línea de Ayuda puede ayudar a insistir en un lugar crónico."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/news/bp-fossella-launches-island-wide-clean-up-initiative-announces-litter-liaisons-on-staff",
+   "sourceLabel": "Staten Island Borough President, Don't Trash On Me launch"
+  },
+  {
+   "id": "dot-streets",
+   "keywords": {
+    "en": [
+     "repaving",
+     "resurface my street",
+     "sidewalk repair",
+     "curb cut",
+     "street sign",
+     "street markings",
+     "stop sign missing",
+     "repaved",
+     "repave",
+     "pave my street",
+     "when will my street be paved",
+     "curb",
+     "broken curb",
+     "sidewalk crack",
+     "cracked sidewalk",
+     "sidewalk problem",
+     "broken sidewalk",
+     "sidewalk"
+    ],
+    "es": [
+     "repavimentacion",
+     "repavimentar mi calle",
+     "reparacion de acera",
+     "senal de transito",
+     "marcas viales",
+     "cuando pavimentan mi calle",
+     "acera rota",
+     "acera agrietada",
+     "problema de acera",
+     "borde de acera",
+     "acera"
+    ]
+   },
+   "en": {
+    "lead": "Repaving, sidewalk, curb and sign requests all go to the NYC Department of Transportation, usually starting with 311, and the DOT Staten Island Borough Commissioner is the local escalation point.",
+    "details": [
+     "Report the problem to 311 first and keep the service request number: DOT works from those requests for repaving lists, sign and marking replacements, and sidewalk defects.",
+     "For speeding on a residential street, 311 takes the complaint; requests for speed humps or other traffic calming are evaluated by DOT, and the Borough Commissioner's office reviews Staten Island requests. The Staten Island Borough Commissioner, Roseann Caruana, can be reached at 212-839-2400.",
+     "Sidewalk repair: the property owner is generally responsible for the sidewalk in front of a home; the City repairs sidewalks it damages (for example, by a city tree) and runs a repair program for qualifying one- to three-family homes. Report a broken sidewalk to 311 either way.",
+     "A missing stop sign or traffic sign is a safety issue: report it to 311 as a missing sign so DOT treats it as urgent.",
+     "If a DOT request stalls, the Borough President's HelpLine at 718-816-2000 can follow up with the Borough Commissioner's office.",
+     "A good report includes the exact address or intersection, the nearest cross street, what the problem is and how long it has been there, and a photo if you have one. That is exactly how the Borough President's office logs its cases, and it gets the problem routed faster. For a speeding or speed reducer request, ask me about speed reducers; DOT handles that as its own process."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "DOT Staten Island Borough Commissioner",
+      "value": "212-839-2400",
+      "href": "tel:+12128392400"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las solicitudes de repavimentación, aceras, bordes y señales van al Departamento de Transporte de NYC, generalmente comenzando con el 311, y la Comisionada del Borough de Staten Island de DOT es el punto local de escalación.",
+    "details": [
+     "Reporte el problema primero al 311 y guarde el número de solicitud: DOT trabaja a partir de esas solicitudes para las listas de repavimentación, el reemplazo de señales y marcas, y los defectos de aceras.",
+     "Para exceso de velocidad en una calle residencial, el 311 recibe la queja; las solicitudes de reductores de velocidad u otras medidas de calma de tráfico las evalúa DOT, y la oficina de la Comisionada del Borough revisa las solicitudes de Staten Island. La Comisionada del Borough de Staten Island, Roseann Caruana, puede contactarse al 212-839-2400.",
+     "Reparación de aceras: el propietario es generalmente responsable de la acera frente a su vivienda; la Ciudad repara las aceras que ella daña (por ejemplo, por un árbol de la ciudad) y tiene un programa de reparación para viviendas calificadas de una a tres familias. Reporte una acera rota al 311 en cualquier caso.",
+     "Una señal de alto o de tránsito faltante es un problema de seguridad: repórtela al 311 como señal faltante para que DOT la trate como urgente.",
+     "Si una solicitud a DOT se detiene, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede dar seguimiento con la oficina de la Comisionada del Borough.",
+     "Un buen reporte incluye la dirección o intersección exacta, la calle transversal más cercana, cuál es el problema y desde cuándo está, y una foto si tiene una. Así es exactamente como la oficina del Presidente del Borough registra sus casos, y hace que el problema se atienda más rápido. Para una solicitud por exceso de velocidad o un reductor de velocidad, pregúnteme por los reductores de velocidad; DOT lo maneja como un proceso propio."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Comisionada del Borough de Staten Island de DOT",
+      "value": "212-839-2400",
+      "href": "tel:+12128392400"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.nyc.gov/html/dot/html/contact/contact.shtml",
+   "sourceLabel": "NYC DOT, Contact"
+  },
+  {
+   "id": "dmv",
+   "keywords": {
+    "en": [
+     "dmv",
+     "driver's license",
+     "drivers license",
+     "driver license",
+     "vehicle registration",
+     "car registration",
+     "license plate",
+     "real id",
+     "learner permit",
+     "register my car",
+     "register a car",
+     "register my vehicle"
+    ],
+    "es": [
+     "dmv",
+     "licencia de conducir",
+     "registro de vehiculo",
+     "registro del carro",
+     "placas",
+     "permiso de aprendizaje",
+     "registrar mi carro",
+     "registrar mi vehiculo"
+    ]
+   },
+   "en": {
+    "lead": "Driver licenses and vehicle registrations are New York State DMV services, not Borough President or City services.",
+    "details": [
+     "Staten Island's only DMV office, the Richmond office, is at 1775 South Avenue, Suite 2 (West Shore Shopping Plaza), open Monday to Friday, 7:30 AM to 5:00 PM. Reservations are strongly recommended and most transactions can be started or finished at dmv.ny.gov.",
+     "The DMV call center is 518-486-9786. The Borough President's office cannot renew a license or registration, but the HelpLine can help you find the right DMV service."
+    ],
+    "contact": [
+     {
+      "label": "NY DMV",
+      "value": "dmv.ny.gov"
+     },
+     {
+      "label": "DMV call center",
+      "value": "518-486-9786",
+      "href": "tel:+15184869786"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las licencias de conducir y los registros de vehículos son servicios del DMV del Estado de Nueva York, no del Presidente del Borough ni de la Ciudad.",
+    "details": [
+     "La única oficina del DMV en Staten Island, la oficina de Richmond, está en 1775 South Avenue, Suite 2 (West Shore Shopping Plaza), abierta de lunes a viernes, de 7:30 AM a 5:00 PM. Se recomienda encarecidamente reservar, y la mayoría de los trámites pueden iniciarse o completarse en dmv.ny.gov.",
+     "El centro de llamadas del DMV es 518-486-9786. La oficina del Presidente del Borough no puede renovar una licencia o registro, pero la Línea de Ayuda puede ayudarle a encontrar el servicio correcto del DMV."
+    ],
+    "contact": [
+     {
+      "label": "DMV de NY",
+      "value": "dmv.ny.gov"
+     },
+     {
+      "label": "Centro de llamadas del DMV",
+      "value": "518-486-9786",
+      "href": "tel:+15184869786"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC311, Department of Motor Vehicles"
+  },
+  {
+   "id": "housing-help",
+   "keywords": {
+    "en": [
+     "shelter",
+     "homeless",
+     "snap",
+     "food stamps",
+     "cash assistance",
+     "heap",
+     "heating help",
+     "cityfheps",
+     "nycha",
+     "landlord problem",
+     "tenant",
+     "eviction help",
+     "rent help",
+     "public housing",
+     "heating bill",
+     "help paying my bill",
+     "landlord",
+     "no heat",
+     "no hot water",
+     "heat and hot water"
+    ],
+    "es": [
+     "refugio",
+     "personas sin hogar",
+     "sin hogar",
+     "cupones de alimentos",
+     "asistencia en efectivo",
+     "ayuda de calefaccion",
+     "calefaccion heap",
+     "inquilino",
+     "propietario problema",
+     "ayuda con la renta",
+     "vivienda publica",
+     "sin calefaccion",
+     "no tengo calefaccion",
+     "factura de calefaccion",
+     "sin agua caliente",
+     "dueno de la casa"
+    ]
+   },
+   "en": {
+    "lead": "Housing and benefits help runs through the City's social service agencies, mainly HRA and DHS, and the Borough President's HelpLine can help you reach the right one and escalate a stuck case.",
+    "details": [
+     "If you need shelter tonight, call 311. Families with children enter through DHS's PATH intake in the Bronx and single adults through the men's and women's intake centers; 311 will direct you. This office cannot place anyone directly, but the HelpLine can check on a case with the agencies.",
+     "SNAP (food stamps), Cash Assistance, Medicaid enrollment and CityFHEPS rental help are HRA programs: apply or manage your case on ACCESS HRA, or call the HRA Infoline at 718-557-1399. Emergency one-time help with rent or a utility shutoff is HRA's One-Shot Deal, through the same Infoline.",
+     "HEAP helps with heating bills and heating emergencies: call the HRA HEAP unit at 212-331-3126. The season and benefit amounts change each year, so confirm current dates when you call.",
+     "NYCHA public housing and Section 8 questions go to NYCHA's Customer Contact Center at 718-707-7771. Landlord and tenant problems, including heat and hot water, no heat, and repairs, are reported to 311 for HPD; the HelpLine can escalate a chronic building.",
+     "No one here can promise an outcome on a benefits or housing case. What the office can do is make sure the right agency has your case and is acting on it."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "HRA Infoline",
+      "value": "718-557-1399",
+      "href": "tel:+17185571399"
+     },
+     {
+      "label": "HEAP (HRA)",
+      "value": "212-331-3126",
+      "href": "tel:+12123313126"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La ayuda de vivienda y beneficios corre por las agencias de servicios sociales de la Ciudad, principalmente HRA y DHS, y la Línea de Ayuda del Presidente del Borough puede ayudarle a llegar a la correcta y escalar un caso detenido.",
+    "details": [
+     "Si necesita refugio esta noche, llame al 311. Las familias con niños entran por la admisión PATH de DHS en el Bronx y los adultos solos por los centros de admisión de hombres y mujeres; el 311 le dirigirá. Esta oficina no puede ubicar a nadie directamente, pero la Línea de Ayuda puede consultar un caso con las agencias.",
+     "SNAP (cupones de alimentos), Asistencia en Efectivo, inscripción a Medicaid y la ayuda de alquiler CityFHEPS son programas de HRA: solicite o maneje su caso en ACCESS HRA, o llame a la Línea de Información de HRA al 718-557-1399. La ayuda de emergencia única con la renta o un corte de servicios es el One-Shot Deal de HRA, por la misma línea.",
+     "HEAP ayuda con las facturas de calefacción y emergencias de calefacción: llame a la unidad HEAP de HRA al 212-331-3126. La temporada y los montos cambian cada año, así que confirme las fechas actuales al llamar.",
+     "Las preguntas sobre vivienda pública de NYCHA y Sección 8 van al Centro de Contacto al Cliente de NYCHA al 718-707-7771. Los problemas entre propietario e inquilino, incluidos calefacción y agua caliente y reparaciones, se reportan al 311 para HPD; la Línea de Ayuda puede escalar un edificio crónico.",
+     "Nadie aquí puede prometer un resultado en un caso de beneficios o vivienda. Lo que la oficina sí puede hacer es asegurarse de que la agencia correcta tenga su caso y esté actuando."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Información de HRA",
+      "value": "718-557-1399",
+      "href": "tel:+17185571399"
+     },
+     {
+      "label": "HEAP (HRA)",
+      "value": "212-331-3126",
+      "href": "tel:+12123313126"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC311"
+  },
+  {
+   "id": "utilities",
+   "keywords": {
+    "en": [
+     "con ed",
+     "con edison",
+     "national grid",
+     "electric bill",
+     "gas bill",
+     "power outage",
+     "outage",
+     "gas leak",
+     "utility bill",
+     "electricity problem",
+     "power is out",
+     "no power",
+     "electricity is out",
+     "smell gas",
+     "gas smell",
+     "smell of gas",
+     "hanging wire",
+     "hanging wires",
+     "downed wire",
+     "wire down",
+     "leaning pole",
+     "utility pole",
+     "telephone pole"
+    ],
+    "es": [
+     "con ed",
+     "con edison",
+     "national grid",
+     "factura de luz",
+     "factura de gas",
+     "apagon",
+     "corte de luz",
+     "fuga de gas",
+     "factura de servicios",
+     "no tengo luz",
+     "sin electricidad",
+     "huele a gas",
+     "olor a gas",
+     "cables colgando",
+     "cable caido",
+     "cable colgante",
+     "poste inclinado",
+     "poste de telefono"
+    ]
+   },
+   "en": {
+    "lead": "Electricity on Staten Island is Con Edison and gas is National Grid; the Borough President's office cannot change a bill, but the HelpLine can escalate safety and service problems.",
+    "details": [
+     "If you smell gas, leave the building first, then call 911 or National Grid's gas emergency line at 718-643-4050. Do not try to find the leak yourself.",
+     "Con Edison: report outages and service problems at 1-800-752-6633 (1-800-75-CONED) or coned.com. National Grid gas service and billing: 718-643-4050.",
+     "For help paying a bill, HEAP (212-331-3126) and HRA's One-Shot Deal emergency assistance (718-557-1399) are the City programs; the utilities also run their own payment plans, which you arrange with the utility directly.",
+     "If a utility crew issue, a dangerous pole or wire, or repeated outages are not being addressed, call the Borough President's HelpLine at 718-816-2000 and the office will raise it with the utility and the City.",
+     "Hanging or downed wires: never touch them. If a wire is sparking, on the ground, or blocking the street, call 911. Otherwise report it to 311 with the exact address and the pole number if there is one; poles belong to different utilities (electric, phone, cable), and 311 routes it to the owner, with the HelpLine able to push a wire that stays hanging."
+    ],
+    "contact": [
+     {
+      "label": "Con Edison",
+      "value": "1-800-752-6633",
+      "href": "tel:+18007526633"
+     },
+     {
+      "label": "National Grid (gas)",
+      "value": "718-643-4050",
+      "href": "tel:+17186434050"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La electricidad en Staten Island es de Con Edison y el gas es de National Grid; la oficina del Presidente del Borough no puede cambiar una factura, pero la Línea de Ayuda puede escalar problemas de seguridad y servicio.",
+    "details": [
+     "Si huele a gas, salga del edificio primero, luego llame al 911 o a la línea de emergencias de gas de National Grid al 718-643-4050. No intente buscar la fuga usted mismo.",
+     "Con Edison: reporte apagones y problemas de servicio al 1-800-752-6633 (1-800-75-CONED) o en coned.com. Servicio y facturación de gas de National Grid: 718-643-4050.",
+     "Para ayuda para pagar una factura, HEAP (212-331-3126) y la asistencia de emergencia One-Shot Deal de HRA (718-557-1399) son los programas de la Ciudad; las compañías también tienen sus propios planes de pago, que se arreglan directamente con la compañía.",
+     "Si un problema con un equipo de la compañía, un poste o cable peligroso, o apagones repetidos no se están atendiendo, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y la oficina lo planteará a la compañía y a la Ciudad.",
+     "Cables colgando o caídos: nunca los toque. Si un cable está echando chispas, en el suelo, o bloqueando la calle, llame al 911. Si no, repórtelo al 311 con la dirección exacta y el número de poste si lo hay; los postes pertenecen a distintas compañías (electricidad, teléfono, cable), y el 311 lo dirige al dueño, con la Línea de Ayuda pudiendo insistir en un cable que sigue colgando."
+    ],
+    "contact": [
+     {
+      "label": "Con Edison",
+      "value": "1-800-752-6633",
+      "href": "tel:+18007526633"
+     },
+     {
+      "label": "National Grid (gas)",
+      "value": "718-643-4050",
+      "href": "tel:+17186434050"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC311"
+  },
+  {
+   "id": "case-followup",
+   "keywords": {
+    "en": [
+     "case status",
+     "follow up",
+     "follow-up",
+     "my case",
+     "case number",
+     "never heard back",
+     "no one called me back",
+     "waiting for a call",
+     "status of my request",
+     "check on my case"
+    ],
+    "es": [
+     "estado de mi caso",
+     "seguimiento",
+     "dar seguimiento",
+     "mi caso",
+     "numero de caso",
+     "no me llamaron",
+     "nadie me respondio",
+     "estado de mi solicitud",
+     "revisar mi caso"
+    ]
+   },
+   "en": {
+    "lead": "To follow up on a case, call the Borough President's HelpLine at 718-816-2000 with your case or 311 service request number ready; that number is how your case is found.",
+    "details": [
+     "How it works: when you contact the HelpLine, your issue is logged and, when it belongs to a City agency, sent to that agency with a request to act and report back. The office then follows up with the agency and closes the loop with you.",
+     "Keep every number you are given: the HelpLine reference for a Borough Hall case, and the 311 service request number for a City agency case. If you reported to 311 first, give the HelpLine that number so the two are not duplicated.",
+     "If you have not heard back, call the HelpLine with your number and ask for a status check; repeat calls without the number take longer because the case has to be searched by name and address.",
+     "Some agency fixes take time (repaving seasons, capital work, court dates). A status check will tell you where it stands and what the next step is, even when the answer is that it is still in the agency's queue."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para dar seguimiento a un caso, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 con su número de caso o de solicitud del 311 a mano; ese número es como se encuentra su caso.",
+    "details": [
+     "Cómo funciona: cuando contacta a la Línea de Ayuda, su problema se registra y, cuando corresponde a una agencia de la Ciudad, se envía a esa agencia con una solicitud de actuar e informar. La oficina luego da seguimiento con la agencia y cierra el ciclo con usted.",
+     "Guarde cada número que le den: la referencia de la Línea de Ayuda para un caso de Borough Hall, y el número de solicitud de servicio del 311 para un caso de una agencia de la Ciudad. Si reportó primero al 311, dé ese número a la Línea de Ayuda para que los dos no se dupliquen.",
+     "Si no ha tenido respuesta, llame a la Línea de Ayuda con su número y pida una revisión del estado; las llamadas repetidas sin el número tardan más porque el caso debe buscarse por nombre y dirección.",
+     "Algunas reparaciones de agencias toman tiempo (temporadas de repavimentación, obras de capital, fechas judiciales). Una revisión del estado le dirá en qué punto está y cuál es el siguiente paso, aun cuando la respuesta sea que sigue en la fila de la agencia."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/",
+   "sourceLabel": "Staten Island Borough President"
+  },
+  {
+   "id": "events-programs",
+   "keywords": {
+    "en": [
+     "events",
+     "concerts",
+     "summer concerts",
+     "concert series",
+     "turkey giveaway",
+     "shredding",
+     "e-waste",
+     "health fair",
+     "bocce",
+     "borough hall tour",
+     "state of the borough",
+     "office programs",
+     "room rental"
+    ],
+    "es": [
+     "eventos",
+     "conciertos",
+     "conciertos de verano",
+     "entrega de pavos",
+     "trituracion de papel",
+     "feria de salud",
+     "programas de la oficina",
+     "visita a borough hall",
+     "estado del borough"
+    ]
+   },
+   "en": {
+    "lead": "Borough President's office events, including the Sounds of Summer concert series, are announced on statenislandusa.com and in the office newsletter; dates change each season, so check there for the current schedule.",
+    "details": [
+     "The Sounds of Summer Concert Series brings free concerts to parks across the borough; concerts start at 7:00 PM, are weather permitting, and schedule updates are posted on the concert page and the office's social media, or by calling 718-816-2230.",
+     "Recurring office programs announced on the site and in the newsletter include the State of the Borough address, seasonal turkey distributions, health fairs, paper shredding and e-waste events, and the borough bocce tournament. Registration details, when required, are in each announcement.",
+     "For Borough Hall tours, room use, or to ask about an event that is not listed, call the HelpLine at 718-816-2000.",
+     "The fastest way to hear about new dates is the office email newsletter; ask me how to sign up."
+    ],
+    "contact": [
+     {
+      "label": "Concert series updates",
+      "value": "718-816-2230",
+      "href": "tel:+17188162230"
+     },
+     {
+      "label": "Events and news",
+      "value": "statenislandusa.com"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los eventos de la oficina del Presidente del Borough, incluida la serie de conciertos Sounds of Summer, se anuncian en statenislandusa.com y en el boletín de la oficina; las fechas cambian cada temporada, así que consulte allí el calendario actual.",
+    "details": [
+     "La serie de conciertos Sounds of Summer lleva conciertos gratuitos a parques de todo el borough; los conciertos comienzan a las 7:00 PM, dependen del clima, y las actualizaciones se publican en la página de conciertos y en las redes sociales de la oficina, o llamando al 718-816-2230.",
+     "Los programas recurrentes de la oficina anunciados en el sitio y en el boletín incluyen el discurso del Estado del Borough, distribuciones de pavos de temporada, ferias de salud, eventos de trituración de papel y desechos electrónicos, y el torneo de bochas del borough. Los detalles de registro, cuando se requiere, están en cada anuncio.",
+     "Para visitas a Borough Hall, uso de salones, o para preguntar por un evento que no aparece, llame a la Línea de Ayuda al 718-816-2000.",
+     "La forma más rápida de enterarse de nuevas fechas es el boletín por correo electrónico de la oficina; pregúnteme cómo suscribirse."
+    ],
+    "contact": [
+     {
+      "label": "Actualizaciones de conciertos",
+      "value": "718-816-2230",
+      "href": "tel:+17188162230"
+     },
+     {
+      "label": "Eventos y noticias",
+      "value": "statenislandusa.com"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/summerconcerts.html",
+   "sourceLabel": "Staten Island Borough President, Sounds of Summer Concert Series"
+  },
+  {
+   "id": "recurring-issues",
+   "keywords": {
+    "en": [
+     "battery storage",
+     "battery storage facility",
+     "mta",
+     "bus service",
+     "train service",
+     "helicopter noise",
+     "airplane noise",
+     "aircraft noise",
+     "ezpass",
+     "e-zpass",
+     "bus",
+     "buses",
+     "helicopters",
+     "airplanes",
+     "planes flying over",
+     "low flying planes",
+     "staten island railway"
+    ],
+    "es": [
+     "almacenamiento de baterias",
+     "baterias de litio",
+     "mta",
+     "servicio de autobuses",
+     "ruido de helicopteros",
+     "ruido de aviones",
+     "ezpass",
+     "autobus",
+     "autobuses",
+     "helicopteros",
+     "aviones"
+    ]
+   },
+   "en": {
+    "lead": "For the recurring issues Staten Islanders raise most, here is where each one actually gets decided and how the Borough President's office plugs in.",
+    "details": [
+     "Battery energy storage sites: siting is governed by City and State rules, and the Borough President has made the office's positions public in statements on the News page of statenislandusa.com. To register a concern about a specific site, call the HelpLine at 718-816-2000 so it is logged with the office.",
+     "MTA service: bus and Staten Island Railway complaints go to the MTA at 511 or mta.info; the Borough President advocates for Staten Island service with the MTA and raises patterns of complaints, so copying the HelpLine on a recurring problem helps.",
+     "Helicopter and airplane noise: file an air noise complaint with 311, which logs it for the City's aviation noise process; persistent routes and patterns can also be raised with the HelpLine.",
+     "E-ZPass: account, billing and violation questions go to E-ZPass New York at 1-800-333-8655 or e-zpassny.com. The Borough President's office cannot adjust an E-ZPass bill."
+    ],
+    "contact": [
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "E-ZPass New York",
+      "value": "1-800-333-8655",
+      "href": "tel:+18003338655"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para los temas recurrentes que más plantean los residentes de Staten Island, esto es dónde se decide cada uno y cómo interviene la oficina del Presidente del Borough.",
+    "details": [
+     "Sitios de almacenamiento de energía en baterías: la ubicación se rige por reglas de la Ciudad y el Estado, y el Presidente del Borough ha hecho públicas las posiciones de la oficina en declaraciones en la página de Noticias de statenislandusa.com. Para registrar una preocupación sobre un sitio específico, llame a la Línea de Ayuda al 718-816-2000 para que quede registrada en la oficina.",
+     "Servicio de la MTA: las quejas de autobuses y del tren de Staten Island van a la MTA al 511 o mta.info; el Presidente del Borough aboga por el servicio de Staten Island ante la MTA y plantea patrones de quejas, así que informar a la Línea de Ayuda de un problema recurrente ayuda.",
+     "Ruido de helicópteros y aviones: presente una queja de ruido aéreo al 311, que la registra para el proceso de ruido de aviación de la Ciudad; las rutas y patrones persistentes también pueden plantearse a la Línea de Ayuda.",
+     "E-ZPass: las preguntas de cuenta, facturación e infracciones van a E-ZPass New York al 1-800-333-8655 o e-zpassny.com. La oficina del Presidente del Borough no puede ajustar una factura de E-ZPass."
+    ],
+    "contact": [
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     },
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "E-ZPass New York",
+      "value": "1-800-333-8655",
+      "href": "tel:+18003338655"
+     }
+    ]
+   },
+   "source": "https://www.statenislandusa.com/",
+   "sourceLabel": "Staten Island Borough President"
+  },
+  {
+   "id": "jobs",
+   "keywords": {
+    "en": [
+     "jobs",
+     "hiring",
+     "are you hiring",
+     "employment",
+     "work for the borough",
+     "job openings",
+     "internship",
+     "intern"
+    ],
+    "es": [
+     "empleos",
+     "trabajos",
+     "estan contratando",
+     "contratando",
+     "oportunidades de trabajo",
+     "pasantia",
+     "practicas"
+    ]
+   },
+   "en": {
+    "lead": "Jobs with the Borough President's office and other City agencies are posted on the City's jobs portal at nyc.gov/jobs.",
+    "details": [
+     "Search nyc.gov/jobs for openings with the Office of the Staten Island Borough President and other agencies; applications are submitted through the portal, not at Borough Hall.",
+     "Some positions are civil service titles filled from exam lists; the portal and the DCAS site explain which jobs need an exam.",
+     "For internship questions, call the Borough President's HelpLine at 718-816-2000."
+    ],
+    "contact": [
+     {
+      "label": "NYC Jobs portal",
+      "value": "nyc.gov/jobs"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los empleos con la oficina del Presidente del Borough y otras agencias de la Ciudad se publican en el portal de empleos de la Ciudad en nyc.gov/jobs.",
+    "details": [
+     "Busque en nyc.gov/jobs las vacantes de la Oficina del Presidente del Borough de Staten Island y otras agencias; las solicitudes se envían a través del portal, no en Borough Hall.",
+     "Algunos puestos son títulos de servicio civil que se cubren de listas de exámenes; el portal y el sitio de DCAS explican qué empleos necesitan un examen.",
+     "Para preguntas sobre pasantías, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000."
+    ],
+    "contact": [
+     {
+      "label": "Portal de empleos de NYC",
+      "value": "nyc.gov/jobs"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.nyc.gov/jobs",
+   "sourceLabel": "NYC Jobs"
+  },
+  {
+   "id": "speed-reducers",
+   "keywords": {
+    "en": [
+     "speeding",
+     "speed hump",
+     "speed bump",
+     "speed reducer",
+     "speed reducers",
+     "traffic calming",
+     "cars speeding",
+     "speed study"
+    ],
+    "es": [
+     "exceso de velocidad",
+     "reductor de velocidad",
+     "reductores de velocidad",
+     "tope de velocidad",
+     "autos a exceso de velocidad",
+     "calmar el trafico"
+    ]
+   },
+   "en": {
+    "lead": "Speed reducer (speed hump) requests are a DOT process: you file the request, DOT studies the street, and the Borough Commissioner's office decides for Staten Island streets.",
+    "details": [
+     "Start by reporting the speeding to 311 and keep the service request number; you can also write to the DOT Staten Island Borough Commissioner, Roseann Caruana, at 212-839-2400. A good request names the exact block, the cross streets, and when the speeding is worst (school hours, evenings, weekends).",
+     "DOT then evaluates the street with speed and volume counts and crash history. Not every street qualifies: speed humps are generally for residential streets and are usually not placed on bus routes, truck routes, or primary emergency routes, and the street's grade and drainage matter.",
+     "Community Board support helps a request, and the Borough President's office regularly backs resident requests. If your block has been asking for a while, call the HelpLine at 718-816-2000 with your 311 number and the office will check where the study stands.",
+     "While a study is pending, report dangerous driving and drag racing to 311, and anything in progress to 911."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "DOT Staten Island Borough Commissioner",
+      "value": "212-839-2400",
+      "href": "tel:+12128392400"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las solicitudes de reductores de velocidad son un proceso de DOT: usted presenta la solicitud, DOT estudia la calle, y la oficina de la Comisionada del Borough decide para las calles de Staten Island.",
+    "details": [
+     "Comience reportando el exceso de velocidad al 311 y guarde el número de solicitud; también puede escribir a la Comisionada del Borough de Staten Island de DOT, Roseann Caruana, al 212-839-2400. Una buena solicitud nombra la cuadra exacta, las calles transversales, y cuándo es peor el exceso de velocidad (horario escolar, noches, fines de semana).",
+     "DOT luego evalúa la calle con conteos de velocidad y volumen e historial de choques. No todas las calles califican: los reductores son generalmente para calles residenciales y por lo general no se colocan en rutas de autobuses, rutas de camiones o rutas principales de emergencia, y la pendiente y el drenaje de la calle importan.",
+     "El apoyo de la Junta Comunitaria ayuda a una solicitud, y la oficina del Presidente del Borough respalda regularmente las solicitudes de los residentes. Si su cuadra lleva tiempo pidiendo, llame a la Línea de Ayuda al 718-816-2000 con su número del 311 y la oficina revisará en qué punto está el estudio.",
+     "Mientras un estudio está pendiente, reporte la conducción peligrosa y las carreras al 311, y cualquier cosa en curso al 911."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Comisionada del Borough de Staten Island de DOT",
+      "value": "212-839-2400",
+      "href": "tel:+12128392400"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://www.nyc.gov/html/dot/html/contact/contact.shtml",
+   "sourceLabel": "NYC DOT, Contact"
+  },
+  {
+   "id": "illegal-parking",
+   "keywords": {
+    "en": [
+     "illegal parking",
+     "illegally parked",
+     "abandoned vehicle",
+     "abandoned car",
+     "derelict vehicle",
+     "blocked driveway",
+     "car blocking my driveway",
+     "unregistered vehicle on the street",
+     "blocking my driveway",
+     "blocking the driveway",
+     "park illegally",
+     "parked illegally"
+    ],
+    "es": [
+     "estacionamiento ilegal",
+     "carro mal estacionado",
+     "vehiculo abandonado",
+     "carro abandonado",
+     "entrada bloqueada",
+     "carro bloqueando mi entrada",
+     "vehiculo sin registro en la calle",
+     "bloqueando mi entrada",
+     "estacionan ilegalmente"
+    ]
+   },
+   "en": {
+    "lead": "Illegal parking is enforced by the NYPD through 311, and abandoned vehicles are removed through 311 as well; the Borough President's HelpLine can push a location that keeps recurring.",
+    "details": [
+     "Report illegal parking to 311 with the exact address, the cross street, and the plate number if there is one; the precinct responds. A car blocking your driveway can be ticketed and, if it cannot be identified or moved, towed through the precinct.",
+     "An abandoned vehicle with license plates is an NYPD matter reported through 311. A derelict vehicle with no plates, or one that is wrecked and stripped, is handled by Sanitation (DSNY) through 311.",
+     "Give the details the way the office logs its cases: exact location, how long the vehicle has been there, plate or no plate, and a photo if you have one.",
+     "For a chronic corner or a repeat offender location, call the HelpLine at 718-816-2000 after you have a 311 number, and the office will raise it with the precinct's Community Affairs unit."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Borough President's HelpLine",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El estacionamiento ilegal lo hace cumplir la NYPD a través del 311, y los vehículos abandonados también se retiran a través del 311; la Línea de Ayuda del Presidente del Borough puede insistir en un lugar que se repite.",
+    "details": [
+     "Reporte el estacionamiento ilegal al 311 con la dirección exacta, la calle transversal, y el número de placa si lo hay; la comisaría responde. Un carro que bloquea su entrada puede recibir una multa y, si no puede identificarse o moverse, ser remolcado a través de la comisaría.",
+     "Un vehículo abandonado con placas es un asunto de la NYPD reportado a través del 311. Un vehículo abandonado sin placas, o destrozado y desmantelado, lo maneja Saneamiento (DSNY) a través del 311.",
+     "Dé los detalles como la oficina registra sus casos: ubicación exacta, cuánto tiempo lleva el vehículo allí, con placa o sin placa, y una foto si tiene una.",
+     "Para una esquina crónica o un lugar con infractores repetidos, llame a la Línea de Ayuda al 718-816-2000 después de tener un número del 311, y la oficina lo planteará a la unidad de Asuntos Comunitarios de la comisaría."
+    ],
+    "contact": [
+     {
+      "label": "NYC 311",
+      "value": "311",
+      "href": "tel:311"
+     },
+     {
+      "label": "Línea de Ayuda del Presidente del Borough",
+      "value": "718-816-2000",
+      "href": "tel:+17188162000"
+     }
+    ]
+   },
+   "source": "https://portal.311.nyc.gov/",
+   "sourceLabel": "NYC311"
+  }
+ ]
+}
