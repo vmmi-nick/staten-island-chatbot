@@ -1,0 +1,17 @@
+# Blueprint for the Staten Island Borough President constituent chatbot backend.
+# One web service only. The verified index lives in data/*.json inside the
+# repo, so no database service is needed for the test deployment.
+# Set MODEL_API_KEY in the Render dashboard (Environment). Never commit it.
+services:
+  - type: web
+    name: staten-island-chatbot
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MODEL_API_KEY
+        sync: false

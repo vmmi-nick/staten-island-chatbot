@@ -1,0 +1,16 @@
+{
+ "name": "staten-island-chatbot",
+ "version": "1.0.0",
+ "description": "Staten Island Borough President constituent chatbot backend: bilingual EN/ES answers from a verified local index, with optional Meta Model API answers for questions the index does not cover.",
+ "main": "server.js",
+ "type": "commonjs",
+ "engines": {
+  "node": ">=20"
+ },
+ "scripts": {
+  "start": "node server.js"
+ },
+ "dependencies": {
+  "express": "^4.19.2"
+ }
+}
