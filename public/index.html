@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staten Island Borough President Constituent Chatbot</title>
+<style>
+  :root{
+    --navy:#102e50; --navy-dark:#082059; --navy-ink:#102e50;
+    --gold:#b08d3e; --gold-deep:#8a6d2f; --gold-soft:#decc8c; --gold-pale:#faf3dd;
+    --bg:#f4f6f8; --panel:#ffffff; --panel-soft:#fbf9f3;
+    --text:#23272b; --muted:#5b6068; --border:#d4dae2;
+    --shadow:0 1px 2px rgba(16,46,80,.06),0 8px 24px rgba(16,46,80,.07);
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17181c; --panel:#26282e; --panel-soft:#201f24;
+      --text:#f0ede6; --muted:#b8b2a4; --border:#454a55;
+      --gold-soft:#5c4d1e; --gold-pale:#33291a; --gold-deep:#d9b64a;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;
+  }
+  h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:700}
+  a{color:var(--navy)}
+  @media (prefers-color-scheme: dark){ a{color:var(--gold-soft)} }
+  :focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+  /* ---------- slim top bar ---------- */
+  .topbar{
+    position:sticky;top:0;z-index:20;
+    background:var(--navy);color:#fff;border-bottom:3px solid var(--gold);
+  }
+  .topbar-in{
+    max-width:880px;margin:0 auto;padding:10px 16px;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;min-width:0}
+  .seal{
+    flex:0 0 auto;width:34px;height:34px;border-radius:50%;
+    border:2px solid var(--gold);color:var(--gold-soft);
+    display:flex;align-items:center;justify-content:center;
+    font-family:Georgia,serif;font-weight:700;font-size:.82rem;letter-spacing:.04em;
+  }
+  .brand-name{font-family:Georgia,serif;font-size:1rem;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand-sub{display:block;font-family:inherit;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft)}
+  .langtoggle{display:flex;background:var(--navy-dark);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:3px;flex:0 0 auto}
+  .langbtn{
+    border:0;background:transparent;color:#f3e5bb;border-radius:999px;
+    padding:5px 13px;cursor:pointer;font:inherit;font-size:.85rem;
+  }
+  .langbtn.active{background:#fff;color:var(--navy);font-weight:600}
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:linear-gradient(160deg,var(--navy) 0%,var(--navy-dark) 100%);
+    color:#fff;border-bottom:3px solid var(--gold);
+  }
+  .hero-in{max-width:880px;margin:0 auto;padding:34px 16px 30px}
+  .hero h1{margin:0;font-size:clamp(1.6rem,4.5vw,2.3rem);line-height:1.15;letter-spacing:.01em}
+  .hero .tagline{margin:10px 0 0;font-size:clamp(1rem,2.6vw,1.13rem);color:#e9eef5;max-width:34em}
+  .hero .note{
+    margin:18px 0 0;padding:10px 14px;max-width:44em;
+    border-left:3px solid var(--gold);background:rgba(255,255,255,.07);
+    font-size:.86rem;color:#e6e2d4;border-radius:0 8px 8px 0;
+  }
+
+  /* ---------- layout ---------- */
+  .wrap{max-width:880px;margin:0 auto;padding:22px 16px 8px}
+  .section-title{font-size:1.12rem;color:var(--navy-ink);margin:0 0 4px}
+  @media (prefers-color-scheme: dark){ .section-title{color:var(--gold-soft)} }
+  .section-sub{margin:0 0 14px;font-size:.9rem;color:var(--muted)}
+
+  /* ---------- topic cards ---------- */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:10px;margin-bottom:26px}
+  .card{
+    appearance:none;text-align:left;cursor:pointer;font:inherit;color:var(--text);
+    background:var(--panel);border:1px solid var(--border);border-top:3px solid var(--gold);
+    border-radius:10px;padding:13px 14px 12px;box-shadow:var(--shadow);
+    transition:transform .12s ease,border-color .12s ease;
+  }
+  .card:hover{transform:translateY(-2px);border-top-color:var(--navy)}
+  .card .card-title{display:block;font-family:Georgia,serif;font-weight:700;font-size:.99rem;color:var(--navy);margin-bottom:3px}
+  @media (prefers-color-scheme: dark){ .card .card-title{color:var(--gold-soft)} }
+  .card .card-desc{display:block;font-size:.84rem;color:var(--muted);line-height:1.4}
+
+  /* ---------- suggestion chips ---------- */
+  .tryrow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+  .trylabel{font-size:.82rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--gold-deep)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{
+    background:var(--panel);border:1px solid var(--gold);color:var(--text);
+    border-radius:999px;padding:7px 13px;cursor:pointer;font:inherit;font-size:.88rem;
+  }
+  .chip:hover{background:var(--gold-pale)}
+
+  /* ---------- conversation ---------- */
+  .chatpanel{
+    background:var(--panel-soft);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:16px 14px;margin-bottom:14px;
+  }
+  #chat{display:flex;flex-direction:column;gap:12px}
+  .msg{max-width:88%;padding:12px 15px;border-radius:14px;line-height:1.55;font-size:.97rem;overflow-wrap:break-word}
+  .msg.user{align-self:flex-end;background:var(--navy);color:#fff;border-bottom-right-radius:4px}
+  .msg.bot{align-self:flex-start;background:var(--panel);border:1px solid var(--border);border-bottom-left-radius:4px;box-shadow:0 1px 2px rgba(16,46,80,.05)}
+  .msg.bot .lead{font-weight:600}
+  .msg.bot ul{margin:8px 0 0;padding-left:20px}
+  .msg.bot li{margin-top:3px}
+  .contact{margin-top:12px;border-top:2px solid var(--gold);padding-top:8px;font-size:.92rem}
+  .contact .ctitle{font-variant:small-caps;letter-spacing:.06em;color:var(--navy);font-weight:700}
+  @media (prefers-color-scheme: dark){ .contact .ctitle{color:var(--gold-deep)} }
+  .contact div{margin-top:3px}
+  .source{margin-top:10px;padding-top:8px;border-top:1px dashed var(--border);font-size:.82rem;color:var(--muted)}
+
+  /* ---------- sticky composer ---------- */
+  .composer{
+    position:sticky;bottom:0;z-index:15;
+    background:linear-gradient(to bottom,rgba(247,243,236,0),var(--bg) 30%);
+    padding:14px 0 12px;
+  }
+  @media (prefers-color-scheme: dark){
+    .composer{background:linear-gradient(to bottom,rgba(23,24,28,0),var(--bg) 30%)}
+  }
+  form{display:flex;gap:8px}
+  input[type=text]{
+    flex:1;min-width:0;padding:13px 15px;border:1px solid var(--border);border-radius:999px;
+    font:inherit;font-size:1rem;background:var(--panel);color:var(--text);box-shadow:var(--shadow);
+  }
+  input[type=text]::placeholder{color:var(--muted)}
+  button.send{
+    background:var(--navy);color:#fff;border:0;border-radius:999px;
+    padding:13px 24px;cursor:pointer;font:inherit;font-size:1rem;font-weight:600;flex:0 0 auto;
+  }
+  button.send:hover{background:var(--navy-dark)}
+  button.send:disabled{opacity:.55;cursor:default}
+
+  /* ---------- footer ---------- */
+  footer{
+    border-top:1px solid var(--border);margin-top:10px;
+    font-size:.84rem;color:var(--muted);text-align:center;padding:20px 16px 30px;line-height:1.6;
+  }
+  footer .f-addr{font-weight:600;color:var(--text)}
+  @media (max-width:560px){
+    .msg{max-width:94%}
+    .brand-sub{display:none}
+    .hero-in{padding:26px 16px 24px}
+    button.send{padding:13px 18px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <span class="seal" aria-hidden="true">SI</span>
+      <span class="brand-name">Staten Island Borough President<span class="brand-sub">New York City</span></span>
+    </div>
+    <div class="langtoggle" role="group" aria-label="Language / Idioma">
+      <button class="langbtn active" id="btn-en" type="button" aria-pressed="true">English</button>
+      <button class="langbtn" id="btn-es" type="button" aria-pressed="false">Español</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="hero-in">
+    <h1 id="title">Staten Island Constituent Chatbot</h1>
+    <p class="tagline" id="subtitle">Office of the Staten Island Borough President. Answers from official sources, in English and Spanish.</p>
+    <p class="note" id="disclaimer">Guidance only, not official notice. In an emergency call 911. This chat does not collect personal information.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <h2 class="section-title" id="cards-title">Browse topics</h2>
+  <p class="section-sub" id="cards-sub">Tap a topic and the question is asked for you.</p>
+  <div class="cards" id="cards"></div>
+
+  <div class="chatpanel">
+    <div id="chat" role="log" aria-live="polite" aria-label="Conversation"></div>
+  </div>
+
+  <div class="tryrow">
+    <span class="trylabel" id="try-label">Try asking:</span>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="composer">
+    <form id="askform">
+      <label class="sr-only" for="q" id="q-label">Ask about borough and city services</label>
+      <input type="text" id="q" autocomplete="off" placeholder="Ask about borough and city services...">
+      <button class="send" id="sendbtn" type="submit">Ask</button>
+    </form>
+  </div>
+</div>
+
+<footer id="foot">
+  <div class="f-addr">Borough Hall, 10 Richmond Terrace, Staten Island, NY 10301 &middot; 718-816-2000</div>
+  <div>Answers here are guidance only. Please verify critical information with the Borough President's office or NYC 311.</div>
+  <div>Verified index last checked November 22, 2026.</div>
+</footer>
+
+<script>
+  var lang = 'en';
+  var STR = {
+    en: {
+      title: 'Staten Island Constituent Chatbot',
+      subtitle: 'Office of the Staten Island Borough President. Answers from official sources, in English and Spanish.',
+      disclaimer: 'Guidance only, not official notice. In an emergency call 911. This chat does not collect personal information.',
+      placeholder: 'Ask about borough and city services...', ask: 'Ask', contact: 'Contact',
+      source: 'Source', thinking: 'Checking the official sources...',
+      cardsTitle: 'Browse topics',
+      cardsSub: 'Tap a topic and the question is asked for you.',
+      tryLabel: 'Try asking:',
+      qLabel: 'Ask about borough and city services',
+      greeting: 'Hello. I can help with the Borough President\u2019s office, Borough Hall, and how to reach the right New York City service. Ask me a question, or tap one of the topics below.',
+      cards: [
+        { title: 'HelpLine', desc: 'Constituent help from the BP\u2019s office.', q: 'How do I get help with a quality of life issue?' },
+        { title: 'Marriage Bureau', desc: 'Licenses and ceremonies, City Clerk.', q: 'How do I get a marriage license?' },
+        { title: 'Clean Team', desc: 'Report litter, dumping and debris.', q: 'How do I report litter on my street?' },
+        { title: 'Borough Hall', desc: 'Hours, address and visiting.', q: 'When is Borough Hall open?' },
+        { title: 'NYC Trash Bins', desc: 'The official bin rules and fines.', q: 'What are the new garbage bin rules?' },
+        { title: 'Potholes & Streets', desc: 'City service, reported via 311.', q: 'How do I report a pothole?' }
+      ],
+      chips: ['How do I get a marriage license?', 'Who is the Borough President?', 'When is Borough Hall open?', 'How do I report a pothole?', 'My trash was not picked up', 'What is the number for the County Clerk?']
+    },
+    es: {
+      title: 'Chat para Residentes de Staten Island',
+      subtitle: 'Oficina del Presidente del Borough de Staten Island. Respuestas de fuentes oficiales, en inglés y español.',
+      disclaimer: 'Solo orientación, no es un aviso oficial. En una emergencia llame al 911. Este chat no recopila información personal.',
+      placeholder: 'Pregunte sobre los servicios del borough y la ciudad...', ask: 'Preguntar', contact: 'Contacto',
+      source: 'Fuente', thinking: 'Consultando las fuentes oficiales...',
+      cardsTitle: 'Temas',
+      cardsSub: 'Toque un tema y la pregunta se hace por usted.',
+      tryLabel: 'Pruebe preguntar:',
+      qLabel: 'Pregunte sobre los servicios del borough y la ciudad',
+      greeting: 'Hola. Puedo ayudarle con la oficina del Presidente del Borough, Borough Hall, y cómo llegar al servicio correcto de la Ciudad de Nueva York. Hágame una pregunta o toque uno de los temas abajo.',
+      cards: [
+        { title: 'Línea de Ayuda', desc: 'Ayuda al residente de la oficina del Presidente del Borough.', q: '¿Cómo consigo ayuda con un problema de calidad de vida?' },
+        { title: 'Oficina de Matrimonios', desc: 'Licencias y ceremonias, Secretario de la Ciudad.', q: '¿Cómo obtengo una licencia de matrimonio?' },
+        { title: 'Equipo de Limpieza', desc: 'Reportar basura, vertidos y escombros.', q: '¿Cómo reporto basura en mi calle?' },
+        { title: 'Borough Hall', desc: 'Horario, dirección y visitas.', q: '¿Cuándo abre Borough Hall?' },
+        { title: 'Contenedores NYC', desc: 'Las reglas y multas del contenedor oficial.', q: '¿Cuáles son las nuevas reglas de contenedores de basura?' },
+        { title: 'Baches y Calles', desc: 'Servicio de la ciudad, por el 311.', q: '¿Cómo reporto un bache?' }
+      ],
+      chips: ['¿Cómo obtengo una licencia de matrimonio?', '¿Quién es el Presidente del Borough?', '¿Cuándo abre Borough Hall?', '¿Cómo reporto un bache?', 'No recogieron mi basura', '¿Cuál es el número del Secretario del Condado?']
+    }
+  };
+  var chat = document.getElementById('chat');
+  var chipsEl = document.getElementById('chips');
+  var cardsEl = document.getElementById('cards');
+
+  function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+  function addUser(text){
+    var div=document.createElement('div'); div.className='msg user'; div.textContent=text;
+    chat.appendChild(div); window.scrollTo(0, document.body.scrollHeight);
+  }
+  function addBot(data){
+    var div=document.createElement('div'); div.className='msg bot';
+    var html='<div class="lead">'+esc(data.lead||'')+'</div>';
+    if (data.details && data.details.length){
+      html+='<ul>'+data.details.map(function(d){return '<li>'+esc(d)+'</li>';}).join('')+'</ul>';
+    }
+    if (data.contact && data.contact.length){
+      html+='<div class="contact"><div class="ctitle">'+esc(STR[lang].contact)+'</div>'+
+        data.contact.map(function(c){
+          var v = c.href ? '<a href="'+esc(c.href)+'">'+esc(c.value)+'</a>' : esc(c.value);
+          return '<div>'+esc(c.label)+': '+v+'</div>';
+        }).join('')+'</div>';
+    }
+    if (data.source){
+      html+='<div class="source">'+esc(STR[lang].source)+': <a href="'+esc(data.source)+'" target="_blank" rel="noopener">'+esc(data.sourceLabel||data.source)+'</a></div>';
+    }
+    div.innerHTML=html; chat.appendChild(div); window.scrollTo(0, document.body.scrollHeight);
+  }
+  function renderChips(){
+    chipsEl.innerHTML='';
+    STR[lang].chips.forEach(function(c){
+      var b=document.createElement('button'); b.type='button'; b.className='chip'; b.textContent=c;
+      b.onclick=function(){ ask(c); };
+      chipsEl.appendChild(b);
+    });
+  }
+  function renderCards(){
+    cardsEl.innerHTML='';
+    STR[lang].cards.forEach(function(c){
+      var b=document.createElement('button'); b.type='button'; b.className='card';
+      b.setAttribute('aria-label', c.title+': '+c.desc);
+      var t=document.createElement('span'); t.className='card-title'; t.textContent=c.title;
+      var d=document.createElement('span'); d.className='card-desc'; d.textContent=c.desc;
+      b.appendChild(t); b.appendChild(d);
+      b.onclick=function(){ ask(c.q); };
+      cardsEl.appendChild(b);
+    });
+  }
+  function applyLang(){
+    document.getElementById('title').textContent=STR[lang].title;
+    document.getElementById('subtitle').textContent=STR[lang].subtitle;
+    document.getElementById('disclaimer').textContent=STR[lang].disclaimer;
+    document.getElementById('q').placeholder=STR[lang].placeholder;
+    document.getElementById('q-label').textContent=STR[lang].qLabel;
+    document.getElementById('sendbtn').textContent=STR[lang].ask;
+    document.getElementById('cards-title').textContent=STR[lang].cardsTitle;
+    document.getElementById('cards-sub').textContent=STR[lang].cardsSub;
+    document.getElementById('try-label').textContent=STR[lang].tryLabel;
+    document.getElementById('btn-en').classList.toggle('active', lang==='en');
+    document.getElementById('btn-es').classList.toggle('active', lang==='es');
+    document.getElementById('btn-en').setAttribute('aria-pressed', lang==='en' ? 'true' : 'false');
+    document.getElementById('btn-es').setAttribute('aria-pressed', lang==='es' ? 'true' : 'false');
+    document.documentElement.lang = lang;
+    renderChips();
+    renderCards();
+  }
+  function ask(text){
+    var q=(text||'').trim(); if(!q) return;
+    addUser(q);
+    var btn=document.getElementById('sendbtn'); btn.disabled=true;
+    var thinking=document.createElement('div'); thinking.className='msg bot'; thinking.textContent=STR[lang].thinking;
+    chat.appendChild(thinking);
+    fetch('/api/ask', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({question:q, lang:lang}) })
+      .then(function(r){ return r.json(); })
+      .then(function(data){ thinking.remove(); addBot(data); })
+      .catch(function(){ thinking.remove(); addBot({lead: lang==='es' ? 'Lo siento, algo salió mal. Llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000.' : 'Sorry, something went wrong. Please call the Borough President\u2019s HelpLine at 718-816-2000.', details:[], contact:[]}); })
+      .finally(function(){ btn.disabled=false; });
+  }
+  document.getElementById('askform').addEventListener('submit', function(e){
+    e.preventDefault();
+    var input=document.getElementById('q'); ask(input.value); input.value='';
+  });
+  document.getElementById('btn-en').onclick=function(){ lang='en'; applyLang(); };
+  document.getElementById('btn-es').onclick=function(){ lang='es'; applyLang(); };
+  applyLang();
+  addBot({lead: STR.en.greeting, details:[], contact:[]});
+</script>
+</body>
+</html>
