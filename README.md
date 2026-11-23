@@ -69,3 +69,43 @@ Deployment under Nick's accounts (GitHub `vmmi-nick`, new repo
 - Decisions pending: add visitstatenisland.com to trusted sources?
   (currently flagged NOT approved, discussion only; used as the tourism
   link in the tourism topic only)
+
+## Question logging
+
+Every `/api/ask` request is logged so unanswered questions can be reviewed
+and used to improve the verified index.
+
+What IS stored:
+
+- Timestamp and language of the question.
+- For questions the index matched: the matched topic id only (counts of
+  which topics get asked about). The matched question text is NOT stored.
+- For questions the index did NOT match (HelpLine fallback or model
+  fallback): the question text, and whether the model fallback was used.
+  This is the list that shows where the index has gaps.
+
+What is NOT stored: names, contact details, or any personal information
+(residents are never asked for any), and matched question text.
+
+Where the log lives:
+
+- Each entry is written to `logs/questions.jsonl` in the service directory.
+  Render's filesystem is ephemeral, so that file only lasts while the
+  instance lives and resets on redeploys and restarts.
+- Each entry is ALSO emitted as a structured console line prefixed
+  `CHATLOG`, which lands in the Render service logs (dashboard > service >
+  Logs) and can be searched and exported from there. Treat the Render logs
+  as the durable copy.
+
+Review endpoint:
+
+- `GET /api/admin/unanswered` returns the unmatched questions, grouped so
+  near-duplicates (same words, different case or punctuation) show as one
+  entry with a count, sorted by count.
+- It is enabled ONLY when the `ADMIN_TOKEN` environment variable is set.
+  Set it in the Render dashboard: service > Environment > Add Environment
+  Variable, key `ADMIN_TOKEN`, value a long random string of your choosing.
+  The service redeploys automatically.
+- Call it with the header `x-admin-token: <your ADMIN_TOKEN>`. Without the
+  env var set the endpoint returns 404; with a missing or wrong token it
+  returns 401.

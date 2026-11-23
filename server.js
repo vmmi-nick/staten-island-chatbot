@@ -4,7 +4,7 @@
 // when MODEL_API_KEY is set, and only with context from the approved
 // trusted sources list (data/trusted-sources.json). Otherwise they return
 // the Borough President's HelpLine fallback. No personal information is
-// collected or stored. The BP office does not hold council-style meetings,
+// collected or stored. Question logging: matched questions are logged as topic counts only; unmatched question text is logged so index gaps can be fixed (see README). The BP office does not hold council-style meetings,
 // so there is no meetings module; most day-to-day services on Staten Island
 // are NYC agency services routed through 311, and the index says so.
 
@@ -25,6 +25,49 @@ const HELP_DESK = index.helpDeskPhone;
 
 app.use(express.json({ limit: '32kb' }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+// ---------- question logging ----------
+// Privacy: matched questions are logged as topic counts only (the matched
+// question text is NOT stored). Unmatched question text IS stored, only so
+// gaps in the verified index can be identified and fixed. Names and contact
+// details are never requested or stored.
+// Render's filesystem is ephemeral, so every entry is also emitted as a
+// structured CHATLOG console line, which lands in the Render service logs
+// and survives restarts there. The local JSONL copy below lasts only while
+// the instance lives.
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN || '';
+const LOG_FILE = path.join(__dirname, 'logs', 'questions.jsonl');
+
+function logAsk(entry) {
+  const record = { ts: new Date().toISOString(), ...entry };
+  try { console.log('CHATLOG ' + JSON.stringify(record)); } catch (e) {}
+  try {
+    fs.mkdirSync(path.dirname(LOG_FILE), { recursive: true });
+    fs.appendFileSync(LOG_FILE, JSON.stringify(record) + '\n');
+  } catch (e) { /* ephemeral fs: the CHATLOG console line is the durable copy */ }
+}
+
+function readUnanswered() {
+  const groups = new Map();
+  let lines = [];
+  try {
+    lines = fs.readFileSync(LOG_FILE, 'utf8').split('\n').filter(Boolean);
+  } catch (e) { return []; }
+  for (const line of lines) {
+    let r;
+    try { r = JSON.parse(line); } catch (e) { continue; }
+    if (r.matched || !r.question) continue;
+    const norm = r.question.toLowerCase().replace(/[^a-z0-9 ]/gi, ' ').replace(/\s+/g, ' ').trim();
+    const key = r.lang + '|' + norm;
+    const g = groups.get(key) || { question: r.question, lang: r.lang, count: 0, modelUsed: false, firstSeen: r.ts, lastSeen: r.ts };
+    g.count += 1;
+    g.lastSeen = r.ts;
+    g.modelUsed = g.modelUsed || Boolean(r.modelUsed);
+    groups.set(key, g);
+  }
+  return [...groups.values()].sort((a, b) => b.count - a.count);
+}
+
 
 // ---------- helpers ----------
 
@@ -219,15 +262,17 @@ app.post('/api/ask', async (req, res) => {
   }
   const qn = ' ' + normalize(question) + ' ';
 
-  if (isEmergency(qn)) return res.json({ lang, ...emergencyAnswer(lang) });
+  if (isEmergency(qn)) { logAsk({ lang, matched: true, topicId: 'emergency', modelUsed: false }); return res.json({ lang, ...emergencyAnswer(lang) }); }
 
   if (NOT_BP_SERVICE.some((w) => qn.includes(normalize(w)))) {
+    logAsk({ lang, matched: false, question, modelUsed: false, reason: 'not-a-bp-service' });
     return res.json({ lang, ...fallbackAnswer(lang, 'not-a-bp-service') });
   }
 
   const topic = matchTopic(qn);
   if (topic) {
     const a = topic[lang] || topic.en;
+    logAsk({ lang, matched: true, topicId: topic.id, modelUsed: false });
     return res.json({
       lang, kind: 'answer',
       lead: a.lead, details: a.details, contact: a.contact,
@@ -237,10 +282,27 @@ app.post('/api/ask', async (req, res) => {
 
   if (MODEL_API_KEY) {
     const modelResult = await askModel(question, lang);
-    if (modelResult) return res.json({ lang, ...modelResult });
+    if (modelResult) {
+      if (modelResult.kind === 'fallback') {
+        logAsk({ lang, matched: false, question, modelUsed: true, reason: modelResult.reason || 'model-fallback' });
+      } else {
+        logAsk({ lang, matched: true, topicId: 'model', modelUsed: true });
+      }
+      return res.json({ lang, ...modelResult });
+    }
   }
 
+  logAsk({ lang, matched: false, question, modelUsed: Boolean(MODEL_API_KEY), reason: MODEL_API_KEY ? 'model-unavailable' : 'no-model-key' });
   return res.json({ lang, ...fallbackAnswer(lang, MODEL_API_KEY ? 'model-unavailable' : 'no-model-key') });
+});
+
+
+// Token-protected review of unmatched questions (enabled only when the
+// ADMIN_TOKEN env var is set). Header: x-admin-token: <ADMIN_TOKEN>
+app.get('/api/admin/unanswered', (req, res) => {
+  if (!ADMIN_TOKEN) return res.status(404).json({ error: 'not enabled' });
+  if (req.get('x-admin-token') !== ADMIN_TOKEN) return res.status(401).json({ error: 'unauthorized' });
+  res.json({ unanswered: readUnanswered() });
 });
 
 app.listen(PORT, () => {
