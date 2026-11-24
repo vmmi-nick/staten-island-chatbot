@@ -1,6 +1,6 @@
 {
  "helpDeskPhone": "718-816-2000",
- "lastChecked": "2026-11-22",
+ "lastChecked": "2026-11-23",
  "office": {
   "name": "Office of the Staten Island Borough President",
   "address": "10 Richmond Terrace, Staten Island, NY 10301",
@@ -695,7 +695,7 @@
     "details": [
      "The Topographical Bureau, which maintains the borough's official maps and assigns street addresses, accepted house number applications and verifications for the last time on November 2, 2026.",
      "Effective January 1, 2027, the Department of City Planning assumes responsibility for house number assignments and verifications citywide.",
-     "For a house number need before that transfer, call the HelpLine and the office will direct you.",
+     "The Bureau is no longer accepting new house number applications. If you have an urgent house number need during the transition, call the HelpLine and the office will direct you.",
      "The Topographical Bureau also keeps the borough's official maps and address records; for property line and map questions, call the HelpLine and ask for the Topographical Bureau. A boundary dispute with a neighbor usually needs a licensed surveyor and is not something the Bureau decides."
     ],
     "contact": [
@@ -715,7 +715,7 @@
     "details": [
      "La Oficina Topográfica, que mantiene los mapas oficiales del borough y asigna las direcciones, aceptó solicitudes y verificaciones de números de casa por última vez el 2 de noviembre de 2026.",
      "A partir del 1 de enero de 2027, el Departamento de Planificación Urbana asume la responsabilidad de la asignación y verificación de números de casa en toda la ciudad.",
-     "Si necesita un número de casa antes de ese traslado, llame a la Línea de Ayuda y la oficina lo orientará.",
+     "La Oficina ya no acepta nuevas solicitudes de números de casa. Si tiene una necesidad urgente de un número de casa durante la transición, llame a la Línea de Ayuda y la oficina lo orientará.",
      "La Oficina Topográfica también guarda los mapas oficiales y registros de direcciones del borough; para preguntas de líneas de propiedad y mapas, llame a la Línea de Ayuda y pida la Oficina Topográfica. Una disputa de límites con un vecino generalmente necesita un agrimensor licenciado y no es algo que la Oficina decida."
     ],
     "contact": [
@@ -1491,8 +1491,8 @@
    "en": {
     "lead": "Parking tickets are issued by the City and paid or disputed through the Department of Finance, not the Borough President's office.",
     "details": [
-     "Pay or dispute a ticket online through nyc.gov (search 311 for 'parking ticket') or call 311 for help. Paying a ticket is an admission, so dispute first if you believe it was issued in error.",
-     "Keep the ticket number and any photos or documents for a dispute; deadlines apply, and 311 can give you the current ones.",
+     "Pay or dispute a ticket at nyc.gov/finance or through the Pay or Dispute app. Act within 30 days: after 30 days, late penalties are added, and at about 100 days an unpaid ticket goes into judgment, with interest, and a vehicle with $350 or more in judgment debt can be booted or towed. Paying a ticket is an admission, so dispute first if you believe it was issued in error.",
+     "You can dispute online, by app, by mail or in person, including at the Department of Finance Business Center on Staten Island at 350 St. Mark's Place. Keep the ticket number and any photos or documents for the dispute.",
      "If a ticket was issued in clear error and the dispute process fails, the Borough President's HelpLine at 718-816-2000 can look at the pattern, but it cannot dismiss tickets."
     ],
     "contact": [
@@ -1511,8 +1511,8 @@
    "es": {
     "lead": "Las multas de estacionamiento las emite la Ciudad y se pagan o disputan a través del Departamento de Finanzas, no de la oficina del Presidente del Borough.",
     "details": [
-     "Pague o dispute una multa en línea a través de nyc.gov (busque en 311 'parking ticket') o llame al 311 para ayuda. Pagar una multa es una admisión, así que dispute primero si cree que fue emitida por error.",
-     "Guarde el número de la multa y cualquier foto o documento para una disputa; aplican plazos, y el 311 puede darle los vigentes.",
+     "Pague o dispute una multa en nyc.gov/finance o a través de la aplicación Pay or Dispute. Actúe dentro de los 30 días: después de 30 días se añaden recargos, y a los 100 días aproximadamente una multa sin pagar entra en juicio, con intereses, y un vehículo con $350 o más en deuda en juicio puede ser inmovilizado o remolcado. Pagar una multa es una admisión, así que dispute primero si cree que fue emitida por error.",
+     "Puede disputar en línea, por la aplicación, por correo o en persona, incluso en el Centro de Negocios del Departamento de Finanzas en Staten Island, en 350 St. Mark's Place. Guarde el número de la multa y cualquier foto o documento para la disputa.",
      "Si una multa fue emitida en claro error y el proceso de disputa falla, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede revisar el patrón, pero no puede anular multas."
     ],
     "contact": [
@@ -1528,8 +1528,8 @@
      }
     ]
    },
-   "source": "https://portal.311.nyc.gov/",
-   "sourceLabel": "NYC 311 portal"
+   "source": "https://www.nyc.gov/site/finance/vehicles/dispute-a-ticket.page",
+   "sourceLabel": "NYC Department of Finance, parking tickets"
   },
   {
    "id": "building-permits",
@@ -1542,20 +1542,25 @@
      "department of buildings",
      "building violation",
      "illegal construction",
-     "permit for construction"
+     "permit for construction",
+     "office hours",
+     "buildings office hours",
+     "dob office"
     ],
     "es": [
      "permiso de construccion",
      "permisos de construccion",
      "departamento de edificios",
      "violacion de construccion",
-     "construccion ilegal"
+     "construccion ilegal",
+     "oficina de edificios",
+     "horario de la oficina de edificios"
     ]
    },
    "en": {
     "lead": "Building permits and construction complaints are handled by the NYC Department of Buildings, whose Staten Island borough office is in Borough Hall.",
     "details": [
-     "The DOB Staten Island Borough Office is on the 2nd floor of Borough Hall, 10 Richmond Terrace, with walk-in hours Monday to Friday, 8:30 AM to 12:00 PM (per NYC 311).",
+     "The DOB Staten Island Borough Office is on the 2nd floor of Borough Hall, 10 Richmond Terrace. DOB's own office listing gives in-person customer service hours of Monday to Friday, 8:30 AM to 4:00 PM, with phone lines open until 4:30 PM. Some 311 pages list a shorter walk-in window ending at noon for certain services, so call the office or 311 before you go.",
      "Most permit filings are done online by a licensed professional through DOB NOW; call 311 or check portal.311.nyc.gov for the current filing steps.",
      "Report illegal construction or an unsafe building through 311. Construction that is an immediate danger is a 911 call. This is a city agency service; the Borough President's office does not issue building permits."
     ],
@@ -1570,6 +1575,11 @@
       "value": "Borough Hall, 2nd Floor, 10 Richmond Terrace, Staten Island, NY 10301"
      },
      {
+      "label": "DOB Staten Island customer service",
+      "value": "718-420-5400",
+      "href": "tel:+17184205400"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1579,7 +1589,7 @@
    "es": {
     "lead": "Los permisos de construcción y las quejas de construcción los atiende el Departamento de Edificios de NYC, cuya oficina del borough de Staten Island está en Borough Hall.",
     "details": [
-     "La Oficina del Departamento de Edificios para Staten Island está en el 2do piso de Borough Hall, 10 Richmond Terrace, con atención sin cita de lunes a viernes, de 8:30 AM a 12:00 PM (según NYC 311).",
+     "La Oficina del Departamento de Edificios para Staten Island está en el 2do piso de Borough Hall, 10 Richmond Terrace. La lista oficial de oficinas de DOB indica atención al público en persona de lunes a viernes, de 8:30 AM a 4:00 PM, con líneas telefónicas abiertas hasta las 4:30 PM. Algunas páginas del 311 indican un horario de atención sin cita más corto, hasta el mediodía, para ciertos servicios, así que llame a la oficina o al 311 antes de ir.",
      "La mayoría de los permisos los presenta en línea un profesional licenciado a través de DOB NOW; llame al 311 o consulte portal.311.nyc.gov para los pasos vigentes.",
      "Reporte construcción ilegal o un edificio inseguro a través del 311. La construcción que sea un peligro inmediato es una llamada al 911. Este es un servicio de una agencia de la ciudad; la oficina del Presidente del Borough no emite permisos de construcción."
     ],
@@ -1594,14 +1604,19 @@
       "value": "Borough Hall, 2do piso, 10 Richmond Terrace, Staten Island, NY 10301"
      },
      {
+      "label": "Atención al cliente de DOB Staten Island",
+      "value": "718-420-5400",
+      "href": "tel:+17184205400"
+     },
+     {
       "label": "Línea de Ayuda del Presidente del Borough",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
      }
     ]
    },
-   "source": "https://portal.311.nyc.gov/",
-   "sourceLabel": "NYC 311 portal"
+   "source": "https://www.nyc.gov/site/buildings/dob/office-locations.page",
+   "sourceLabel": "NYC Department of Buildings, Office Locations"
   },
   {
    "id": "street-trees",
@@ -1773,9 +1788,9 @@
     "lead": "Voter registration and elections are run by the Board of Elections, and you can register online through New York State.",
     "details": [
      "Register or update your registration at elections.ny.gov or through the NYS DMV; you must register by the state deadline before an election, and 311 can give you the current deadline and your poll site.",
-     "The NYC Board of Elections has a Staten Island borough office; call 311 for its current address and hours.",
+     "The NYC Board of Elections Staten Island borough office is at 1 Edgewater Plaza, 4th Floor, Staten Island, NY 10305, phone 718-876-0079 (or 1-866-VOTE-NYC), open Monday to Friday, 9:00 AM to 5:00 PM.",
      "This is a state and city election function, not a Borough President's office service.",
-     "The Board of Elections Staten Island borough office is at 1 Edgewater Plaza, 4th Floor, Staten Island, NY 10305, phone 718-876-0079 (or 1-866-VOTE-NYC), open Monday to Friday, 9:00 AM to 5:00 PM."
+     "You can also check your registration status and find your poll site through the Board of Elections and 311 before an election."
     ],
     "contact": [
      {
@@ -1788,6 +1803,11 @@
       "value": "elections.ny.gov"
      },
      {
+      "label": "Board of Elections, Staten Island office",
+      "value": "718-876-0079",
+      "href": "tel:+17188760079"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1798,9 +1818,9 @@
     "lead": "El registro de votantes y las elecciones los administra la Junta Electoral, y puede registrarse en línea a través del Estado de Nueva York.",
     "details": [
      "Regístrese o actualice su registro en elections.ny.gov o a través del DMV de NYS; debe registrarse antes del plazo estatal previo a una elección, y el 311 puede darle el plazo vigente y su centro de votación.",
-     "La Junta Electoral de NYC tiene una oficina del borough en Staten Island; llame al 311 para su dirección y horario vigentes.",
+     "La oficina del borough de Staten Island de la Junta Electoral de NYC está en 1 Edgewater Plaza, 4to piso, Staten Island, NY 10305, teléfono 718-876-0079 (o 1-866-VOTE-NYC), abierta de lunes a viernes, de 9:00 AM a 5:00 PM.",
      "Esta es una función electoral del estado y la ciudad, no un servicio de la oficina del Presidente del Borough.",
-     "La oficina del borough de Staten Island de la Junta Electoral está en 1 Edgewater Plaza, 4to piso, Staten Island, NY 10305, teléfono 718-876-0079 (o 1-866-VOTE-NYC), abierta de lunes a viernes, de 9:00 AM a 5:00 PM."
+     "También puede verificar su estado de registro y encontrar su centro de votación a través de la Junta Electoral y el 311 antes de una elección."
     ],
     "contact": [
      {
@@ -1811,6 +1831,11 @@
      {
       "label": "Junta Electoral de NYS",
       "value": "elections.ny.gov"
+     },
+     {
+      "label": "Junta Electoral, oficina de Staten Island",
+      "value": "718-876-0079",
+      "href": "tel:+17188760079"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1914,6 +1939,7 @@
      "There are no walk-ins. Both partners must appear together, in person or by virtual appointment, and you book through Project Cupid at nyc.gov/cupid or by phone.",
      "The license fee is $35, payable by credit or debit card or a money order payable to the City Clerk (no cash). Bring government photo ID for both partners (passport, driver's license, IDNYC, military ID, and similar IDs are accepted) and, if either of you was married before, the final divorce decree or death certificate.",
      "The ceremony must wait at least 24 hours after the license is issued, and the license is valid for 60 days (180 days for active military). A ceremony at the City Clerk's office costs $25 and needs one witness age 18 or older. Your Certificate of Marriage Registration arrives by mail in about 20 days.",
+     "If a license is lost or wrong, a duplicate or corrected license costs $25 from the borough office that issued it. The ceremony is a separate appointment, always in person, also booked through Project Cupid.",
      "Help is available in Spanish: 311 and the City Clerk's appointment system can assist you in Spanish."
     ],
     "contact": [
@@ -1940,6 +1966,7 @@
      "No se atiende sin cita. Ambos miembros de la pareja deben presentarse juntos, en persona o en una cita virtual, y la cita se reserva por Project Cupid en nyc.gov/cupid o por teléfono.",
      "La licencia cuesta $35, pagaderos con tarjeta de crédito o débito o con un giro postal a nombre del City Clerk (no se acepta efectivo). Traiga identificación oficial con foto de ambos (pasaporte, licencia de conducir, IDNYC, identificación militar y documentos similares) y, si alguno estuvo casado antes, la sentencia final de divorcio o el certificado de defunción.",
      "La ceremonia debe esperar al menos 24 horas después de emitida la licencia, y la licencia es válida por 60 días (180 días para militares en servicio activo). Una ceremonia en la oficina del Secretario cuesta $25 y necesita un testigo mayor de 18 años. Su Certificado de Registro de Matrimonio llega por correo en unos 20 días.",
+     "Si una licencia se pierde o tiene un error, una licencia duplicada o corregida cuesta $25 en la oficina del borough que la emitió. La ceremonia es una cita separada, siempre en persona, que también se reserva por Project Cupid.",
      "Hay ayuda en español: el 311 y el sistema de citas del Secretario de la Ciudad pueden atenderle en español."
     ],
     "contact": [
@@ -1987,7 +2014,7 @@
      "The City Clerk holds marriage records for licenses issued in NYC from 1950 to the present. A short certificate for domestic use costs $15 for the first copy and $10 for each additional copy. An extended certificate for foreign use costs $35 for the first copy and $30 for each additional copy.",
      "In person: book an appointment at nyc.gov/cupid. Records from 1996 to the present are at any borough office, including Staten Island's at Borough Hall, Room 311; records from 1950 to 1995 are only at the Manhattan office, 141 Worth Street.",
      "By mail: send the marriage record request form, a copy of your ID and a money order or certified check payable to the City Clerk of New York to City Clerk of New York, 141 Worth Street, New York, NY 10013, Attn: Record Room. Mail takes about 4 to 6 weeks.",
-     "Records less than 50 years old are restricted to the spouses and a few other entitled requesters; older records are public. Corrections to a marriage record are made by mail only, for a $10 fee. Marriages from before 1950 are at the NYC Municipal Archives."
+     "Records less than 50 years old are restricted to the spouses and a few other entitled requesters; older records are public. Amendments to a marriage record are handled by mail for a $10 fee; you can start the amendment application online, then mail the confirmation, payment and documents. Marriages from before 1950 are at the NYC Municipal Archives."
     ],
     "contact": [
      {
@@ -2012,7 +2039,7 @@
      "El Secretario de la Ciudad guarda los registros de matrimonio de licencias emitidas en NYC desde 1950 hasta el presente. Un certificado corto para uso doméstico cuesta $15 la primera copia y $10 cada copia adicional. Un certificado extendido para uso en el extranjero cuesta $35 la primera copia y $30 cada copia adicional.",
      "En persona: reserve una cita en nyc.gov/cupid. Los registros de 1996 al presente están en cualquier oficina del borough, incluida la de Staten Island en Borough Hall, Sala 311; los registros de 1950 a 1995 están solo en la oficina de Manhattan, 141 Worth Street.",
      "Por correo: envíe el formulario de solicitud de registro de matrimonio, una copia de su identificación y un giro postal o cheque certificado a nombre de City Clerk of New York a City Clerk of New York, 141 Worth Street, New York, NY 10013, Attn: Record Room. El correo tarda de 4 a 6 semanas.",
-     "Los registros de menos de 50 años están restringidos a los cónyuges y a algunas otras personas autorizadas; los registros más antiguos son públicos. Las correcciones a un registro de matrimonio se hacen solo por correo, por $10. Los matrimonios anteriores a 1950 están en los Archivos Municipales de NYC."
+     "Los registros de menos de 50 años están restringidos a los cónyuges y a algunas otras personas autorizadas; los registros más antiguos son públicos. Las enmiendas a un registro de matrimonio se tramitan por correo por $10; puede iniciar la solicitud de enmienda en línea y luego enviar por correo la confirmación, el pago y los documentos. Los matrimonios anteriores a 1950 están en los Archivos Municipales de NYC."
     ],
     "contact": [
      {
@@ -2192,7 +2219,10 @@
      "agency phone number",
      "police precinct",
      "precinct",
-     "nypd precinct"
+     "nypd precinct",
+     "county clerk phone",
+     "county clerk number",
+     "phone number for the county clerk"
     ],
     "es": [
      "directorio",
@@ -2284,7 +2314,7 @@
     "lead": "Under the City's containerization rules, homes and buildings with 1 to 9 units must set out trash in the official NYC Bin, and fines are now in effect.",
     "details": [
      "Since June 1, 2026, all properties with 1 to 9 residential units (and special-use buildings on DSNY collection) must use the official NYC Bin for trash. Since September 8, 2026, DSNY issues fines: $50 for the first offense, $100 for the second, $200 after that. The property owner or manager is responsible for the bins and the fines.",
-     "Buy bins at any Home Depot in the five boroughs or online; the most common 45-gallon size is the cheapest bin of its quality, priced under $65. One- and two-family homeowners with a STAR or E-STAR credit received an automatic $59.30 rebate check from the Department of Finance.",
+     "Buy bins at any Home Depot in the five boroughs, online, or by phone at 855-692-2467; the most common 45-gallon size is priced under $65, and DSNY describes the official bin as by far the most affordable bin of comparable quality. One- and two-family homeowners with a STAR or E-STAR credit were eligible for a $59.30 reimbursement from the Department of Finance; that reimbursement window closed on September 8, 2026.",
      "The official bin is required for trash only. Recycling goes in any labeled bin with a lid or a clear bag, and compost in any labeled bin with a secure lid.",
      "Delivery problems with an online bin order start with the seller; if a bin never arrives or a delivery issue stalls, call 311. If using a bin is a genuine hardship, DSNY takes accessibility requests and, in rare cases, Public Safety Hazard Evaluations through 311.",
      "Missed or chronically missed collection is a separate problem: report it to 311 each time it happens, and if it keeps happening, call the Borough President's HelpLine at 718-816-2000 to escalate."
@@ -2294,6 +2324,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "Order an NYC Bin by phone",
+      "value": "855-692-2467",
+      "href": "tel:+18556922467"
      },
      {
       "label": "Borough President's HelpLine",
@@ -2306,7 +2341,7 @@
     "lead": "Según las reglas de contenedores de la Ciudad, las viviendas y edificios de 1 a 9 unidades deben sacar la basura en el contenedor oficial NYC Bin, y las multas ya están en vigor.",
     "details": [
      "Desde el 1 de junio de 2026, todas las propiedades de 1 a 9 unidades residenciales (y los edificios de uso especial con recogida de DSNY) deben usar el contenedor oficial NYC Bin para la basura. Desde el 8 de septiembre de 2026, DSNY emite multas: $50 la primera infracción, $100 la segunda, $200 después. El propietario o administrador es responsable de los contenedores y las multas.",
-     "Compre los contenedores en cualquier Home Depot de los cinco boroughs o en línea; el tamaño más común de 45 galones es el contenedor más económico de su calidad, por menos de $65. Los propietarios de viviendas de una y dos familias con crédito STAR o E-STAR recibieron un reembolso automático de $59.30 del Departamento de Finanzas.",
+     "Compre los contenedores en cualquier Home Depot de los cinco boroughs, en línea, o por teléfono al 855-692-2467; el tamaño más común de 45 galones cuesta menos de $65, y DSNY describe el contenedor oficial como, por mucho, el más económico de calidad comparable. Los propietarios de viviendas de una y dos familias con crédito STAR o E-STAR eran elegibles para un reembolso de $59.30 del Departamento de Finanzas; ese plazo de reembolso cerró el 8 de septiembre de 2026.",
      "El contenedor oficial se exige solo para la basura. El reciclaje va en cualquier contenedor rotulado con tapa o en una bolsa transparente, y el compost en cualquier contenedor rotulado con tapa segura.",
      "Los problemas de entrega de un pedido en línea comienzan con el vendedor; si un contenedor nunca llega, llame al 311. Si usar un contenedor es una dificultad real, DSNY acepta solicitudes de accesibilidad y, en casos raros, evaluaciones de riesgo de seguridad pública a través del 311.",
      "Una recogida no realizada o repetidamente omitida es un problema distinto: repórtelo al 311 cada vez que ocurra, y si sigue ocurriendo, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 para escalarlo."
@@ -2316,6 +2351,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "Pedir un NYC Bin por teléfono",
+      "value": "855-692-2467",
+      "href": "tel:+18556922467"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
