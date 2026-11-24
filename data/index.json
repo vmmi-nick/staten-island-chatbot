@@ -1,6 +1,6 @@
 {
  "helpDeskPhone": "718-816-2000",
- "lastChecked": "2026-11-23",
+ "lastChecked": "2026-11-24",
  "office": {
   "name": "Office of the Staten Island Borough President",
   "address": "10 Richmond Terrace, Staten Island, NY 10301",
@@ -508,7 +508,8 @@
      },
      {
       "label": "NYC Open Records Portal",
-      "value": "a860-openrecords.nyc.gov"
+      "value": "a860-openrecords.nyc.gov",
+      "href": "https://a860-openrecords.nyc.gov/"
      }
     ]
    },
@@ -526,7 +527,8 @@
      },
      {
       "label": "Portal de Registros Abiertos de NYC",
-      "value": "a860-openrecords.nyc.gov"
+      "value": "a860-openrecords.nyc.gov",
+      "href": "https://a860-openrecords.nyc.gov/"
      }
     ]
    },
@@ -835,7 +837,8 @@
     "contact": [
      {
       "label": "Tourism",
-      "value": "visitstatenisland.com"
+      "value": "visitstatenisland.com",
+      "href": "https://visitstatenisland.com/"
      },
      {
       "label": "Borough President's HelpLine",
@@ -853,7 +856,8 @@
     "contact": [
      {
       "label": "Turismo",
-      "value": "visitstatenisland.com"
+      "value": "visitstatenisland.com",
+      "href": "https://visitstatenisland.com/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -896,7 +900,8 @@
      },
      {
       "label": "Sign up",
-      "value": "statenislandusa.com/contact.html"
+      "value": "statenislandusa.com/contact.html",
+      "href": "https://www.statenislandusa.com/contact.html"
      }
     ]
    },
@@ -914,7 +919,8 @@
      },
      {
       "label": "Suscribirse",
-      "value": "statenislandusa.com/contact.html"
+      "value": "statenislandusa.com/contact.html",
+      "href": "https://www.statenislandusa.com/contact.html"
      }
     ]
    },
@@ -957,7 +963,8 @@
      },
      {
       "label": "MadeOnSI",
-      "value": "statenislandusa.com/madeonsi.html"
+      "value": "statenislandusa.com/madeonsi.html",
+      "href": "https://www.statenislandusa.com/madeonsi.html"
      }
     ]
    },
@@ -976,7 +983,8 @@
      },
      {
       "label": "MadeOnSI",
-      "value": "statenislandusa.com/madeonsi.html"
+      "value": "statenislandusa.com/madeonsi.html",
+      "href": "https://www.statenislandusa.com/madeonsi.html"
      }
     ]
    },
@@ -1017,7 +1025,8 @@
      },
      {
       "label": "311 online",
-      "value": "portal.311.nyc.gov"
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Borough President's HelpLine",
@@ -1041,7 +1050,8 @@
      },
      {
       "label": "311 en línea",
-      "value": "portal.311.nyc.gov"
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1096,6 +1106,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1115,6 +1130,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1172,6 +1192,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1192,6 +1217,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1242,6 +1272,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1261,6 +1296,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1307,6 +1347,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1325,6 +1370,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1370,6 +1420,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1388,6 +1443,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1438,6 +1498,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1456,6 +1521,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1491,11 +1561,16 @@
    "en": {
     "lead": "Parking tickets are issued by the City and paid or disputed through the Department of Finance, not the Borough President's office.",
     "details": [
-     "Pay or dispute a ticket at nyc.gov/finance or through the Pay or Dispute app. Act within 30 days: after 30 days, late penalties are added, and at about 100 days an unpaid ticket goes into judgment, with interest, and a vehicle with $350 or more in judgment debt can be booted or towed. Paying a ticket is an admission, so dispute first if you believe it was issued in error.",
-     "You can dispute online, by app, by mail or in person, including at the Department of Finance Business Center on Staten Island at 350 St. Mark's Place. Keep the ticket number and any photos or documents for the dispute.",
+     "Pay or dispute a ticket online on the Department of Finance website at nyc.gov/finance, which handles both paying and disputing end to end with no app download. Act within 30 days: after 30 days, late penalties are added, and at about 100 days an unpaid ticket goes into judgment, with interest, and a vehicle with $350 or more in judgment debt can be booted or towed. Paying a ticket is an admission, so dispute first if you believe it was issued in error.",
+     "You can dispute online on the Finance website, by mail or in person, including at the Department of Finance Business Center on Staten Island at 350 St. Mark's Place. Keep the ticket number and any photos or documents for the dispute. The NYC Pay or Dispute mobile app can also pay or dispute a ticket if you already use it, but the website does the same job without a download.",
      "If a ticket was issued in clear error and the dispute process fails, the Borough President's HelpLine at 718-816-2000 can look at the pattern, but it cannot dismiss tickets."
     ],
     "contact": [
+     {
+      "label": "Pay or dispute a ticket online (Dept. of Finance)",
+      "value": "nyc.gov/finance",
+      "href": "https://www.nyc.gov/site/finance/vehicles/dispute-a-ticket.page"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -1511,11 +1586,16 @@
    "es": {
     "lead": "Las multas de estacionamiento las emite la Ciudad y se pagan o disputan a través del Departamento de Finanzas, no de la oficina del Presidente del Borough.",
     "details": [
-     "Pague o dispute una multa en nyc.gov/finance o a través de la aplicación Pay or Dispute. Actúe dentro de los 30 días: después de 30 días se añaden recargos, y a los 100 días aproximadamente una multa sin pagar entra en juicio, con intereses, y un vehículo con $350 o más en deuda en juicio puede ser inmovilizado o remolcado. Pagar una multa es una admisión, así que dispute primero si cree que fue emitida por error.",
-     "Puede disputar en línea, por la aplicación, por correo o en persona, incluso en el Centro de Negocios del Departamento de Finanzas en Staten Island, en 350 St. Mark's Place. Guarde el número de la multa y cualquier foto o documento para la disputa.",
+     "Pague o dispute una multa en línea en el sitio web del Departamento de Finanzas, nyc.gov/finance, que completa tanto el pago como la disputa de principio a fin sin descargar ninguna aplicación. Actúe dentro de los 30 días: después de 30 días se añaden recargos, y a los 100 días aproximadamente una multa sin pagar entra en juicio, con intereses, y un vehículo con $350 o más en deuda en juicio puede ser inmovilizado o remolcado. Pagar una multa es una admisión, así que dispute primero si cree que fue emitida por error.",
+     "Puede disputar en línea en el sitio web de Finanzas, por correo o en persona, incluso en el Centro de Negocios del Departamento de Finanzas en Staten Island, en 350 St. Mark's Place. Guarde el número de la multa y cualquier foto o documento para la disputa. La aplicación móvil NYC Pay or Dispute también puede pagar o disputar una multa si ya la usa, pero el sitio web hace lo mismo sin descargar nada.",
      "Si una multa fue emitida en claro error y el proceso de disputa falla, la Línea de Ayuda del Presidente del Borough al 718-816-2000 puede revisar el patrón, pero no puede anular multas."
     ],
     "contact": [
+     {
+      "label": "Pagar o disputar una multa en línea (Depto. de Finanzas)",
+      "value": "nyc.gov/finance",
+      "href": "https://www.nyc.gov/site/finance/vehicles/dispute-a-ticket.page"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -1571,6 +1651,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "DOB Staten Island Borough Office",
       "value": "Borough Hall, 2nd Floor, 10 Richmond Terrace, Staten Island, NY 10301"
      },
@@ -1598,6 +1683,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Oficina de Edificios de Staten Island",
@@ -1666,6 +1756,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -1686,6 +1781,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -1800,7 +1900,8 @@
      },
      {
       "label": "NYS Board of Elections",
-      "value": "elections.ny.gov"
+      "value": "elections.ny.gov",
+      "href": "https://www.elections.ny.gov/"
      },
      {
       "label": "Board of Elections, Staten Island office",
@@ -1830,7 +1931,8 @@
      },
      {
       "label": "Junta Electoral de NYS",
-      "value": "elections.ny.gov"
+      "value": "elections.ny.gov",
+      "href": "https://www.elections.ny.gov/"
      },
      {
       "label": "Junta Electoral, oficina de Staten Island",
@@ -1868,11 +1970,16 @@
    "en": {
     "lead": "The Staten Island Ferry is a free NYC Department of Transportation service between St. George and Whitehall Terminal in Manhattan.",
     "details": [
-     "Ferries run around the clock, more often at rush hour and less often overnight; check the current schedule on nyc.gov or through 311 before you travel.",
+     "Ferries run around the clock, more often at rush hour and less often overnight; check the current schedule on NYC DOT's Staten Island Ferry schedule page, linked below, or through 311 before you travel.",
      "The St. George Terminal is directly across from Borough Hall at Richmond Terrace.",
      "The ferry is a city service, not a Borough President's office service; service alerts are posted by DOT and on 311."
     ],
     "contact": [
+     {
+      "label": "Ferry schedule (NYC DOT)",
+      "value": "Staten Island Ferry schedule, nyc.gov",
+      "href": "https://home4.nyc.gov/html/dot/html/ferrybus/siferryschedule.shtml"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -1888,11 +1995,16 @@
    "es": {
     "lead": "El Ferry de Staten Island es un servicio gratuito del Departamento de Transporte de NYC entre St. George y la Terminal Whitehall en Manhattan.",
     "details": [
-     "Los ferris funcionan las 24 horas, con más frecuencia en horas pico y menos durante la noche; consulte el horario vigente en nyc.gov o a través del 311 antes de viajar.",
+     "Los ferris funcionan las 24 horas, con más frecuencia en horas pico y menos durante la noche; consulte el horario vigente en la página de horarios del Ferry de Staten Island de NYC DOT, enlazada abajo, o a través del 311 antes de viajar.",
      "La Terminal de St. George está directamente frente a Borough Hall en Richmond Terrace.",
      "El ferry es un servicio de la ciudad, no de la oficina del Presidente del Borough; las alertas de servicio las publica DOT y el 311."
     ],
     "contact": [
+     {
+      "label": "Horario del ferry (NYC DOT)",
+      "value": "Staten Island Ferry schedule, nyc.gov",
+      "href": "https://home4.nyc.gov/html/dot/html/ferrybus/siferryschedule.shtml"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -1950,7 +2062,8 @@
      },
      {
       "label": "Appointments, Project Cupid",
-      "value": "nyc.gov/cupid"
+      "value": "nyc.gov/cupid",
+      "href": "https://www.nyc.gov/cupid"
      },
      {
       "label": "Borough President's HelpLine",
@@ -1977,7 +2090,8 @@
      },
      {
       "label": "Citas, Project Cupid",
-      "value": "nyc.gov/cupid"
+      "value": "nyc.gov/cupid",
+      "href": "https://www.nyc.gov/cupid"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -2024,7 +2138,8 @@
      },
      {
       "label": "Appointments, Project Cupid",
-      "value": "nyc.gov/cupid"
+      "value": "nyc.gov/cupid",
+      "href": "https://www.nyc.gov/cupid"
      },
      {
       "label": "NYC 311",
@@ -2049,7 +2164,8 @@
      },
      {
       "label": "Citas, Project Cupid",
-      "value": "nyc.gov/cupid"
+      "value": "nyc.gov/cupid",
+      "href": "https://www.nyc.gov/cupid"
      },
      {
       "label": "NYC 311",
@@ -2085,19 +2201,20 @@
     "lead": "Birth and death certificates for New York City are issued by the NYC Health Department, not the Borough President's office.",
     "details": [
      "NYC Health holds birth records from 1910 and death records from 1949 onward for all five boroughs. Each certificate costs $15, plus a processing fee: $9.30 online, $7.50 by mail, $2.75 in person.",
-     "The fastest route is online through VitalChek, the only vendor authorized by the Health Department; online orders are only available if your name is on the record. Processing is about two to three weeks, plus mail time.",
+     "The fastest route is online: start on the NYC Health birth and death records page linked below, which sends you to VitalChek, the only vendor authorized by the Health Department; online orders are only available if your name is on the record. Processing is about two to three weeks, plus mail time.",
      "Older records are at the NYC Municipal Archives, 31 Chambers Street, New York, NY 10007: births before 1910, deaths before 1949, and marriages before 1950, at $15 per certified copy.",
      "If you were born outside New York City, your record is with the state or town where you were born, not NYC Health."
     ],
     "contact": [
      {
+      "label": "Order certificates (NYC Health)",
+      "value": "nyc.gov — Birth and Death Records",
+      "href": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page"
+     },
+     {
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
-     },
-     {
-      "label": "Order online (authorized vendor)",
-      "value": "VitalChek, via nyc.gov health birth and death records"
      },
      {
       "label": "Borough President's HelpLine",
@@ -2110,19 +2227,20 @@
     "lead": "Los certificados de nacimiento y defunción de la Ciudad de Nueva York los emite el Departamento de Salud de NYC, no la oficina del Presidente del Borough.",
     "details": [
      "Salud de NYC guarda registros de nacimiento desde 1910 y de defunción desde 1949 para los cinco boroughs. Cada certificado cuesta $15, más un cargo de procesamiento: $9.30 en línea, $7.50 por correo, $2.75 en persona.",
-     "La vía más rápida es en línea a través de VitalChek, el único vendedor autorizado por el Departamento de Salud; los pedidos en línea solo están disponibles si su nombre aparece en el registro. El procesamiento tarda de dos a tres semanas, más el tiempo de correo.",
+     "La vía más rápida es en línea: comience en la página de registros de nacimiento y defunción de Salud de NYC enlazada abajo, que lo lleva a VitalChek, el único vendedor autorizado por el Departamento de Salud; los pedidos en línea solo están disponibles si su nombre aparece en el registro. El procesamiento tarda de dos a tres semanas, más el tiempo de correo.",
      "Los registros más antiguos están en los Archivos Municipales de NYC, 31 Chambers Street, New York, NY 10007: nacimientos antes de 1910, defunciones antes de 1949 y matrimonios antes de 1950, a $15 por copia certificada.",
      "Si nació fuera de la Ciudad de Nueva York, su registro está con el estado o la ciudad donde nació, no con Salud de NYC."
     ],
     "contact": [
      {
+      "label": "Pedir certificados (Salud de NYC)",
+      "value": "nyc.gov — Registros de nacimiento y defunción",
+      "href": "https://www.nyc.gov/site/doh/services/birth-death-records-fees.page"
+     },
+     {
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
-     },
-     {
-      "label": "Pedir en línea (vendedor autorizado)",
-      "value": "VitalChek, vía nyc.gov, registros de nacimiento y defunción"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -2150,8 +2268,7 @@
      "sentencia de divorcio",
      "papeles de divorcio",
      "certificado de divorcio",
-     "registros de divorcio",
-     "secretario del condado"
+     "registros de divorcio"
     ]
    },
    "en": {
@@ -2231,7 +2348,10 @@
      "darme el numero",
      "numero de telefono de la agencia",
      "comisaria",
-     "distrito policial"
+     "distrito policial",
+     "secretario del condado",
+     "numero de telefono del secretario del condado",
+     "telefono del secretario del condado"
     ]
    },
    "en": {
@@ -2326,6 +2446,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Order an NYC Bin by phone",
       "value": "855-692-2467",
       "href": "tel:+18556922467"
@@ -2351,6 +2476,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Pedir un NYC Bin por teléfono",
@@ -2403,7 +2533,7 @@
    "en": {
     "lead": "The Borough President's Clean Team is a Borough Hall crew that cleans littered locations around Staten Island, part of the office's Don't Trash On Me initiative.",
     "details": [
-     "To report an area that needs cleaning, call the Borough President's HelpLine at 718-816-2000 and ask for the office's litter liaisons, or report it through the BP Assist app. The Clean Team works with Sanitation to haul away what it collects.",
+     "To report an area that needs cleaning, call the Borough President's HelpLine at 718-816-2000 and ask for the office's litter liaisons. Calling is the direct route and needs no app download or account. The BP Assist app is another way to send a report if you already have it. The Clean Team works with Sanitation to haul away what it collects.",
      "A good report includes the exact address or intersection, the nearest cross street, what the problem is and how long it has been there, and a photo if you have one. That is exactly how the Borough President's office logs its cases, and it gets the problem routed faster.",
      "Residents and groups can also join a scheduled cleanup or organize their own; the office can help with supplies and coordination.",
      "Illegal dumping in progress is a police matter (911); dumping that already happened is reported to 311 for Sanitation enforcement.",
@@ -2425,7 +2555,7 @@
    "es": {
     "lead": "El Equipo de Limpieza (Clean Team) del Presidente del Borough es un equipo de Borough Hall que limpia lugares con basura en Staten Island, como parte de la iniciativa Don't Trash On Me de la oficina.",
     "details": [
-     "Para reportar un área que necesita limpieza, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y pida los enlaces de basura de la oficina, o repórtelo a través de la aplicación BP Assist. El Equipo de Limpieza trabaja con Saneamiento para retirar lo que recoge.",
+     "Para reportar un área que necesita limpieza, llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000 y pida los enlaces de basura de la oficina. Llamar es la vía directa y no necesita descargar ninguna aplicación ni crear una cuenta. La aplicación BP Assist es otra forma de enviar un reporte si ya la tiene. El Equipo de Limpieza trabaja con Saneamiento para retirar lo que recoge.",
      "Un buen reporte incluye la dirección o intersección exacta, la calle transversal más cercana, cuál es el problema y desde cuándo está, y una foto si tiene una. Así es exactamente como la oficina del Presidente del Borough registra sus casos, y hace que el problema se atienda más rápido.",
      "Los residentes y grupos también pueden unirse a una limpieza programada u organizar la suya; la oficina puede ayudar con suministros y coordinación.",
      "El vertido ilegal en curso es un asunto policial (911); el vertido ya ocurrido se reporta al 311 para la acción de Saneamiento.",
@@ -2501,6 +2631,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "DOT Staten Island Borough Commissioner",
       "value": "212-839-2400",
       "href": "tel:+12128392400"
@@ -2527,6 +2662,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Comisionada del Borough de Staten Island de DOT",
@@ -2580,7 +2720,8 @@
     "contact": [
      {
       "label": "NY DMV",
-      "value": "dmv.ny.gov"
+      "value": "dmv.ny.gov",
+      "href": "https://dmv.ny.gov/"
      },
      {
       "label": "DMV call center",
@@ -2603,7 +2744,8 @@
     "contact": [
      {
       "label": "DMV de NY",
-      "value": "dmv.ny.gov"
+      "value": "dmv.ny.gov",
+      "href": "https://dmv.ny.gov/"
      },
      {
       "label": "Centro de llamadas del DMV",
@@ -2668,12 +2810,17 @@
     "lead": "Housing and benefits help runs through the City's social service agencies, mainly HRA and DHS, and the Borough President's HelpLine can help you reach the right one and escalate a stuck case.",
     "details": [
      "If you need shelter tonight, call 311. Families with children enter through DHS's PATH intake in the Bronx and single adults through the men's and women's intake centers; 311 will direct you. This office cannot place anyone directly, but the HelpLine can check on a case with the agencies.",
-     "SNAP (food stamps), Cash Assistance, Medicaid enrollment and CityFHEPS rental help are HRA programs: apply or manage your case on ACCESS HRA, or call the HRA Infoline at 718-557-1399. Emergency one-time help with rent or a utility shutoff is HRA's One-Shot Deal, through the same Infoline.",
+     "SNAP (food stamps), Cash Assistance, Medicaid enrollment and CityFHEPS rental help are HRA programs: apply or manage your case on the ACCESS HRA website at nyc.gov/accesshra, or call the HRA Infoline at 718-557-1399. Emergency one-time help with rent or a utility shutoff is HRA's One-Shot Deal, through the same Infoline. The ACCESS HRA mobile app is also available, mainly for uploading documents, but the website handles the whole application with no download.",
      "HEAP helps with heating bills and heating emergencies: call the HRA HEAP unit at 212-331-3126. The season and benefit amounts change each year, so confirm current dates when you call.",
      "NYCHA public housing and Section 8 questions go to NYCHA's Customer Contact Center at 718-707-7771. Landlord and tenant problems, including heat and hot water, no heat, and repairs, are reported to 311 for HPD; the HelpLine can escalate a chronic building.",
      "No one here can promise an outcome on a benefits or housing case. What the office can do is make sure the right agency has your case and is acting on it."
     ],
     "contact": [
+     {
+      "label": "ACCESS HRA, apply and manage benefits online",
+      "value": "nyc.gov/accesshra",
+      "href": "https://www.nyc.gov/accesshra"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -2700,12 +2847,17 @@
     "lead": "La ayuda de vivienda y beneficios corre por las agencias de servicios sociales de la Ciudad, principalmente HRA y DHS, y la Línea de Ayuda del Presidente del Borough puede ayudarle a llegar a la correcta y escalar un caso detenido.",
     "details": [
      "Si necesita refugio esta noche, llame al 311. Las familias con niños entran por la admisión PATH de DHS en el Bronx y los adultos solos por los centros de admisión de hombres y mujeres; el 311 le dirigirá. Esta oficina no puede ubicar a nadie directamente, pero la Línea de Ayuda puede consultar un caso con las agencias.",
-     "SNAP (cupones de alimentos), Asistencia en Efectivo, inscripción a Medicaid y la ayuda de alquiler CityFHEPS son programas de HRA: solicite o maneje su caso en ACCESS HRA, o llame a la Línea de Información de HRA al 718-557-1399. La ayuda de emergencia única con la renta o un corte de servicios es el One-Shot Deal de HRA, por la misma línea.",
+     "SNAP (cupones de alimentos), Asistencia en Efectivo, inscripción a Medicaid y la ayuda de alquiler CityFHEPS son programas de HRA: solicite o maneje su caso en el sitio web ACCESS HRA en nyc.gov/accesshra, o llame a la Línea de Información de HRA al 718-557-1399. La ayuda de emergencia única con la renta o un corte de servicios es el One-Shot Deal de HRA, por la misma línea. La aplicación móvil ACCESS HRA también está disponible, principalmente para subir documentos, pero el sitio web hace toda la solicitud sin descargar nada.",
      "HEAP ayuda con las facturas de calefacción y emergencias de calefacción: llame a la unidad HEAP de HRA al 212-331-3126. La temporada y los montos cambian cada año, así que confirme las fechas actuales al llamar.",
      "Las preguntas sobre vivienda pública de NYCHA y Sección 8 van al Centro de Contacto al Cliente de NYCHA al 718-707-7771. Los problemas entre propietario e inquilino, incluidos calefacción y agua caliente y reparaciones, se reportan al 311 para HPD; la Línea de Ayuda puede escalar un edificio crónico.",
      "Nadie aquí puede prometer un resultado en un caso de beneficios o vivienda. Lo que la oficina sí puede hacer es asegurarse de que la agencia correcta tenga su caso y esté actuando."
     ],
     "contact": [
+     {
+      "label": "ACCESS HRA, solicitar y manejar beneficios en línea",
+      "value": "nyc.gov/accesshra",
+      "href": "https://www.nyc.gov/accesshra"
+     },
      {
       "label": "NYC 311",
       "value": "311",
@@ -2955,7 +3107,8 @@
      },
      {
       "label": "Events and news",
-      "value": "statenislandusa.com"
+      "value": "statenislandusa.com",
+      "href": "https://www.statenislandusa.com/"
      },
      {
       "label": "Borough President's HelpLine",
@@ -2980,7 +3133,8 @@
      },
      {
       "label": "Eventos y noticias",
-      "value": "statenislandusa.com"
+      "value": "statenislandusa.com",
+      "href": "https://www.statenislandusa.com/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -3116,7 +3270,8 @@
     "contact": [
      {
       "label": "NYC Jobs portal",
-      "value": "nyc.gov/jobs"
+      "value": "nyc.gov/jobs",
+      "href": "https://www.nyc.gov/jobs"
      },
      {
       "label": "Borough President's HelpLine",
@@ -3135,7 +3290,8 @@
     "contact": [
      {
       "label": "Portal de empleos de NYC",
-      "value": "nyc.gov/jobs"
+      "value": "nyc.gov/jobs",
+      "href": "https://www.nyc.gov/jobs"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
@@ -3184,6 +3340,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "DOT Staten Island Borough Commissioner",
       "value": "212-839-2400",
       "href": "tel:+12128392400"
@@ -3208,6 +3369,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Comisionada del Borough de Staten Island de DOT",
@@ -3268,6 +3434,11 @@
       "href": "tel:311"
      },
      {
+      "label": "311 online",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
+     },
+     {
       "label": "Borough President's HelpLine",
       "value": "718-816-2000",
       "href": "tel:+17188162000"
@@ -3287,6 +3458,11 @@
       "label": "NYC 311",
       "value": "311",
       "href": "tel:311"
+     },
+     {
+      "label": "311 en línea",
+      "value": "portal.311.nyc.gov",
+      "href": "https://portal.311.nyc.gov/"
      },
      {
       "label": "Línea de Ayuda del Presidente del Borough",
