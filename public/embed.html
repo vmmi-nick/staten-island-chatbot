@@ -86,21 +86,6 @@
   .contact div{margin-top:3px}
   .source{margin-top:10px;padding-top:8px;border-top:1px dashed var(--border);font-size:.82rem;color:var(--muted)}
 
-  /* ---------- suggestion chips ---------- */
-  /* One horizontally scrolling row: wrapping these long chips previously
-     stacked them into a ~324px block that crowded the composer out of
-     short frames. */
-  .tryrow{flex:0 0 auto;display:flex;align-items:center;gap:8px;flex-wrap:nowrap;padding:8px 12px;background:var(--bg)}
-  .trylabel{font-size:.76rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--gold-deep);flex:0 0 auto}
-  .chips{display:flex;gap:7px;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:2px 0;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-  .chips::-webkit-scrollbar{display:none}
-  .chip{
-    background:var(--panel);border:1px solid var(--gold);color:var(--text);
-    border-radius:999px;padding:6px 12px;cursor:pointer;font:inherit;font-size:.85rem;
-    flex:0 0 auto;white-space:nowrap;
-  }
-  .chip:hover{background:var(--gold-pale)}
-
   /* ---------- composer ---------- */
   .composer{
     flex:0 0 auto;
@@ -122,15 +107,15 @@
   button.send:disabled{opacity:.55;cursor:default}
 
   /* ---------- voice (mic input + read-aloud) ---------- */
-  .voicebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 8px}
-  .voice-enc{font-size:.85rem;line-height:1.35;color:var(--muted)}
+  .voicebar{display:flex;align-items:center;gap:8px;flex-wrap:nowrap;margin:0 0 6px}
+  .voice-enc{font-size:.78rem;line-height:1.25;color:var(--muted);flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   button.mic{
     background:var(--panel);color:var(--navy);border:1px solid var(--gold);border-radius:999px;
-    padding:10px 18px;cursor:pointer;flex:0 0 auto;font:inherit;font-size:1rem;font-weight:600;
-    display:inline-flex;align-items:center;justify-content:center;gap:10px;box-shadow:var(--shadow);
+    padding:7px 13px;cursor:pointer;flex:0 0 auto;font:inherit;font-size:.9rem;font-weight:600;
+    display:inline-flex;align-items:center;justify-content:center;gap:7px;box-shadow:var(--shadow);
   }
   button.mic:hover{background:var(--gold-pale)}
-  button.mic svg{width:24px;height:24px;fill:currentColor;flex:0 0 auto}
+  button.mic svg{width:18px;height:18px;fill:currentColor;flex:0 0 auto}
   button.mic.listening{background:var(--navy);color:#fff;border-color:var(--navy);animation:micpulse 1.2s ease-in-out infinite}
   @keyframes micpulse{0%,100%{box-shadow:0 0 0 0 rgba(16,46,80,.45)}50%{box-shadow:0 0 0 12px rgba(16,46,80,0)}}
   @media (prefers-color-scheme: dark){
@@ -179,11 +164,6 @@
   <div id="chat" role="log" aria-live="polite" aria-label="Conversation"></div>
 </div>
 
-<div class="tryrow">
-  <span class="trylabel" id="try-label">Try asking:</span>
-  <div class="chips" id="chips"></div>
-</div>
-
 <div class="composer">
   <form id="askform">
     <label class="sr-only" for="q" id="q-label">Ask about borough and city services</label>
@@ -200,10 +180,8 @@
       disclaimer: 'Guidance only, not official notice. In an emergency call 911. This chat does not collect personal information.',
       placeholder: 'Ask about borough and city services...', ask: 'Ask', contact: 'Contact',
       source: 'Source', thinking: 'Checking the official sources...',
-      tryLabel: 'Try asking:',
       qLabel: 'Ask about borough and city services',
       greeting: 'Hello. I can help with the Borough President\u2019s office, Borough Hall, and how to reach the right New York City service. Ask me a question, or tap one of the topics below.',
-      chips: ['How do I get a marriage license?', 'Who is the Borough President?', 'When is Borough Hall open?', 'How do I report a pothole?', 'My trash was not picked up', 'What is the number for the County Clerk?'],
       voice: { mic: 'Tap & Talk', listening: 'Listening...', listen: 'Listen', stop: 'Stop', encourage: 'Skip the typing. Tap the mic, ask out loud, get your answer.', nohear: "I didn't catch that. Tap the microphone and try again.", blocked: 'Microphone access is blocked. Allow the microphone in your browser settings, or type your question instead.', network: 'Voice recognition needs an internet connection.' }
     },
     es: {
@@ -211,16 +189,13 @@
       disclaimer: 'Solo orientación, no es un aviso oficial. En una emergencia llame al 911. Este chat no recopila información personal.',
       placeholder: 'Pregunte sobre los servicios del borough y la ciudad...', ask: 'Preguntar', contact: 'Contacto',
       source: 'Fuente', thinking: 'Consultando las fuentes oficiales...',
-      tryLabel: 'Pruebe preguntar:',
       qLabel: 'Pregunte sobre los servicios del borough y la ciudad',
       greeting: 'Hola. Puedo ayudarle con la oficina del Presidente del Borough, Borough Hall, y cómo llegar al servicio correcto de la Ciudad de Nueva York. Hágame una pregunta o toque uno de los temas abajo.',
-      chips: ['¿Cómo obtengo una licencia de matrimonio?', '¿Quién es el Presidente del Borough?', '¿Cuándo abre Borough Hall?', '¿Cómo reporto un bache?', 'No recogieron mi basura', '¿Cuál es el número del Secretario del Condado?'],
       voice: { mic: 'Toque y hable', listening: 'Escuchando...', listen: 'Escuchar', stop: 'Detener', encourage: 'Sin escribir. Toque el micrófono, pregunte en voz alta y reciba su respuesta.', nohear: 'No escuché eso. Toque el micrófono e inténtelo de nuevo.', blocked: 'El acceso al micrófono está bloqueado. Permita el micrófono en los ajustes de su navegador, o escriba su pregunta.', network: 'El reconocimiento de voz necesita una conexión a internet.' }
     }
   };
   var chat = document.getElementById('chat');
   var chatwrap = document.getElementById('chatwrap');
-  var chipsEl = document.getElementById('chips');
 
   function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
   function scrollChat(){ chatwrap.scrollTop = chatwrap.scrollHeight; }
@@ -248,21 +223,12 @@
     if (voice.synthOK) attachSpeak(div, div.textContent.replace(/\s+/g,' ').trim(), data.lang);
     chat.appendChild(div); scrollChat();
   }
-  function renderChips(){
-    chipsEl.innerHTML='';
-    STR[lang].chips.forEach(function(c){
-      var b=document.createElement('button'); b.type='button'; b.className='chip'; b.textContent=c;
-      b.onclick=function(){ ask(c); };
-      chipsEl.appendChild(b);
-    });
-  }
   function applyLang(){
     document.getElementById('title').textContent=STR[lang].title;
     document.getElementById('disclaimer').textContent=STR[lang].disclaimer;
     document.getElementById('q').placeholder=STR[lang].placeholder;
     document.getElementById('q-label').textContent=STR[lang].qLabel;
     document.getElementById('sendbtn').textContent=STR[lang].ask;
-    document.getElementById('try-label').textContent=STR[lang].tryLabel;
     document.getElementById('btn-en').classList.toggle('active', lang==='en');
     document.getElementById('btn-es').classList.toggle('active', lang==='es');
     document.getElementById('btn-en').setAttribute('aria-pressed', lang==='en' ? 'true' : 'false');
@@ -275,7 +241,6 @@
     }
     if (voice.enc) voice.enc.textContent=STR[lang].voice.encourage;
     if (voice.hint) voice.hint.textContent = STR[lang].voice.listening;
-    renderChips();
   }
 </script>
 
