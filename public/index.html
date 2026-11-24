@@ -305,7 +305,7 @@
     if (data.contact && data.contact.length){
       html+='<div class="contact"><div class="ctitle">'+esc(STR[lang].contact)+'</div>'+
         data.contact.map(function(c){
-          var v = c.href ? '<a href="'+esc(c.href)+'">'+esc(c.value)+'</a>' : esc(c.value);
+          var v = c.href ? '<a href="'+esc(c.href)+'"'+(/^https?:\/\//i.test(c.href) ? ' target="_blank" rel="noopener"' : '')+'>'+esc(c.value)+'</a>' : esc(c.value);
           return '<div>'+esc(c.label)+': '+v+'</div>';
         }).join('')+'</div>';
     }
