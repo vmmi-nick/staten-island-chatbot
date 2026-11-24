@@ -92,8 +92,25 @@ function detectLang(question, requested) {
 const EMERGENCY = [
   'fire', 'smoke', 'burning', 'robbery', 'robbed', 'break in', 'breaking in', 'gun', 'shooting',
   'heart attack', 'chest pain', 'not breathing', 'unconscious', 'overdose', 'choking', 'bleeding',
-  'car accident with injuries', 'emergency', 'fuego', 'incendio', 'humo', 'robo', 'atraco', 'disparo',
-  'emergencia', 'no respira', 'inconsciente', 'sangrando', 'ataque al corazon'
+  'car accident with injuries',
+  // Gas: a smell/leak report is a 911-class safety event (the utilities topic
+  // says the same), so these gate ahead of topic matching.
+  'smell gas', 'gas leak', 'smell of gas', 'gas smell',
+  // Violence. Deliberately phrased, NOT bare 'fight'/'fighting': the bare
+  // words would send "How do I fight a parking ticket?" to 911.
+  'fight outside', 'a fight outside', 'there is a fight', 'there s a fight', 'street fight',
+  'people fighting', 'men fighting', 'fighting outside', 'fighting in the street',
+  'fighting at', 'fighting on', 'fighting each other',
+  'assault', 'assaulted', 'hit and run',
+  // Bare 'emergency'/'emergencia' are NOT triggers: they appear in assistance
+  // questions ("emergency rent assistance", "emergency assistance for rent")
+  // that must route to housing help. Only self-declared emergency phrases gate.
+  'i have an emergency', 'this is an emergency', 'an emergency', 'my emergency',
+  'fuego', 'incendio', 'humo', 'robo', 'atraco', 'disparo',
+  'no respira', 'inconsciente', 'sangrando', 'ataque al corazon',
+  'huele a gas', 'fuga de gas', 'olor a gas', 'pelea', 'hay una pelea', 'asalto',
+  'atropello y fuga', 'choque y fuga',
+  'hay una emergencia', 'tengo una emergencia', 'es una emergencia'
 ];
 
 function isEmergency(qn) {
