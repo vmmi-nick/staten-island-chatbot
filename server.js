@@ -97,7 +97,10 @@ const EMERGENCY = [
 ];
 
 function isEmergency(qn) {
-  return EMERGENCY.some((w) => qn.includes(normalize(w)));
+  // Whole-word / whole-phrase matching only, same as matchTopic: qn is
+  // space-padded, so pad each keyword the same way. Substring matching made
+  // 'gun' fire inside the Spanish word 'pregunta'.
+  return EMERGENCY.some((w) => qn.includes(' ' + normalize(w) + ' '));
 }
 
 // Services the Borough President's office does not provide at all; never let
