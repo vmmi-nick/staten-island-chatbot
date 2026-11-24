@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staten Island Constituent Chatbot</title>
+<style>
+  :root{
+    --navy:#102e50; --navy-dark:#082059;
+    --gold:#b08d3e; --gold-deep:#8a6d2f; --gold-soft:#decc8c; --gold-pale:#faf3dd;
+    --bg:#f4f6f8; --panel:#ffffff; --panel-soft:#fbf9f3;
+    --text:#23272b; --muted:#5b6068; --border:#d4dae2;
+    --shadow:0 1px 2px rgba(16,46,80,.06),0 8px 24px rgba(16,46,80,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17181c; --panel:#26282e; --panel-soft:#201f24;
+      --text:#f0ede6; --muted:#b8b2a4; --border:#454a55;
+      --gold-soft:#5c4d1e; --gold-pale:#33291a; --gold-deep:#d9b64a;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;
+    /* Sized with height:100% (the iframe's own height), never vh/dvh:
+       viewport units inside an iframe can resolve against the host page's
+       viewport (notably iOS Safari), which made this page taller than the
+       frame and pushed the composer below the visible area. */
+    display:flex;flex-direction:column;height:100%;overflow:hidden;
+  }
+  a{color:var(--navy)}
+  @media (prefers-color-scheme: dark){ a{color:var(--gold-soft)} }
+  :focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+  /* ---------- slim header ---------- */
+  .topbar{
+    flex:0 0 auto;
+    background:var(--navy);color:#fff;border-bottom:3px solid var(--gold);
+  }
+  .topbar-in{
+    padding:8px 12px;
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  .brand{display:flex;align-items:center;gap:9px;min-width:0}
+  .seal{
+    flex:0 0 auto;width:30px;height:30px;border-radius:50%;
+    border:2px solid var(--gold);color:var(--gold-soft);
+    display:flex;align-items:center;justify-content:center;
+    font-family:Georgia,serif;font-weight:700;font-size:.74rem;letter-spacing:.04em;
+  }
+  .brand-name{font-family:Georgia,serif;font-size:.92rem;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand-sub{display:block;font-family:inherit;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft)}
+  .langtoggle{display:flex;background:var(--navy-dark);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:3px;flex:0 0 auto}
+  .langbtn{
+    border:0;background:transparent;color:#f3e5bb;border-radius:999px;
+    padding:4px 11px;cursor:pointer;font:inherit;font-size:.8rem;
+  }
+  .langbtn.active{background:#fff;color:var(--navy);font-weight:600}
+  .embed-note{
+    flex:0 0 auto;padding:7px 12px;font-size:.78rem;color:#e6e2d4;
+    background:var(--navy-dark);border-bottom:1px solid rgba(255,255,255,.12);
+  }
+
+  /* ---------- scrolling message area ---------- */
+  .chatwrap{
+    flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;
+    padding:14px 12px 10px;
+    background:var(--panel-soft);
+    -webkit-overflow-scrolling:touch;
+  }
+  #chat{display:flex;flex-direction:column;gap:12px}
+  .msg{max-width:92%;padding:11px 14px;border-radius:14px;line-height:1.55;font-size:.95rem;overflow-wrap:break-word;white-space:pre-wrap}
+  .msg.user{align-self:flex-end;background:var(--navy);color:#fff;border-bottom-right-radius:4px}
+  .msg.bot{align-self:flex-start;background:var(--panel);border:1px solid var(--border);border-bottom-left-radius:4px;box-shadow:0 1px 2px rgba(16,46,80,.05)}
+  .msg.bot .lead{font-weight:600}
+  .msg.bot ul{margin:8px 0 0;padding-left:20px}
+  .msg.bot li{margin-top:3px}
+  .contact{margin-top:12px;border-top:2px solid var(--gold);padding-top:8px;font-size:.92rem}
+  .contact .ctitle{font-variant:small-caps;letter-spacing:.06em;color:var(--navy);font-weight:700}
+  @media (prefers-color-scheme: dark){ .contact .ctitle{color:var(--gold-deep)} }
+  .contact div{margin-top:3px}
+  .source{margin-top:10px;padding-top:8px;border-top:1px dashed var(--border);font-size:.82rem;color:var(--muted)}
+
+  /* ---------- suggestion chips ---------- */
+  /* One horizontally scrolling row: wrapping these long chips previously
+     stacked them into a ~324px block that crowded the composer out of
+     short frames. */
+  .tryrow{flex:0 0 auto;display:flex;align-items:center;gap:8px;flex-wrap:nowrap;padding:8px 12px;background:var(--bg)}
+  .trylabel{font-size:.76rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--gold-deep);flex:0 0 auto}
+  .chips{display:flex;gap:7px;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:2px 0;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{
+    background:var(--panel);border:1px solid var(--gold);color:var(--text);
+    border-radius:999px;padding:6px 12px;cursor:pointer;font:inherit;font-size:.85rem;
+    flex:0 0 auto;white-space:nowrap;
+  }
+  .chip:hover{background:var(--gold-pale)}
+
+  /* ---------- composer ---------- */
+  .composer{
+    flex:0 0 auto;
+    background:var(--bg);border-top:1px solid var(--border);
+    padding:8px 12px 10px;
+  }
+  form{display:flex;gap:8px;align-items:flex-end}
+  textarea#q{
+    flex:1;min-width:0;padding:10px 13px;border:1px solid var(--border);border-radius:16px;
+    font:inherit;font-size:1rem;line-height:1.45;background:var(--panel);color:var(--text);box-shadow:var(--shadow);
+    resize:none;overflow-y:hidden;min-height:54px;max-height:120px;
+  }
+  textarea#q::placeholder{color:var(--muted)}
+  button.send{
+    background:var(--navy);color:#fff;border:0;border-radius:999px;
+    padding:12px 20px;cursor:pointer;font:inherit;font-size:1rem;font-weight:600;flex:0 0 auto;
+  }
+  button.send:hover{background:var(--navy-dark)}
+  button.send:disabled{opacity:.55;cursor:default}
+
+  /* ---------- voice (mic input + read-aloud) ---------- */
+  .voicebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 8px}
+  .voice-enc{font-size:.85rem;line-height:1.35;color:var(--muted)}
+  button.mic{
+    background:var(--panel);color:var(--navy);border:1px solid var(--gold);border-radius:999px;
+    padding:10px 18px;cursor:pointer;flex:0 0 auto;font:inherit;font-size:1rem;font-weight:600;
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;box-shadow:var(--shadow);
+  }
+  button.mic:hover{background:var(--gold-pale)}
+  button.mic svg{width:24px;height:24px;fill:currentColor;flex:0 0 auto}
+  button.mic.listening{background:var(--navy);color:#fff;border-color:var(--navy);animation:micpulse 1.2s ease-in-out infinite}
+  @keyframes micpulse{0%,100%{box-shadow:0 0 0 0 rgba(16,46,80,.45)}50%{box-shadow:0 0 0 12px rgba(16,46,80,0)}}
+  @media (prefers-color-scheme: dark){
+    button.mic{color:var(--gold-soft)}
+    button.mic.listening{color:#fff}
+  }
+  .voicehint{display:none;font-size:.85rem;color:var(--gold-deep);font-weight:600;margin-top:8px}
+  .voicehint.on{display:block}
+  .voicemsg{display:none;font-size:.9rem;color:var(--navy);font-weight:600;margin-top:8px}
+  @media (prefers-color-scheme: dark){ .voicemsg{color:var(--gold-soft)} }
+  .voicemsg.on{display:block}
+  .speakbtn{
+    margin-top:10px;background:var(--panel);border:1px solid var(--gold);color:var(--text);
+    border-radius:999px;padding:5px 12px;cursor:pointer;font:inherit;font-size:.82rem;
+    display:inline-flex;align-items:center;gap:6px;
+  }
+  .speakbtn:hover{background:var(--gold-pale)}
+  .speakbtn svg{width:14px;height:14px;fill:currentColor;flex:0 0 auto}
+  .speakbtn.speaking{background:var(--navy);border-color:var(--navy);color:#fff}
+
+  /* ---------- short frames (small windows, landscape phones) ---------- */
+  @media (max-height:540px){
+    .embed-note{display:none}
+    .brand-sub{display:none}
+    .topbar-in{padding:6px 12px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <span class="seal" aria-hidden="true">SI</span>
+      <span class="brand-name"><span id="title">Staten Island Constituent Chatbot</span><span class="brand-sub">Office of the Borough President</span></span>
+    </div>
+    <div class="langtoggle" role="group" aria-label="Language / Idioma">
+      <button class="langbtn active" id="btn-en" type="button" aria-pressed="true">English</button>
+      <button class="langbtn" id="btn-es" type="button" aria-pressed="false">Español</button>
+    </div>
+  </div>
+  <div class="embed-note" id="disclaimer">Guidance only, not official notice. In an emergency call 911. This chat does not collect personal information.</div>
+</div>
+
+<div class="chatwrap" id="chatwrap">
+  <div id="chat" role="log" aria-live="polite" aria-label="Conversation"></div>
+</div>
+
+<div class="tryrow">
+  <span class="trylabel" id="try-label">Try asking:</span>
+  <div class="chips" id="chips"></div>
+</div>
+
+<div class="composer">
+  <form id="askform">
+    <label class="sr-only" for="q" id="q-label">Ask about borough and city services</label>
+    <textarea id="q" rows="2" autocomplete="off" placeholder="Ask about borough and city services..."></textarea>
+    <button class="send" id="sendbtn" type="submit">Ask</button>
+  </form>
+</div>
+
+<script>
+  var lang = 'en';
+  var STR = {
+    en: {
+      title: 'Staten Island Constituent Chatbot',
+      disclaimer: 'Guidance only, not official notice. In an emergency call 911. This chat does not collect personal information.',
+      placeholder: 'Ask about borough and city services...', ask: 'Ask', contact: 'Contact',
+      source: 'Source', thinking: 'Checking the official sources...',
+      tryLabel: 'Try asking:',
+      qLabel: 'Ask about borough and city services',
+      greeting: 'Hello. I can help with the Borough President\u2019s office, Borough Hall, and how to reach the right New York City service. Ask me a question, or tap one of the topics below.',
+      chips: ['How do I get a marriage license?', 'Who is the Borough President?', 'When is Borough Hall open?', 'How do I report a pothole?', 'My trash was not picked up', 'What is the number for the County Clerk?'],
+      voice: { mic: 'Tap & Talk', listening: 'Listening...', listen: 'Listen', stop: 'Stop', encourage: 'Skip the typing. Tap the mic, ask out loud, get your answer.', nohear: "I didn't catch that. Tap the microphone and try again.", blocked: 'Microphone access is blocked. Allow the microphone in your browser settings, or type your question instead.', network: 'Voice recognition needs an internet connection.' }
+    },
+    es: {
+      title: 'Chat para Residentes de Staten Island',
+      disclaimer: 'Solo orientación, no es un aviso oficial. En una emergencia llame al 911. Este chat no recopila información personal.',
+      placeholder: 'Pregunte sobre los servicios del borough y la ciudad...', ask: 'Preguntar', contact: 'Contacto',
+      source: 'Fuente', thinking: 'Consultando las fuentes oficiales...',
+      tryLabel: 'Pruebe preguntar:',
+      qLabel: 'Pregunte sobre los servicios del borough y la ciudad',
+      greeting: 'Hola. Puedo ayudarle con la oficina del Presidente del Borough, Borough Hall, y cómo llegar al servicio correcto de la Ciudad de Nueva York. Hágame una pregunta o toque uno de los temas abajo.',
+      chips: ['¿Cómo obtengo una licencia de matrimonio?', '¿Quién es el Presidente del Borough?', '¿Cuándo abre Borough Hall?', '¿Cómo reporto un bache?', 'No recogieron mi basura', '¿Cuál es el número del Secretario del Condado?'],
+      voice: { mic: 'Toque y hable', listening: 'Escuchando...', listen: 'Escuchar', stop: 'Detener', encourage: 'Sin escribir. Toque el micrófono, pregunte en voz alta y reciba su respuesta.', nohear: 'No escuché eso. Toque el micrófono e inténtelo de nuevo.', blocked: 'El acceso al micrófono está bloqueado. Permita el micrófono en los ajustes de su navegador, o escriba su pregunta.', network: 'El reconocimiento de voz necesita una conexión a internet.' }
+    }
+  };
+  var chat = document.getElementById('chat');
+  var chatwrap = document.getElementById('chatwrap');
+  var chipsEl = document.getElementById('chips');
+
+  function esc(s){ var d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+  function scrollChat(){ chatwrap.scrollTop = chatwrap.scrollHeight; }
+  function addUser(text){
+    var div=document.createElement('div'); div.className='msg user'; div.textContent=text;
+    chat.appendChild(div); scrollChat();
+  }
+  function addBot(data){
+    var div=document.createElement('div'); div.className='msg bot';
+    var html='<div class="lead">'+esc(data.lead||'')+'</div>';
+    if (data.details && data.details.length){
+      html+='<ul>'+data.details.map(function(d){return '<li>'+esc(d)+'</li>';}).join('')+'</ul>';
+    }
+    if (data.contact && data.contact.length){
+      html+='<div class="contact"><div class="ctitle">'+esc(STR[lang].contact)+'</div>'+
+        data.contact.map(function(c){
+          var v = c.href ? '<a href="'+esc(c.href)+'">'+esc(c.value)+'</a>' : esc(c.value);
+          return '<div>'+esc(c.label)+': '+v+'</div>';
+        }).join('')+'</div>';
+    }
+    if (data.source){
+      html+='<div class="source">'+esc(STR[lang].source)+': <a href="'+esc(data.source)+'" target="_blank" rel="noopener">'+esc(data.sourceLabel||data.source)+'</a></div>';
+    }
+    div.innerHTML=html;
+    if (voice.synthOK) attachSpeak(div, div.textContent.replace(/\s+/g,' ').trim(), data.lang);
+    chat.appendChild(div); scrollChat();
+  }
+  function renderChips(){
+    chipsEl.innerHTML='';
+    STR[lang].chips.forEach(function(c){
+      var b=document.createElement('button'); b.type='button'; b.className='chip'; b.textContent=c;
+      b.onclick=function(){ ask(c); };
+      chipsEl.appendChild(b);
+    });
+  }
+  function applyLang(){
+    document.getElementById('title').textContent=STR[lang].title;
+    document.getElementById('disclaimer').textContent=STR[lang].disclaimer;
+    document.getElementById('q').placeholder=STR[lang].placeholder;
+    document.getElementById('q-label').textContent=STR[lang].qLabel;
+    document.getElementById('sendbtn').textContent=STR[lang].ask;
+    document.getElementById('try-label').textContent=STR[lang].tryLabel;
+    document.getElementById('btn-en').classList.toggle('active', lang==='en');
+    document.getElementById('btn-es').classList.toggle('active', lang==='es');
+    document.getElementById('btn-en').setAttribute('aria-pressed', lang==='en' ? 'true' : 'false');
+    document.getElementById('btn-es').setAttribute('aria-pressed', lang==='es' ? 'true' : 'false');
+    document.documentElement.lang = lang;
+    if (voice.micBtn){
+      voice.micBtn.setAttribute('aria-label', STR[lang].voice.mic);
+      var micLabel=voice.micBtn.querySelector('.mic-label');
+      if (micLabel) micLabel.textContent=STR[lang].voice.mic;
+    }
+    if (voice.enc) voice.enc.textContent=STR[lang].voice.encourage;
+    if (voice.hint) voice.hint.textContent = STR[lang].voice.listening;
+    renderChips();
+  }
+</script>
+
+<script>
+  /* ---------- voice: microphone input + read-aloud ----------
+     Both features are feature-detected. When an API is missing, its
+     control is never created and the page behaves exactly as before.
+     Dictation fills the same composer textarea and goes through the
+     same form submit path as typing. Staten Island reporting is a
+     handoff to NYC 311 inside the answers themselves, so the composer
+     is the only dictation surface on this page. */
+  var MIC_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2z"/></svg>';
+  var SPEAK_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
+  var STOP_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>';
+  var voice = {
+    SR: window.SpeechRecognition || window.webkitSpeechRecognition || null,
+    synthOK: ('speechSynthesis' in window) && ('SpeechSynthesisUtterance' in window),
+    rec: null, listening: false, micBtn: null, hint: null, enc: null, speakState: null,
+    msg: null, gotFinal: false, anyResult: false, pendingMsg: null, msgShown: false,
+    userStopped: false, timer: null, voiceList: null
+  };
+  function showVoiceMsg(text){
+    if (!voice.msg) return;
+    voice.msg.textContent=text;
+    voice.msg.classList.add('on');
+    voice.msgShown=true;
+  }
+  function hideVoiceMsg(){
+    if (!voice.msg) return;
+    voice.msg.classList.remove('on');
+    voice.msgShown=false;
+  }
+  function initVoice(){
+    if (!voice.SR) return;
+    var form=document.getElementById('askform');
+    var bar=document.createElement('div');
+    bar.className='voicebar'; bar.id='voicebar';
+    var btn=document.createElement('button');
+    btn.type='button'; btn.id='micbtn'; btn.className='mic';
+    btn.innerHTML=MIC_SVG+'<span class="mic-label">'+esc(STR[lang].voice.mic)+'</span>';
+    btn.setAttribute('aria-label', STR[lang].voice.mic);
+    btn.setAttribute('aria-pressed', 'false');
+    bar.appendChild(btn);
+    var enc=document.createElement('span');
+    enc.className='voice-enc'; enc.id='voice-enc';
+    enc.textContent=STR[lang].voice.encourage;
+    bar.appendChild(enc);
+    form.parentNode.insertBefore(bar, form);
+    voice.micBtn=btn;
+    voice.enc=enc;
+    var hint=document.createElement('div');
+    hint.id='voicehint'; hint.className='voicehint'; hint.setAttribute('aria-live', 'polite');
+    hint.textContent=STR[lang].voice.listening;
+    form.parentNode.appendChild(hint);
+    voice.hint=hint;
+    var msg=document.createElement('div');
+    msg.id='voicemsg'; msg.className='voicemsg'; msg.setAttribute('aria-live', 'polite');
+    form.parentNode.appendChild(msg);
+    voice.msg=msg;
+    document.getElementById('q').addEventListener('input', hideVoiceMsg);
+    form.addEventListener('submit', hideVoiceMsg);
+    btn.onclick=toggleMic;
+  }
+  function setListening(on){
+    voice.listening=on;
+    if (voice.micBtn){
+      voice.micBtn.classList.toggle('listening', on);
+      voice.micBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    if (voice.hint) voice.hint.classList.toggle('on', on);
+  }
+  function toggleMic(){
+    if (!voice.SR) return;
+    if (voice.listening && voice.rec){
+      voice.userStopped=true;
+      try { voice.rec.stop(); } catch (e) {}
+      return;
+    }
+    hideVoiceMsg();
+    var rec;
+    try { rec=new voice.SR(); } catch (e) { return; }
+    voice.rec=rec;
+    voice.gotFinal=false;
+    voice.anyResult=false;
+    voice.pendingMsg=null;
+    voice.msgShown=false;
+    voice.userStopped=false;
+    rec.lang = lang==='es' ? 'es-US' : 'en-US';
+    rec.interimResults=true;
+    rec.maxAlternatives=1;
+    rec.onresult=function(ev){
+      voice.anyResult=true;
+      var finalText='', interimText='';
+      for (var i=0; i<ev.results.length; i++){
+        if (ev.results[i].isFinal) finalText+=ev.results[i][0].transcript;
+        else interimText+=ev.results[i][0].transcript;
+      }
+      var input=document.getElementById('q');
+      finalText=finalText.trim();
+      if (finalText){
+        voice.gotFinal=true;
+        input.value=finalText;
+        autoGrow();
+        var form=document.getElementById('askform');
+        if (form.requestSubmit) form.requestSubmit();
+        else { ask(input.value); input.value=''; autoGrow(); }
+      } else if (interimText){
+        /* Show what is being heard, live, without submitting. Only the
+           final transcript goes through the submit path. */
+        input.value=interimText;
+        autoGrow();
+      }
+    };
+    rec.onerror=function(ev){
+      var kind=ev && ev.error ? ev.error : '';
+      if (kind==='not-allowed' || kind==='service-not-allowed') voice.pendingMsg=STR[lang].voice.blocked;
+      else if (kind==='network') voice.pendingMsg=STR[lang].voice.network;
+      else voice.pendingMsg=STR[lang].voice.nohear;
+      setListening(false);
+      if (!voice.gotFinal && !voice.userStopped && !voice.msgShown) showVoiceMsg(voice.pendingMsg);
+    };
+    rec.onend=function(){
+      if (voice.timer){ clearTimeout(voice.timer); voice.timer=null; }
+      setListening(false);
+      if (!voice.gotFinal && !voice.userStopped && !voice.msgShown){
+        showVoiceMsg(voice.pendingMsg || STR[lang].voice.nohear);
+      }
+      voice.pendingMsg=null;
+    };
+    try {
+      rec.start();
+      setListening(true);
+      /* Safety net: if nothing at all comes back within about 10
+         seconds, stop; onend then shows the didn't-catch message. */
+      voice.timer=setTimeout(function(){
+        voice.timer=null;
+        if (voice.listening && !voice.anyResult && voice.rec===rec){
+          try { rec.stop(); } catch (e) {}
+        }
+      }, 10000);
+    } catch (e) { setListening(false); }
+  }
+  /* Voice list caching: browsers often return an empty list from the
+     first getVoices() call and fill it in later, firing voiceschanged.
+     Cache whatever is available and refresh on that event; speaking
+     never waits for the list. */
+  function refreshVoices(){
+    if (!voice.synthOK) return;
+    try {
+      var vs=window.speechSynthesis.getVoices();
+      if (vs) voice.voiceList=vs;
+    } catch (e) {}
+  }
+  if (voice.synthOK){
+    refreshVoices();
+    try {
+      if (window.speechSynthesis.addEventListener) window.speechSynthesis.addEventListener('voiceschanged', refreshVoices);
+      else window.speechSynthesis.onvoiceschanged=refreshVoices;
+    } catch (e) {}
+  }
+  var VOICE_NATURAL=['google','premium','enhanced','natural','neural'];
+  var VOICE_GOOD={
+    en: ['samantha','ava','allison','susan','zira','jenny','aria'],
+    es: ['mónica','monica','paulina','jorge','juan','sabina']
+  };
+  var VOICE_AVOID=['albert','bells','cellos','whisper','zarvox','trinoids','boing','bubbles','bad news','good news','deranged','hysterical','pipe organ','fred','junior','ralph','kathy','vicki','princess','bruce','wobble'];
+  function nameHas(name, list){
+    for (var i=0;i<list.length;i++){ if (name.indexOf(list[i])>=0) return true; }
+    return false;
+  }
+  function pickVoice(speakLang){
+    try {
+      var voices=(voice.voiceList && voice.voiceList.length) ? voice.voiceList : null;
+      if (!voices){
+        refreshVoices();
+        voices=voice.voiceList || [];
+      }
+      var prefix=speakLang, best=null, bestTier=99, bestLocale=99;
+      for (var i=0;i<voices.length;i++){
+        var vl=(voices[i].lang || '').toLowerCase().replace(/_/g, '-');
+        if (vl.indexOf(prefix)!==0) continue;
+        var name=(voices[i].name || '').toLowerCase();
+        /* Quality tiers: 0 natural/modern, 1 known good device voice,
+           2 anything else, 3 novelty/legacy robotic (used only when
+           nothing else speaks the language). Within a tier, the exact
+           US locale wins. */
+        var tier;
+        if (nameHas(name, VOICE_NATURAL)) tier=0;
+        else if (nameHas(name, VOICE_GOOD[prefix] || [])) tier=1;
+        else if (!nameHas(name, VOICE_AVOID)) tier=2;
+        else tier=3;
+        var locale=(vl===prefix+'-us') ? 0 : 1;
+        if (tier<bestTier || (tier===bestTier && locale<bestLocale)){
+          best=voices[i]; bestTier=tier; bestLocale=locale;
+        }
+      }
+      return best;
+    } catch (e) { return null; }
+  }
+  function resetSpeakBtn(btn, speakLang){
+    btn.classList.remove('speaking');
+    btn.innerHTML=SPEAK_SVG+'<span>'+esc(STR[speakLang].voice.listen)+'</span>';
+    btn.setAttribute('aria-label', STR[speakLang].voice.listen);
+  }
+  function stopSpeak(){
+    if (voice.synthOK) { try { window.speechSynthesis.cancel(); } catch (e) {} }
+    if (voice.speakState){
+      var st=voice.speakState; voice.speakState=null;
+      resetSpeakBtn(st.btn, st.lang);
+    }
+  }
+  function attachSpeak(div, text, answerLang){
+    if (!voice.synthOK || !text) return;
+    var speakLang = answerLang==='es' ? 'es' : (answerLang==='en' ? 'en' : lang);
+    var btn=document.createElement('button');
+    btn.type='button'; btn.className='speakbtn';
+    btn.innerHTML=SPEAK_SVG+'<span>'+esc(STR[speakLang].voice.listen)+'</span>';
+    btn.setAttribute('aria-label', STR[speakLang].voice.listen);
+    btn.onclick=function(){
+      if (voice.speakState && voice.speakState.btn===btn){ stopSpeak(); return; }
+      stopSpeak();
+      var utt=new SpeechSynthesisUtterance(text);
+      utt.lang = speakLang==='es' ? 'es-US' : 'en-US';
+      utt.rate=1.08;
+      utt.pitch=1.0;
+      var v=pickVoice(speakLang); if (v) utt.voice=v;
+      voice.speakState={ btn: btn, lang: speakLang };
+      btn.classList.add('speaking');
+      btn.innerHTML=STOP_SVG+'<span>'+esc(STR[speakLang].voice.stop)+'</span>';
+      btn.setAttribute('aria-label', STR[speakLang].voice.stop);
+      utt.onend=utt.onerror=function(){
+        if (voice.speakState && voice.speakState.btn===btn){
+          voice.speakState=null; resetSpeakBtn(btn, speakLang);
+        }
+      };
+      window.speechSynthesis.speak(utt);
+    };
+    div.appendChild(btn);
+  }
+
+  function ask(text){
+    var q=(text||'').trim(); if(!q) return;
+    addUser(q);
+    var btn=document.getElementById('sendbtn'); btn.disabled=true;
+    var thinking=document.createElement('div'); thinking.className='msg bot'; thinking.textContent=STR[lang].thinking;
+    chat.appendChild(thinking); scrollChat();
+    fetch('/api/ask', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({question:q, lang:lang}) })
+      .then(function(r){ return r.json(); })
+      .then(function(data){ thinking.remove(); addBot(data); })
+      .catch(function(){ thinking.remove(); addBot({lead: lang==='es' ? 'Lo siento, algo salió mal. Llame a la Línea de Ayuda del Presidente del Borough al 718-816-2000.' : 'Sorry, something went wrong. Please call the Borough President\u2019s HelpLine at 718-816-2000.', details:[], contact:[]}); })
+      .finally(function(){ btn.disabled=false; });
+  }
+  /* ---------- composer: multi-line textarea with auto-grow ----------
+     Starts at 2 lines in this compact frame, grows with the text up to
+     the cap, then scrolls. Enter submits; Shift+Enter inserts a
+     newline. After a submit the box clears and shrinks back. */
+  var qEl=document.getElementById('q');
+  function autoGrow(){
+    qEl.style.height='auto';
+    var max=120;
+    qEl.style.height=Math.min(qEl.scrollHeight, max)+'px';
+    qEl.style.overflowY=qEl.scrollHeight>max ? 'auto' : 'hidden';
+  }
+  qEl.addEventListener('input', autoGrow);
+  qEl.addEventListener('keydown', function(e){
+    if (e.key==='Enter' && !e.shiftKey){
+      e.preventDefault();
+      var form=document.getElementById('askform');
+      if (form.requestSubmit) form.requestSubmit();
+      else form.dispatchEvent(new Event('submit', { cancelable: true }));
+    }
+  });
+  document.getElementById('askform').addEventListener('submit', function(e){
+    e.preventDefault();
+    var input=document.getElementById('q'); ask(input.value); input.value=''; autoGrow();
+  });
+  document.getElementById('btn-en').onclick=function(){ lang='en'; applyLang(); };
+  document.getElementById('btn-es').onclick=function(){ lang='es'; applyLang(); };
+  applyLang();
+  initVoice();
+  addBot({lead: STR.en.greeting, details:[], contact:[]});
+</script>
+</body>
+</html>
