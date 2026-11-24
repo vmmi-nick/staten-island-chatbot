@@ -225,6 +225,8 @@
   }
   function applyLang(){
     document.getElementById('title').textContent=STR[lang].title;
+    var gLead = chat.querySelector('.msg.bot .lead');
+    if (gLead) gLead.textContent = STR[lang].greeting;
     document.getElementById('disclaimer').textContent=STR[lang].disclaimer;
     document.getElementById('q').placeholder=STR[lang].placeholder;
     document.getElementById('q-label').textContent=STR[lang].qLabel;
